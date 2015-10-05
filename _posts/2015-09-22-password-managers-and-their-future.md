@@ -25,6 +25,10 @@ Just admit it: Apple doesn't need to be that fast at making their software great
 
 Regular people don't spend time thinking about ordering their passwords. They want it to just work! And that's the area in which we need to improve our products too.
 
+---
+
+**EDIT:** I forgot to mention that this solution does work perfectly for personal use, but teams will definitely have to stick to apps like 1Password (since your team members probably won't agree to use a single iCloud account).
+
 [^1]: Don't get me wrong. They did a great job! They simply don't have much choices on where to put the button for selecting a password since iOS doesn't allow them to put it elsewhere than in that [damn bar][1] at the bottom. It's not their fault, but it's just hacky.
 
 [1]: http://tidbits.com/resources/2014-10/1password-5-instapaper-1pwd-select.png
