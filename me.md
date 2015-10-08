@@ -31,7 +31,7 @@ If you want to read more about the process of building this site, just take a re
 
 ## What else?
 
-I love HipHop, designing interfaces (even if I don’t yet know how to do it properly), black tea and [animated short films][9]. Besides that, I enjoy pushing products forward together with other people.
+I love HipHop, designing interfaces (even if I don’t yet know how to do it properly), black tea[^1] and [animated short films][9]. Besides that, I enjoy pushing products forward together with other people.
 
 I'm currently located in [Bamberg][10], a small town a with a beautiful, medieval flair. Since I was born and raised here, I'm really proud of all the cultural facets we still have to offer. But I also really like seeing different parts of the world!
 
@@ -45,3 +45,5 @@ I'm currently located in [Bamberg][10], a small town a with a beautiful, medieva
 [8]: /notes/v2
 [9]: https://vimeo.com/album/3599603
 [10]: /assets/static/bamberg.jpg
+
+[^1]: „Oh my god, he's not drinking coffee... Buuurrrrn him!“
