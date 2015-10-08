@@ -33,7 +33,7 @@ If you want to read more about the process of building this site, just take a re
 
 I love HipHop, designing interfaces (even if I don’t yet know how to do it properly), black tea[^1] and [animated short films][9]. Besides that, I enjoy pushing products forward together with other people.
 
-I'm currently located in [Bamberg][10], a small town a with a beautiful, medieval flair. Since I was born and raised here, I'm really proud of all the cultural facets we still have to offer. But I also really like seeing different parts of the world!
+I'm currently located in [Bamberg][10], a small town with a beautiful, medieval flair. Since I was born and raised here, I'm really proud of all the cultural facets we still have to offer. But I also really like seeing different parts of the world!
 
 [1]: https://web.archive.org/web/20120522085245/http://www.omba.de.tl/
 [2]: http://frewhost.net
