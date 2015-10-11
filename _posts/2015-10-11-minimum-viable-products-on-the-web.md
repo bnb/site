@@ -11,9 +11,7 @@ Then everything went pretty fast. I've emailed him, he wrote back and we schedul
 
 But to my relief, we both agreed to just talk. At first, he asked me a lot of things: When I started developing websites, what I had made so far and how such a creation-process will even work. I've tried to explain everything as detailed as I could and managed to convince him that I was the right one for the job! After clicking the red button to end the chat, I was like: "Hell yeah, I'm going to develop a site for the creator of Phonebloks".
 
-Although it's a very good story to tell you about, it's not the only thing this article will be about.
-
-Rather than that, I'd like to present you a different way of creating products, than the usual one. It's neither new, nor does it come from the web, but I know for sure that we can apply it to many of our products, too!
+Although it's a very good story to tell you about, it's not the only thing this article will be about. Rather than that, I'd like to present you a different way of creating products, than the usual one. It's neither new, nor does it come from the web. But I know for sure that we can apply it to many of our products, too!
 
 ## „Even the softest water will wear away the hardest stone.“
 
