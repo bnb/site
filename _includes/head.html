@@ -26,18 +26,24 @@
 
 {% feed_meta %}
 
-<style>
-{% capture basic_styles %}
+{% if jekyll.environment == 'production' %}
 
-	{% include sass/basic.scss %}
+	<style>
+	{% capture basic_styles %}
 
-	{% if page.content contains "endhighlight" %}
-		{% include sass/syntax.scss %}
-	{% endif %}
+		{% include sass/basic.scss %}
 
-{% endcapture %}
+		{% if page.content contains "endhighlight" %}
+			{% include sass/syntax.scss %}
+		{% endif %}
 
-{{ basic_styles | scssify }}
-</style>
+	{% endcapture %}
+
+	{{ basic_styles | scssify }}
+	</style>
+
+{% else %}
+	<link rel="stylesheet" type="text/css" href="/assets/development.css">
+{% endif %}
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
