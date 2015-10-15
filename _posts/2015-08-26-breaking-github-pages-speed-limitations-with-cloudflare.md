@@ -1,5 +1,5 @@
 ---
-title: Breaking GitHub Pages' speed limitations with CloudFlare
+title: Breaking GitHub Pages' Speed Limitations with CloudFlare
 date: 2015-08-27 01:27
 ---
 
