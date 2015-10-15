@@ -1,4 +1,4 @@
-## This [![Build Status](https://travis-ci.org/leo/leo.github.io.svg?branch=master)][1]
+## This <a href="https://travis-ci.org/leo/leo.github.io"><img align="right" src="https://travis-ci.org/leo/leo.github.io.svg?branch=master" alt="Build status" /></a>
 
 ... is where I settle down to write down my thoughts. Sometimes it's a helpful tip, sometimes an idea and sometimes just bullshit. There's only one thing I can [guarantee][2]: Before you become bored, the hell will freeze over.
 
