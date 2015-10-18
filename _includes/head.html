@@ -47,4 +47,8 @@
 	<link rel="stylesheet" type="text/css" href="/assets/development.css">
 {% endif %}
 
+{% if page.url == '/404.html' %}
+	<script async src="/assets/redirect.js"></script>
+{% endif %}
+
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
