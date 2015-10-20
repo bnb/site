@@ -24,4 +24,4 @@ If you want to read more about how this exactly works, just read [this][4].
 [1]: https://travis-ci.org/leo/leo.github.io
 [2]: https://developers.google.com/speed/pagespeed/insights/?url=leo.im
 [3]: http://cloudflare.com
-[4]: https://leo.im/notes/breaking-light-speed-with-cloudflare/
+[4]: https://leo.im/notes/breaking-github-pages-speed-limitations-with-cloudflare/
