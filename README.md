@@ -6,8 +6,6 @@ So I guess there's only one thing left to clarify. And that's why the fuck I'm h
 
 ## Caught a bug?
 
-If you want to fix an issue or just try building the site locally for fun, start like this:
-
 Clone it
 
 ```sh
