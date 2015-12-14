@@ -9,20 +9,20 @@ So I guess there's only one thing left to clarify. And that's why the fuck I'm h
 Clone it
 
 ```sh
-$ git clone https://github.com/leo/leo.github.io.git
+git clone https://github.com/leo/leo.github.io.git
 ```
 
 Install Jekyll and a special gem from GitHub
 
 ```sh
-$ gem install jekyll github-pages
+gem install jekyll github-pages
 ```
 
 Run Jekyll within the repo! :dizzy:
 
 ```sh
-$ cd leo.github.io
-$ jekyll serve --watch
+cd leo.github.io
+jekyll serve --watch
 ```
 
 ## "Are you a magician?"
