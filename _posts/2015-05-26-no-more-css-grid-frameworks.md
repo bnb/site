@@ -6,7 +6,7 @@ date: 2015-05-26 20:53
 A few minutes ago, I read a [post][1] on Designer News that was created by a guy that wanted to create another flexbox-based grid framework for CSS. He probably knew that there are already many of them out there. But that didn't held him back from asking for interest in another one.
 
 The reason behind that is for sure that he just likes coding and also sees a thin gap for really great grid frameworks. Because I want people to stay motivated on their idea (no matter how many other guys already made it happen), I generally think it's not a bad idea to create another one. **BUT** only if he's doing it for the purpose of learning and not for other people. 😉
-  
+
 **Why?** Because the need for those kinds of frameworks will soon be gone forever. — Okay, that might be a bit confusing for you know, so let's start with a quick explanation:
 
 I don't know how you do it, but since a few years I have been using grid frameworks to align content properly and create responsive web layouts. With the time, a couple of aspects on the initial idea have changed: Websites are now mostly beeing designed mobile-first (fortunately) and flexbox allowed us to reach our goal of creating a effective CSS-layout more quickly by providing us with properties that can help us to equate the height of columns lined up in a row without knowing their content's size or using a mushy JS mixture that does this job.

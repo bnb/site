@@ -15,7 +15,7 @@ Facebook bietet glücklicherweiße einen Generator, indem im Grunde nurnoch die 
 Nun kommen wir zur Optimierung an Windows 8. Dort lassen sich im Kasten-Modus Links abspeichern, die dann von dort aus direkt aufgerufen werden können. Wie die jeweilige Homepage dort dargestellt werden soll, lässt sich über ein paar kleine Codes im Head-Bereich der Seite bestimmen. Zum Beispiel bieten diese die Möglichkeit, die Hintergrundfarbe oder das Vorschaubild des Links beliebig zu wählen. Falls keine Optimierungen vorgenommen werden, sucht sich das Betriebssystem wahllos Farben sowie eine Grafik aus der jeweiligen Seite aus.
 
 {% highlight html %}
-<meta name="application-name" content="Name der Webseite"/> 
+<meta name="application-name" content="Name der Webseite"/>
 <meta name="msapplication-TileColor" content="#000000"/>
 <meta name="msapplication-TileImage" content="windowsico.png"/>
 {% endhighlight %}

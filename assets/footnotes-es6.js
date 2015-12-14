@@ -1,104 +1,104 @@
 class Footnotes {
 
-	constructor() {
+  constructor() {
 
-		var tag = document.getElementsByClassName( 'footnotes' );
+    var tag = document.getElementsByClassName( 'footnotes' );
 
-		if( !tag.length ) {
-			return;
-		}
+    if( !tag.length ) {
+      return;
+    }
 
-		var footnotes = tag[0].children[0].childNodes;
+    var footnotes = tag[0].children[0].childNodes;
 
-		for( var i = footnotes.length; i--; ) {
+    for( var i = footnotes.length; i--; ) {
 
-			if( i % 2 !== 0 ) {
+      if( i % 2 !== 0 ) {
 
-				var note = footnotes[i],
-					id = note.getAttribute( 'id' ).slice( -1 ),
-					origin = document.getElementById( 'fnref:' + id );
+        var note = footnotes[i],
+          id = note.getAttribute( 'id' ).slice( -1 ),
+          origin = document.getElementById( 'fnref:' + id );
 
-				note.getElementsByClassName( 'reversefootnote' )[0].remove();
+        note.getElementsByClassName( 'reversefootnote' )[0].remove();
 
-				this.spawnPlacebo( note, origin, id );
+        this.spawnPlacebo( note, origin, id );
 
-			}
+      }
 
-		}
+    }
 
-		this.popup = document.querySelector( '.note' );
+    this.popup = document.querySelector( '.note' );
 
-	}
+  }
 
-	openNote( me, event ) {
+  openNote( me, event ) {
 
-		var popup = this.popup,
-			status = popup.classList.contains( 'shown' );
+    var popup = this.popup,
+      status = popup.classList.contains( 'shown' );
 
-		if( status ) {
+    if( status ) {
 
-			var current = document.querySelector( '[data-note].open' );
-			this.closeNote( current );
+      var current = document.querySelector( '[data-note].open' );
+      this.closeNote( current );
 
-		}
+    }
 
-		document.body.addEventListener( 'click', function( event ) {
-			this.closeNote( me );
-		}.bind( this ));
+    document.body.addEventListener( 'click', function( event ) {
+      this.closeNote( me );
+    }.bind( this ));
 
-		popup.innerHTML = me.getAttribute( 'data-note' );
+    popup.innerHTML = me.getAttribute( 'data-note' );
 
-		setTimeout( function() {
+    setTimeout( function() {
 
-			popup.className = popup.className + ' shown';
+      popup.className = popup.className + ' shown';
 
-			popup.addEventListener( 'click', function( event ) {
-				event.stopPropagation();
-			});
+      popup.addEventListener( 'click', function( event ) {
+        event.stopPropagation();
+      });
 
-		}, 100 );
+    }, 100 );
 
-		me.setAttribute( 'class', 'open' );
+    me.setAttribute( 'class', 'open' );
 
-	}
+  }
 
-	closeNote( ele ) {
+  closeNote( ele ) {
 
-		this.popup.setAttribute( 'class', 'note' );
-		ele.removeAttribute( 'class' );
+    this.popup.setAttribute( 'class', 'note' );
+    ele.removeAttribute( 'class' );
 
-		document.body.onclick = null;
+    document.body.onclick = null;
 
-	}
+  }
 
-	spawnPlacebo( note, ref, id ) {
+  spawnPlacebo( note, ref, id ) {
 
-		var placebo = document.createElement( 'span' ),
-			content = note.children[0].innerHTML,
-			it = this;
+    var placebo = document.createElement( 'span' ),
+      content = note.children[0].innerHTML,
+      it = this;
 
-		placebo.setAttribute( 'data-note', content );
-		placebo.innerHTML = id;
+    placebo.setAttribute( 'data-note', content );
+    placebo.innerHTML = id;
 
-		placebo.addEventListener( 'click', function( event ) {
+    placebo.addEventListener( 'click', function( event ) {
 
-			if( this.classList.contains( 'open' ) ) {
+      if( this.classList.contains( 'open' ) ) {
 
-				it.closeNote( this );
+        it.closeNote( this );
 
-			} else {
+      } else {
 
-				it.openNote( this, event );
+        it.openNote( this, event );
 
-			}
+      }
 
-			event.stopPropagation();
+      event.stopPropagation();
 
-		});
+    });
 
-		ref.parentNode.replaceChild( placebo, ref );
+    ref.parentNode.replaceChild( placebo, ref );
 
-	}
+  }
 
 }
 

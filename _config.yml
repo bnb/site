@@ -5,17 +5,17 @@ url: https://leo.im
 google_verify: WfHNxUaAd-tBjGYLYIJfhHp4x4mCPkeSZedrHjDjgxo
 
 author:
-    name: Leonard Lamprecht
-    email: mindrun@icloud.com
-    uri: https://leo.im/about/
+  name: Leonard Lamprecht
+  email: mindrun@icloud.com
+  uri: https://leo.im/about/
 
 # Build
 markdown: kramdown
 kramdown:
-    input: GFM
+  input: GFM
 sass:
-    style: :expanded
-    sass_dir: _includes/sass
+  style: :expanded
+  sass_dir: _includes/sass
 
 #Other
 permalink: /notes/:title
@@ -23,8 +23,8 @@ timezone: Europe/Berlin
 include: [ 'robots.txt' ]
 exclude: [ 'LICENSE', 'README.md', 'CNAME', 'vendor', 'Gemfile' ]
 gems:
-    - jekyll-sitemap
-    - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-feed
 
 # Self explaining
 defaults:

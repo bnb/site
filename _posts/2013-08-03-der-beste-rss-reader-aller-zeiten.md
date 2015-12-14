@@ -4,7 +4,7 @@ date: 2013-08-03 15:25
 lang: de
 ---
 
-Heute möchte ich euch meinen neuen Lieblings-Reader für RSS-Feeds vorstellen: "Feeder" heißt der gute. 
+Heute möchte ich euch meinen neuen Lieblings-Reader für RSS-Feeds vorstellen: "Feeder" heißt der gute.
 
 Als vor einigen Monaten der RSS-Reader von Google offiziell vom Netz genommen wurde, brauchte ich natürlich eine Alternative. So stieß ich nach kurzer Suche im Web auf "Feeder". Hierbei handelt es sich um ein ganz einfach zu bedienendes Plugin für Google Chrome.
 

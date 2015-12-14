@@ -13,15 +13,15 @@ Hier die Funktion für das Setzen eines neuen Cookies mit einem Wert:
 {% highlight js %}
 function set_cookie( my_cookie, value, days ) {
 
-	if(days) {
-		var date = new Date();
-		date.setTime( date.getTime() + ( days*24*60*60*1000 ) );
-		var expires = "; expires=" + date.toGMTString();
-	} else {
-		expires = ""
-	}
+  if(days) {
+    var date = new Date();
+    date.setTime( date.getTime() + ( days*24*60*60*1000 ) );
+    var expires = "; expires=" + date.toGMTString();
+  } else {
+    expires = ""
+  }
 
-	document.cookie = my_cookie + "=" + value + expires + "; path=/";
+  document.cookie = my_cookie + "=" + value + expires + "; path=/";
 
 }
 {% endhighlight %}
@@ -31,23 +31,23 @@ Hiermit lässt sich das gesetzte Cookie ganz einfach auslesen:
 {% highlight js %}
 function read_cookie( my_cookie ) {
 
-	var my_cookie_eq = my_cookie + "=";
-	var ca = document.cookie.split( ';' );
+  var my_cookie_eq = my_cookie + "=";
+  var ca = document.cookie.split( ';' );
 
-	for( var i=0; i < ca.length; i++ ) {
-		var c = ca[i];
+  for( var i=0; i < ca.length; i++ ) {
+    var c = ca[i];
 
-		while ( c.charAt(0) == ' ' ) {
-			c = c.substring( 1, c.length );
-		}
+    while ( c.charAt(0) == ' ' ) {
+      c = c.substring( 1, c.length );
+    }
 
-		if ( c.indexOf( my_cookie_eq ) == 0 ) {
-			return c.substring( my_cookie_eq.length, c.length );
-		}
+    if ( c.indexOf( my_cookie_eq ) == 0 ) {
+      return c.substring( my_cookie_eq.length, c.length );
+    }
 
-	}
+  }
 
-	return null;
+  return null;
 
 }
 {% endhighlight %}
@@ -56,7 +56,7 @@ Diese Funktion setzt die offizielle Haltbarkeit des Cookies ins Negative, wodurc
 
 {% highlight js %}
 function delete_cookie( my_cookie ) {
-	set_cookie( my_cookie, "", -1 );
+  set_cookie( my_cookie, "", -1 );
 }
 {% endhighlight %}
 

@@ -14,10 +14,10 @@ Der folgende Code aktiviert die Attributierungen, die er enthält, wenn der Bild
 
 {% highlight css %}
 @media only screen and (max-width: 1220px) {
-	#testelement {
-		display: block;
-		position: relative;
-	}
+  #testelement {
+    display: block;
+    position: relative;
+  }
 }
 {% endhighlight %}
 
@@ -27,10 +27,10 @@ Das gleiche funktioniert auch umgekehrt. Das bedeuted, es können minimale Maße
 
 {% highlight css %}
 @media only screen and (min-width: 660px) {
-	#testelement {
-		overflow: hidden;
-		border: medium double #000;
-	}
+  #testelement {
+    overflow: hidden;
+    border: medium double #000;
+  }
 }
 {% endhighlight %}
 

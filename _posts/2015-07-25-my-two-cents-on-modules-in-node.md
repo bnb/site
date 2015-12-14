@@ -21,7 +21,7 @@ Why don't we just install all modules globally by default? And if a module needs
 
 2. **Goodbye, nesting inception:** Okay, let's assume we want to write an app with node. Since it's an environment that comes with very less functionality by default, we usually need a few modules to achieve what we want. — So let's install the first module... Ahh, cool! Looks like it also has some dependencies itself and nice, it even installs them automatically... Great, then let's have a look into the folder: Okay, those dependency modules of the module we've installed also have some other modules which they depend on, hmm. Oh, looks like the depending modules of the modules on which some of our depending modules depend on, also have some dependencies.
 
-	Great! But we could avoid this whole mess by putting all those modules on the same level, so that we have a great overview rather than a folder in a folder in a folder in a folder.
+  Great! But we could avoid this whole mess by putting all those modules on the same level, so that we have a great overview rather than a folder in a folder in a folder in a folder.
 
 3. **Alway up-to-date:** If some of our apps only need 1.3.0 of a specific module, they will now also get a higher version if a different app on the system depends on it (if another module depends on 1.5.0 of the said module, for example - the above app will also get this version, since the only instance of this module will of course be updated to fit the highest dependency). — I hope that's understandable.
 

@@ -24,7 +24,7 @@ window.location = "twitter://post?message=zu teilender Text";
 
 {% highlight js %}
 setTimeout(function () {
-	window.location = "https://twitter.com/intent/tweet?source=webclient&amp;text=zu teilender Text";
+  window.location = "https://twitter.com/intent/tweet?source=webclient&amp;text=zu teilender Text";
 }, 300);
 {% endhighlight %}
 

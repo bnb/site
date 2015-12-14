@@ -19,7 +19,7 @@ Okay, let me explain that with an example:
 
 {% highlight css %}
 h1 {
-	all: unset;
+  all: unset;
 }
 {% endhighlight %}
 

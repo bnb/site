@@ -12,9 +12,9 @@ Zunächst sollte eine einfache Navigation erstellt werden. Diese kann etwa wie f
 
 {% highlight html %}
 <ul>
-	<li><a href="#">Erster Link</a></li>
-	<li><a href="#">Zweiter Link</a></li>
-	<li><a href="#">Dritter Link</a></li>
+  <li><a href="#">Erster Link</a></li>
+  <li><a href="#">Zweiter Link</a></li>
+  <li><a href="#">Dritter Link</a></li>
 </ul>
 {% endhighlight %}
 
@@ -22,12 +22,12 @@ Nun nehmen wir uns einen Link heraus und starten damit, ihm ein Untermenü zu ve
 
 {% highlight html %}
 <ul>
-	<li><a href="#">Zweiter Link</a>
-			<ul>
-				<li><a href="#">Erster Unterlink</a></li>
-				<li><a href="#">Zweiter Unterlink</a></li>
-			</ul>
-	</li>
+  <li><a href="#">Zweiter Link</a>
+      <ul>
+        <li><a href="#">Erster Unterlink</a></li>
+        <li><a href="#">Zweiter Unterlink</a></li>
+      </ul>
+  </li>
 </ul>
 {% endhighlight %}
 

@@ -47,8 +47,8 @@ So I decided to build a few functions around this idea and ended up with cookies
 
 {% highlight json %}
 {
-	"count": 5,
-	"sync": false
+  "count": 5,
+  "sync": false
 }
 {% endhighlight %}
 

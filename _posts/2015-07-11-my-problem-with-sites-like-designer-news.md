@@ -41,7 +41,7 @@ So here are some ideas to get this right:
 
 1. A great way to solve this might be to simply implement another part of the algorithm which will discover the most up-voted topics each day and will then pack them together into one beautiful timeline/stream and serve them on the front page the next day. This method of course leads to the fact that the visitor will get the news delayed by one day.
 
-	*For me, this wouldn't be that much of a problem. There's so much happing out there, I'm thankful even if I only get the most important things on day later.*
+  *For me, this wouldn't be that much of a problem. There's so much happing out there, I'm thankful even if I only get the most important things on day later.*
 
 2. If we want to make sure that the user get's the latest news without a delay, we could just pick one post every time it reaches a specific number of up-votes and add it to the front page. Then there's one single post at the home page. If another post hits that pre-defined number of up-votes, it will also be added below the previous one - until there are 25 post on the front. Then the picking-process stops until the next day.
 

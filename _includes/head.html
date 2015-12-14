@@ -3,9 +3,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 {% if page.title %}
-	<title>{{ page.title }}</title>
+  <title>{{ page.title }}</title>
 {% else %}
-	<title>{{ site.name }}</title>
+  <title>{{ site.name }}</title>
 {% endif %}
 
 <meta name="twitter:card" content="summary" />
@@ -16,7 +16,7 @@
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 {% if site.google_verify %}
-	<meta name="google-site-verification" content="{{ site.google_verify }}">
+  <meta name="google-site-verification" content="{{ site.google_verify }}">
 {% endif %}
 
 <link rel="mask-icon" href="{{ site.url }}/assets/flash.svg" color="#000000">
@@ -29,26 +29,26 @@
 
 {% if jekyll.environment == 'production' %}
 
-	<style>
-	{% capture basic_styles %}
+  <style>
+  {% capture basic_styles %}
 
-		{% include sass/basic.scss %}
+    {% include sass/basic.scss %}
 
-		{% if page.content contains "endhighlight" %}
-			{% include sass/syntax.scss %}
-		{% endif %}
+    {% if page.content contains "endhighlight" %}
+      {% include sass/syntax.scss %}
+    {% endif %}
 
-	{% endcapture %}
+  {% endcapture %}
 
-	{{ basic_styles | scssify }}
-	</style>
+  {{ basic_styles | scssify }}
+  </style>
 
 {% else %}
-	<link rel="stylesheet" type="text/css" href="/assets/development.css">
+  <link rel="stylesheet" type="text/css" href="/assets/development.css">
 {% endif %}
 
 {% if page.url == '/404.html' %}
-	<script async src="/assets/redirect.js"></script>
+  <script async src="/assets/redirect.js"></script>
 {% endif %}
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
