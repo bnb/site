@@ -27,7 +27,7 @@ jekyll serve --watch
 
 ## "Are you a magician?"
 
-Who knows? But that's definitely not the reason why all the assets on the site are minfied, although Jekyll isn't able to provide me with such a service. It's [CloudFlare][3] who does that.
+Who knows? But that's definitely not the reason why all the assets on the site are minfied, although the version of Jekyll that's installed on GitHub's servers doesn't contain any plugins which could manage this. It's [CloudFlare][3] who does that.
 
 If you want to read more about how this exactly works, just read [this][4].
 
