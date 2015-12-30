@@ -1,13 +1,13 @@
 # General
 name: Leonard Lamprecht
 description: A teenagers view on web development and intuitive UI design.
-url: https://leo.im
+url: http://leo.im
 google_verify: WfHNxUaAd-tBjGYLYIJfhHp4x4mCPkeSZedrHjDjgxo
 
 author:
   name: Leonard Lamprecht
   email: mindrun@icloud.com
-  uri: https://leo.im/about/
+  uri: http://leo.im/about/
 
 # Build
 markdown: kramdown

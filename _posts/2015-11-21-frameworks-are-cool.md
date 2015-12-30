@@ -39,7 +39,7 @@ Don't underestimate the importance of performance in today's web. But also don't
 
 Oh. And before I forget it: No, I was wrong. Snippet [aren't][5] the future. Carefully used frameworks are.
 
-[1]: https://leo.im/notes/performance-and-developer-friendliness/
+[1]: http://leo.im/notes/performance-and-developer-friendliness/
 [2]: http://emberjs.com
 [3]: http://tomdale.net/2015/02/youre-missing-the-point-of-server-side-rendered-javascript-apps/
 [4]: http://tomdale.net/2015/11/javascript-frameworks-and-mobile-performance/
