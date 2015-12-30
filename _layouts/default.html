@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{% if page.lang %}{{ page.lang }}{% else %}en{% endif %}">
+<html lang="{% if page.lang %}{{page.lang}}{% else %}en{% endif %}">
 
   <head>
     {% include head.html %}
@@ -21,15 +21,15 @@
         </style>
       </noscript>
 
-      {{ content | replace: '&#8617;', '&#8617;&#xfe0e;' }}
+      {{ content | replace: "&#8617;", "&#8617;&#xfe0e;" }}
     </main>
 
-    {% if content contains 'reversefootnote' %}
+    {% if content contains "reversefootnote" %}
       <aside class="note"></aside>
       <script async src="/assets/footnotes.js"></script>
     {% endif %}
 
-    {% if content contains 'twitter-tweet' %}
+    {% if content contains "twitter-tweet" %}
       <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     {% endif %}
 
