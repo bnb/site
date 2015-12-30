@@ -1,4 +1,4 @@
-## leo.im <a href="https://travis-ci.org/leo/leo.github.io"><img src="https://travis-ci.org/leo/leo.github.io.svg?branch=master" alt="Build status" /></a>
+# leo.im <a href="https://travis-ci.org/leo/leo.github.io"><img src="https://travis-ci.org/leo/leo.github.io.svg?branch=master" alt="Build status" /></a>
 
 This is where I settle down to write down my thoughts. Sometimes it's a helpful tip, sometimes an idea and sometimes just a random thought. There's only one thing I can guarantee: Before you become bored, the hell will freeze over.
 
