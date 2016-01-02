@@ -14,7 +14,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 sass:
-  style: :expanded
+  style: :compressed
   sass_dir: _includes/sass
 
 #Other
