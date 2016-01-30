@@ -13,7 +13,7 @@ Beginning with homepage builders in the sixth class, I started figuring out my w
 
 ## Some history
 
-Since I'm *just* 17 years old, I'm not able to rave about my first Macintosh 128K or something like that in this place. Therefore you're probably not able to relate that much to my career, but who cares? I got my first computer (which was a 300,00€ notebook from Dell) when I was 8 and I think it had Windows Vista pre-installed.
+First of all: I'm not able to rave about my first Macintosh 128K or something like that in this place. Therefore you're probably not able to relate that much to my career, but who cares? I got my first computer (which was a 300,00€ notebook from Dell) when I was 8 and I think it had Windows Vista pre-installed.
 
 Since then, I went from drag-and-dropping custom fields in HPBK or Jimdo, over disassembling all kinds of websites, publishing fancy homepage builder [themes][1] together with a friend - and even [hosting websites][2] and minecraft maps on my own root server - to creating beautiful, performant and standard-compliant websites and -apps. In between, there was a mixture of making really bad-looking [web-designs][3] and youtube backgrounds (back then, the channels were a bit more colorful) for friends, [publishing tech-news][4] and offering tools for webmasters on a site called "Lion-System".
 
