@@ -41,7 +41,7 @@ I'm currently located in [Bamberg][10], a small town with a beautiful, medieval 
 [4]: https://web.archive.org/web/20120908132601/http://www.medientipps.com/
 [5]: https://profiles.wordpress.org/mindrun#content-plugins
 [6]: http://cuttingegg.de
-[7]: http://medienreaktor.de
+[7]: https://www.medienreaktor.de/agentur/
 [8]: /notes/v2
 [9]: https://vimeo.com/album/3599603
 [10]: /assets/static/bamberg.jpg
