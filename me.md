@@ -19,7 +19,7 @@ Since then, I went from drag-and-dropping custom fields in HPBK or Jimdo, over d
 
 Just to name a few. The list goes on and on, and I didn't even mention the time when I coded sites for different companys using CMS2Day, WordPress or static code. I also coded many WordPress plugins (I published a few of them [here][5]), the current site of [Cutting Egg][6] (the team I worked with the last time) and countless ones for agencies which don't even exist anymore. Back then, I made most of them entirely for free. And when I got money, I made around 50,00 - 200,00 € for the whole development process.
 
-Thankfully, I was able to make a big step out of this mess and get a job at [medienreaktor][7], where I started developing sites in addition to school in 2014. Since I also graduated from school now, I'm happy to start my training in the area of design there.
+Thankfully, I was able to make a big step out of this mess and get a job at [medienreaktor][7] (a advertising agency located in my hometown), where I started developing sites in addition to school in 2014.
 
 ## Technical stuff
 
