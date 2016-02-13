@@ -11,7 +11,7 @@ Now I know that it's important to see the big picture instead of just small part
 
 As a rookie, the first thing you will now think is probably something like "Oh look! He stopped caring about performance, simply because he's tired of looking for the best possible solution". So I will try to explain why it's much better now than it was before (and not worse).
 
-This might sound a bit funny, but for me, it actually has been more effort to care less about this than caring more about it. I had to force myself to put my hands away from those never-ending stories of always wanting to reach the maxium speed and spend more time thinking about how to go bigger steps and improve my projects in an integral way.
+This might sound a bit funny, but for me, it actually has been more effort to care less about this than caring more about it. I had to force myself to put my hands away from those never-ending stories of always wanting to reach the maximum speed and spend more time thinking about how to go bigger steps and improve my projects in an integral way.
 
 Why? Because it's 2015. Devices and internet connections are getting faster and faster, while we're still spending hours of hours trying to reach such little goals instead of solving the big problems in our world.
 
@@ -21,13 +21,13 @@ So I guess there's only one thing left to clarify:
 
 ## How I came to this
 
-I've spend the last year designing and developing a big web app based on [Ember.js][2] (I will let you know more about it soon). For this reason, I also had to dig really deep into the idea behind client-side-rendered apps and seperating the project into two parts: The app itself (running in the browser) and an API server which takes in requests and responds with data.
+I've spend the last year designing and developing a big web app based on [Ember.js][2] (I will let you know more about it soon). For this reason, I also had to dig really deep into the idea behind client-side-rendered apps and separating the project into two parts: The app itself (running in the browser) and an API server which takes in requests and responds with data.
 
 At first, I was a bit confused why they're doing this and why all development tools in this area so opinionated, but now I understand and love it!
 
 The posts of Tom Dale (co-creator of Ember.js) were very helpful on my journey to get there. If you want to dig deeper into this, too, I recommend you to read [this][3] and [this][4].
 
-Here's my favourite part:
+Here's my favorite part:
 
 > So here’s what I think a more interesting study would be: what is the execution time of real world apps of approximately similar complexity? It may be that apps built with frameworks are still slower. But my hypothesis is that, for apps of any complexity, the ones that start off “vanilla” will accrete their own Frankenframework that performs similarly to, if not worse than, an off-the-shelf framework like Ember or Angular.
 

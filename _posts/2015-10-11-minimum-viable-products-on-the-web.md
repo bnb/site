@@ -27,7 +27,7 @@ Now I know how I can do better: Instead of rushing forward with maximum speed an
 
 Dave's latest project, [Story Hopper][2], was the perfect chance to test out this way of developing products.
 
-Since I was still working while creating his site, I sadly didn't had enough time to implement the rating system, which could enable visitors to rate each movie with a certain amount of stars, depending on how much they like it. On the other hand, the time would have been enough if I had simply chosen to go with one of those existing rating plugins for WordPress, instead of building my own one. But since it was already such a beatiful site, I didn't want to add one of those crappy plugins to it.
+Since I was still working while creating his site, I sadly didn't had enough time to implement the rating system, which could enable visitors to rate each movie with a certain amount of stars, depending on how much they like it. On the other hand, the time would have been enough if I had simply chosen to go with one of those existing rating plugins for WordPress, instead of building my own one. But since it was already such a beautiful site, I didn't want to add one of those crappy plugins to it.
 
 What can I say? Dave really liked the idea of me building a completely new rating system just for his project. The only thing that I didn't like, was that it would have taken much more time. And since he had already announced that the site will launch on October 5, there was no way around it.
 
@@ -52,7 +52,7 @@ So I decided to build a few functions around this idea and ended up with cookies
 }
 {% endhighlight %}
 
-Nothing advanced, just a simple JSON-formatted object which contains the amount of stars which the movie got and the most important part: If the server already knows about this rating (aka.: if it has already been sinced with the backend).
+Nothing advanced, just a simple JSON-formatted object which contains the amount of stars which the movie got and the most important part: If the server already knows about this rating (aka.: if it has already been synced with the backend).
 
 Using this method, we were able to launch our product while still avoiding data loss: After I had finished the server-side part of the rating script, the only thing I needed to do was check the current visitors browser for cookies that are based on a movie's rating, save the amount of stars to the DB and set the "sync" key to "true" (so that it won't accidentally be saved again).
 
