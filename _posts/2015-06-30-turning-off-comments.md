@@ -53,7 +53,7 @@ Another great way to make room for your opinion is to simply quote the article o
 
 ---
 
-One of the great people who inspired me to do this is John Gruber from Daring Fireball. He also had a few of the thoughts I wrote about obove and already [disabled][4] them many years ago.
+One of the great people who inspired me to do this is John Gruber from Daring Fireball. He also had a few of the thoughts I wrote about above and already [disabled][4] them many years ago.
 
 I hope you're not that disappointed about the fact that you wont be able to leave comments directly on my site anymore, but this is a step I definitely need to make. I also still value your opinion, only the way how you can interact with me changed, nothing else.
 

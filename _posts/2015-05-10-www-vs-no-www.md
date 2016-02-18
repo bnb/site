@@ -15,7 +15,7 @@ Many system administrators will advise you to not support the deprecation of the
 
 But don't worry, if your site doesn't get tons of traffic each day, this isn't something you need to worry about. Mostly people who are using cloud application providers like [Heroku][1] are affected by this.
 
-Another tiny weak spot on the big balloon that respresents all developers fighting for the abolition of *www* is definitely, that it if you set up a cookie for a domain like "www.mysite.org", the browser won't sent it out when accessing content on subdomains like "dumb.mysite.org". But if don't use the *www* on your main domain, the cookie will be shared on all connections to all subdomains.
+Another tiny weak spot on the big balloon that represents all developers fighting for the abolition of *www* is definitely, that it if you set up a cookie for a domain like "www.mysite.org", the browser won't sent it out when accessing content on subdomains like "dumb.mysite.org". But if don't use the *www* on your main domain, the cookie will be shared on all connections to all subdomains.
 
 ## Who shouldn't use www
 

@@ -9,13 +9,13 @@ The reason behind that is for sure that he just likes coding and also sees a thi
 
 **Why?** Because the need for those kinds of frameworks will soon be gone forever. — Okay, that might be a bit confusing for you know, so let's start with a quick explanation:
 
-I don't know how you do it, but since a few years I have been using grid frameworks to align content properly and create responsive web layouts. With the time, a couple of aspects on the initial idea have changed: Websites are now mostly beeing designed mobile-first (fortunately) and flexbox allowed us to reach our goal of creating a effective CSS-layout more quickly by providing us with properties that can help us to equate the height of columns lined up in a row without knowing their content's size or using a mushy JS mixture that does this job.
+I don't know how you do it, but since a few years I have been using grid frameworks to align content properly and create responsive web layouts. With the time, a couple of aspects on the initial idea have changed: Websites are now mostly being designed mobile-first (fortunately) and flexbox allowed us to reach our goal of creating a effective CSS-layout more quickly by providing us with properties that can help us to equate the height of columns lined up in a row without knowing their content's size or using a mushy JS mixture that does this job.
 
 Until now, this was pretty much the best way to create a proper website layout (without writing a custom grid of course). Fortunately, we're now finally getting redeemed from this heavy performance load - thanks to `grid`.
 
 ## What's so good about it?
 
-It's basically a [new CSS method][2] that allows us to easily create beatiful web-layouts without a huge grid framework. No matter how tiny the budget of the client and how short your available time will be, `grid` provides you with many different properties which tell the browser how to position an element within the design.
+It's basically a [new CSS method][2] that allows us to easily create beautiful web-layouts without a huge grid framework. No matter how tiny the budget of the client and how short your available time will be, `grid` provides you with many different properties which tell the browser how to position an element within the design.
 
 And the best thing about that: It seems like the browser just doesn't care about the position of the element within the HTML code. For example, a column that you want to show on the top right edge of the browser window can be placed right before the body tag closes (after all other elements).
 

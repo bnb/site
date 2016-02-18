@@ -17,7 +17,7 @@ Alright gentlemen, then start your engines now! Thanks to the cool people who ar
 
 Firstly, there's `flex` - I told you about it earlier. It's a convenient manner that allows you to position elements with different sizes easily by providing maximum and minimum widths or heights for example. It will also bring other sub-properties which are able to calculate the size of an item in dependence of the other ones around it.
 
-Like [Chris Coyier][1]{:target="_blank"} already said it:
+Like [Chris Coyier][1] already said it:
 
 > The main idea behind the flex layout is to give the container the ability to alter its items' width or height in order to best fill the available space...
 
@@ -58,11 +58,11 @@ Anyway, don't hold yourself back from using it just because it needs some more a
 
 In contrast to flex, the "inline-block" value doesn't provide you with any other cool property which you could use to align the items in a special way. However, it allows you to treat the content elements like text when it comes to positioning (since they're displayed inline). For example, you can push them into the left or right edge or the middle by using `text-align`. You could also use properties like `line-height` to equal the heights of all elements inside the container (that also depends on if they own padding, since it's extending the line-height).
 
-I'm sure the most of you already know everything about this value, since it's also beeing used for various other use-cases. But if you don't, read more about it [here][4]{:target="_blank"} (the official documentations are not really helpful now, since they're too abstract for you, I guess).
+I'm sure the most of you already know everything about this value, since it's also being used for various other use-cases. But if you don't, read more about it [here][4]{:target="_blank"} (the official documentations are not really helpful now, since they're too abstract for you, I guess).
 
 ## Conclusion
 
-My idention behind this article was clearly not to provide you with a complete guide on how to use those properties. It was rather a collection of recommondations you could use instead of the old floating-method. If I inspired you to think about these alternatives, I'm happy.
+My indention behind this article was clearly not to provide you with a complete guide on how to use those properties. It was rather a collection of recommondations you could use instead of the old floating-method. If I inspired you to think about these alternatives, I'm happy.
 
 What you should also remember is that these properties have initially been designed to provide easy solutions for creating columns within a content-area (at least that's what I heard from other people and what my experiences told me) and not for creating complete layouts (you should use [grid][3] for this). And yes, I'm talking of the future. Currently, you would probably need to use those properties for layouting too, because *grid* isn't fully ready for production yet.
 

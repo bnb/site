@@ -3,7 +3,7 @@ title: Yoga and It’s Cronies
 date: 2015-05-08 15:13
 ---
 
-As you read this, you will propably already know, what I mean with that word. I strongly believe you also have some friends or family doing it.
+As you read this, you will probably already know, what I mean with that word. I strongly believe you also have some friends or family doing it.
 
 First, let's quickly get to know what Yoga even is. According to Wikipedia, it's a »physical, mental, and spiritual practice or discipline« which is - in our society - mostly used by people who want to focus and leave their daily stress and work-pressure behind.
 

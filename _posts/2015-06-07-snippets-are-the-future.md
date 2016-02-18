@@ -9,7 +9,7 @@ Okay, let me explain that before we go on. To me, it looks like developers are c
 
 But I'm not here to help you with doing so. I'm here to encourage you to think about how we can make the web faster while keeping the same level of awesomeness[^1].
 
-Great, then let's talk about the best compromise I found out about: **Snippets**. While allowing developers to use code from other coders, we still keep the mountain of unnecessary clutter that's beeing loaded on each page-request as tiny as possible. Stop making clunky libraries, start sharing snippets! This will avoid many unused functions, helpers, etc. and reduce the size of the code that's getting presented to the client (which speeds up the painting-process within the browser).
+Great, then let's talk about the best compromise I found out about: **Snippets**. While allowing developers to use code from other coders, we still keep the mountain of unnecessary clutter that's being loaded on each page-request as tiny as possible. Stop making clunky libraries, start sharing snippets! This will avoid many unused functions, helpers, etc. and reduce the size of the code that's getting presented to the client (which speeds up the painting-process within the browser).
 
 Cool, huh? Yes, it is.
 But I know, it's far away from perfect.

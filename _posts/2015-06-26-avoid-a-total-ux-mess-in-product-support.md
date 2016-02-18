@@ -52,7 +52,7 @@ For example, if a user reports a bug over Twitter, don't advise him to fill out 
 
 {% include image.html file="email-autocomplete.png" %}
 
-Now every time the user opens the mail app, it auto-completes the content of the "receiver"-field as soon as he starts typing in the company's adress. And no - even if he tries to remove this information, most apps will make sure that it stays.
+Now every time the user opens the mail app, it auto-completes the content of the "receiver"-field as soon as he starts typing in the company's address. And no - even if he tries to remove this information, most apps will make sure that it stays.
 
 And technically, this info isn't useful at all. I mean, if you have more than 1 single support staff, the user won't write with *Scott* each time. He might also write with *Ann* or *Jacob*, since they use the exact same address to stay in contact with customers - therefore the name is pretty useless in this context[^3].
 
