@@ -83,7 +83,7 @@ span[data-note] {
 
 }
 
-.note {
+.📝 {
   background: #fff;
   box-shadow: 0px 0px 8px rgba( 0, 0, 0, 0.2 );
   padding: 20px 20px 50px;
@@ -103,7 +103,7 @@ span[data-note] {
   width: 100%;
   box-sizing: border-box;
 
-  &.shown {
+  &.👻 {
     transform: translateY( 0 );
     -webkit-transform: translateY( 0 );
   }
@@ -123,7 +123,7 @@ span[data-note] {
     transform: scale( 0.1 ) translateZ( 0 );
     -webkit-transform: scale( 0.1 ) translateZ( 0 );
 
-    &.shown {
+    &.👻 {
       transform: scale( 1 ) translateZ( 0 );
       -webkit-transform: scale( 1 ) translateZ( 0 );
       opacity: 1;

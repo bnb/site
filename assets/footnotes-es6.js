@@ -26,14 +26,14 @@ class Footnotes {
 
     }
 
-    this.popup = document.querySelector( '.note' );
+    this.popup = document.querySelector( '.📝' );
 
   }
 
   openNote( me, event ) {
 
     var popup = this.popup,
-      status = popup.classList.contains( 'shown' );
+      status = popup.classList.contains( '👻' );
 
     if( status ) {
 
@@ -50,7 +50,7 @@ class Footnotes {
 
     setTimeout( function() {
 
-      popup.className = popup.className + ' shown';
+      popup.className = popup.className + ' 👻';
 
       popup.addEventListener( 'click', function( event ) {
         event.stopPropagation();
@@ -64,7 +64,7 @@ class Footnotes {
 
   closeNote( ele ) {
 
-    this.popup.setAttribute( 'class', 'note' );
+    this.popup.setAttribute( 'class', '📝' );
     ele.removeAttribute( 'class' );
 
     document.body.onclick = null;

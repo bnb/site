@@ -9,9 +9,7 @@ var _createClass = (function () { function defineProperties(target, props) { for
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
 var Footnotes = (function () {
-
   function Footnotes() {
-
     _classCallCheck(this, Footnotes);
 
     var tag = document.getElementsByClassName('footnotes');
@@ -36,7 +34,7 @@ var Footnotes = (function () {
       }
     }
 
-    this.popup = document.querySelector('.note');
+    this.popup = document.querySelector('.📝');
   }
 
   _createClass(Footnotes, [{
@@ -44,7 +42,7 @@ var Footnotes = (function () {
     value: function openNote(me, event) {
 
       var popup = this.popup,
-          status = popup.classList.contains('shown');
+          status = popup.classList.contains('👻');
 
       if (status) {
 
@@ -60,7 +58,7 @@ var Footnotes = (function () {
 
       setTimeout(function () {
 
-        popup.className = popup.className + ' shown';
+        popup.className = popup.className + ' 👻';
 
         popup.addEventListener('click', function (event) {
           event.stopPropagation();
@@ -73,7 +71,7 @@ var Footnotes = (function () {
     key: 'closeNote',
     value: function closeNote(ele) {
 
-      this.popup.setAttribute('class', 'note');
+      this.popup.setAttribute('class', '📝');
       ele.removeAttribute('class');
 
       document.body.onclick = null;
