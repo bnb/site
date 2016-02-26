@@ -33,7 +33,7 @@ class Footnotes {
   openNote( me, event ) {
 
     var popup = this.popup,
-      status = popup.classList.contains( '👻' );
+      status = popup.classList.contains( '👀' );
 
     if( status ) {
 
@@ -50,7 +50,7 @@ class Footnotes {
 
     setTimeout( function() {
 
-      popup.className = popup.className + ' 👻';
+      popup.className = popup.className + ' 👀';
 
       popup.addEventListener( 'click', function( event ) {
         event.stopPropagation();

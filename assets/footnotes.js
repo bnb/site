@@ -42,7 +42,7 @@ var Footnotes = (function () {
     value: function openNote(me, event) {
 
       var popup = this.popup,
-          status = popup.classList.contains('👻');
+          status = popup.classList.contains('👀');
 
       if (status) {
 
@@ -58,7 +58,7 @@ var Footnotes = (function () {
 
       setTimeout(function () {
 
-        popup.className = popup.className + ' 👻';
+        popup.className = popup.className + ' 👀';
 
         popup.addEventListener('click', function (event) {
           event.stopPropagation();
