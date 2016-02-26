@@ -28,25 +28,7 @@
 
 {% feed_meta %}
 
-{% if jekyll.environment == 'production' %}
-
-  <style>
-  {% capture basic_styles %}
-
-    {% include sass/basic.scss %}
-
-    {% if page.content contains "endhighlight" %}
-      {% include sass/syntax.scss %}
-    {% endif %}
-
-  {% endcapture %}
-
-  {{ basic_styles | scssify }}
-  </style>
-
-{% else %}
-  <link rel="stylesheet" type="text/css" href="/assets/development.css">
-{% endif %}
+<link rel="stylesheet" type="text/css" href="/assets/development.css">
 
 {% if page.url == '/404.html' %}
   <script async src="/assets/redirect.js"></script>
