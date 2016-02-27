@@ -16,5 +16,5 @@ Weitere Infos und Aktuelles gibt's natürlich wie immer mittels RSS-Feed direkt 
 
 [1]: https://www.frewhost.net/
 [2]: http://cuttingegg.de/
-[3]: mailto:lamprechtleonard@gmail.com
+[3]: mailto:mindrun@icloud.com
 [4]: https://twitter.com/lmprht
