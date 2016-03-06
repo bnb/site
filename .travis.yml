@@ -5,7 +5,6 @@ rvm:
 
 script:
   - bundle exec jekyll build
-  - bundle exec htmlproof ./_site --only-4xx --check-html --checks-to-ignore LinkCheck
 
 env:
   global:
