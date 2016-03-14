@@ -1,6 +1,6 @@
 # leo.im [![Build](https://travis-ci.org/leo/leo.github.io.svg?branch=master)](https://travis-ci.org/leo/leo.github.io)
 
-This is where you'll find all the links to the places where my work lives on the web.
+This is where you'll find all the links to the places where my work lives on the web. You can find my old post (those that haven't made it to Medium) in the `_posts` directory.
 
 ## Caught a bug?
 
