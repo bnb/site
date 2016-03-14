@@ -2,8 +2,7 @@
 ---
 
 html, body {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -64,7 +63,7 @@ nav {
   font-family: 'Courier New', serif;
   position: absolute;
   left: 25px;
-  bottom: 35px;
+  bottom: 27px;
   white-space: pre-line;
 
   a {
