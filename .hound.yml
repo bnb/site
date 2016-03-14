@@ -1,4 +1,0 @@
-fail_on_violations: true
-
-scss:
-  enabled: true

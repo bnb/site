@@ -1,8 +1,30 @@
 <!DOCTYPE html>
-<html lang="{% if page.lang %}{{page.lang}}{% else %}en{% endif %}">
+<html lang="en">
 
   <head>
-    {% include head.html %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    {% if page.title %}
+      <title>{{site.name}} &mdash; {{page.title}}</title>
+    {% else %}
+      <title>{{site.name}}</title>
+    {% endif %}
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@lmprht">
+    <meta name="twitter:title" content="{{site.name}}">
+    <meta name="twitter:description" content="{{site.description}}">
+    <meta name="twitter:image" content="{{site.url}}/assets/touch-icon.png">
+
+    <meta name="description" content="{{site.description}}">
+
+    <link rel="mask-icon" href="{{site.url}}/assets/flash.svg" color="#000000">
+    <link rel="apple-touch-icon" href="/assets/touch-icon.png">
+    <link rel="icon" href="/assets/touch-icon.png" type="image/png">
+
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cardo">
+    <link rel="stylesheet" href="/assets/styles.css">
 
     {% if jekyll.environment == 'production' %}
       <script>
@@ -18,34 +40,8 @@
   </head>
 
   <body>
+    {{content}}
 
-    {% include header.html %}
-
-    <main>
-
-      <noscript>
-        <style>
-
-          article .footnotes {
-            display: block;
-          }
-
-        </style>
-      </noscript>
-
-      {{ content | replace: "&#8617;", "&#8617;&#xfe0e;" }}
-    </main>
-
-    {% if content contains "reversefootnote" %}
-      <aside class="📝"></aside>
-      <script async src="/assets/footnotes.js"></script>
-    {% endif %}
-
-    {% if content contains "twitter-tweet" %}
-      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-    {% endif %}
-
-    <link href="//fonts.googleapis.com/css?family=Fira+Sans:400,700,400italic,700italic|Fira+Mono:400,700" rel="stylesheet">
-
+    <script async src="/assets/app.js"></script>
   </body>
 </html>

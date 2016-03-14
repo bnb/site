@@ -1,5 +1,0 @@
----
-layout: null
----
-
-sitemap: {{ site.url | append: '/sitemap.xml' }}

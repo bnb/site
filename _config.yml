@@ -2,41 +2,9 @@
 name: Leonard Lamprecht
 description: A teenagers view on web development and intuitive UI design.
 url: http://leo.im
-google_verify: WfHNxUaAd-tBjGYLYIJfhHp4x4mCPkeSZedrHjDjgxo
-
-author:
-  name: Leonard Lamprecht
-  email: mindrun@icloud.com
-  uri: http://leo.im/about/
 
 # Build
 sass:
   style: :compressed
-  sass_dir: _includes/sass
 
-#Other
-permalink: /notes/:title
-timezone: Europe/Berlin
-include: [ 'robots.txt' ]
-exclude: [ 'LICENSE', 'README.md', 'CNAME', 'vendor', 'Gemfile' ]
-gems:
-  - jekyll-sitemap
-  - jekyll-feed
-
-# Self explaining
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "null"
-  -
-    scope:
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      type: "posts"
-    values:
-      layout: "post"
+exclude: ['_posts', 'Gemfile*', 'CNAME', '*.md']
