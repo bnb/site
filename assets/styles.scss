@@ -1,6 +1,14 @@
 ---
 ---
 
+::selection {
+  background: #616161;
+}
+
+::-moz-selection {
+  background: #616161;
+}
+
 html, body {
   height: 100%;
   -webkit-font-smoothing: antialiased;
