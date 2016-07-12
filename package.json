@@ -4,7 +4,9 @@
   "description": "A new site created with cory",
   "main": "index.js",
   "scripts": {
-    "start": "cory serve -w"
+    "start": "cory serve -w",
+    "now-start": "cory serve",
+    "build": "cory build"
   },
   "author": "Your name",
   "license": "MIT",
@@ -14,5 +16,8 @@
     "broccoli-funnel": "^1.0.2",
     "broccoli-merge-trees": "^1.1.1",
     "broccoli-sass": "^0.7.0"
+  },
+  "dependencies": {
+    "cory": "^2.0.0"
   }
 }
