@@ -1,6 +1,0 @@
-# build output
-_site
-.sass-cache
-
-# other
-*.lock
