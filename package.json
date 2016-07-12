@@ -6,7 +6,8 @@
   "scripts": {
     "start": "cory serve -w",
     "now-start": "cory serve",
-    "build": "cory build"
+    "build": "cory build",
+    "deploy": "ns dist -n leo"
   },
   "author": "Your name",
   "license": "MIT",
