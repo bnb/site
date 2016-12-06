@@ -19,6 +19,7 @@ export default () => (
       <link rel="apple-touch-icon" href="/static/images/touch-icon.png"/>
       <link rel="icon" href="/static/images/touch-icon.png" type="image/png"/>
 
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cardo&text=Just%20call%20me%20Leo"/>
       <link rel="stylesheet" href="/static/styles/main.css"/>
     </Head>
 
