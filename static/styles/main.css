@@ -41,6 +41,21 @@ section h2 {
   display: none;
 }
 
+nav {
+  font-family: 'Courier New', serif;
+  position: absolute;
+  left: 25px;
+  bottom: 27px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  padding: 10px;
+  display: block;
+}
+
 @media (min-width: 768px) {
   section {
     position: absolute;
@@ -69,25 +84,7 @@ section h2 {
     margin-right: 18px;
     display: inline-block;
   }
-}
 
-nav {
-  font-family: 'Courier New', serif;
-  position: absolute;
-  left: 25px;
-  bottom: 27px;
-  white-space: pre-line;
-}
-
-nav a {
-  text-decoration: none;
-  color: #000;
-  font-size: 15px;
-  padding: 10px;
-  display: inline-block;
-}
-
-@media (min-width: 768px) {
   nav {
     left: 30px;
     right: 30px;
@@ -101,6 +98,7 @@ nav a {
     font-size: 16px;
     padding: 6px 19px;
     color: #454545;
+    display: inline-block;
   }
 
   nav a:hover {
