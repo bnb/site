@@ -1,5 +1,6 @@
 {
   "name": "leo",
+  "description": "My personal site",
   "repository": "leo/site",
   "scripts": {
     "start": "next start",
