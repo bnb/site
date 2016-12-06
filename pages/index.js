@@ -18,6 +18,8 @@ export default () => (
       <link rel="mask-icon" href="http://leo.im/assets/flash.svg" color="#000000"/>
       <link rel="apple-touch-icon" href="/static/images/touch-icon.png"/>
       <link rel="icon" href="/static/images/touch-icon.png" type="image/png"/>
+
+      <link rel="stylesheet" href="/static/styles/main.css"/>
     </Head>
 
     <section>
