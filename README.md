@@ -7,4 +7,4 @@ This is where you'll find all the links to the places where my work lives. If yo
 1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device
 2. Move into the repository's directory: `cd site`
 3. Install dependencies: `npm install`
-4. Run Cory and tell it to watch for changes: `npm start`
+4. Run Next and tell it to watch for changes: `npm start`
