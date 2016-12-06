@@ -2,7 +2,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-// Ours
+// Components
 import Links from '../components/links'
 import Naming from '../components/naming'
 
