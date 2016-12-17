@@ -18,7 +18,7 @@ export default () => (
       <meta name="twitter:creator" content="@lmprht"/>
       <meta name="twitter:title" content="Leo Lamprecht"/>
       <meta name="twitter:description" content="A teenagers view on web development and intuitive UI design."/>
-      <meta name="twitter:image" content="http://leo.im/assets/touch-icon.png"/>
+      <meta name="twitter:image" content="https://leo.im/assets/touch-icon.png"/>
 
       <link rel="mask-icon" href="http://leo.im/assets/flash.svg" color="#000000"/>
       <link rel="apple-touch-icon" href="/static/images/touch-icon.png"/>
