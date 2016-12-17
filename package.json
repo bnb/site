@@ -1,5 +1,4 @@
 {
-  "name": "leo",
   "repository": "leo/site",
   "scripts": {
     "start": "next start",
