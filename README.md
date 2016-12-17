@@ -1,6 +1,8 @@
 # leo.im
 
-Where the magic happens! If you want to see the old version of the site (including all of the old posts), you can find it [here](https://github.com/leo/site/tree/407778d22e4611f873daf2fb2431cf08ef9dffef).
+**Where the magic happens!**
+
+If you want to see the old version of the site (including all of the old posts), you can find it [here](https://github.com/leo/site/tree/407778d22e4611f873daf2fb2431cf08ef9dffef).
 
 ## Caught a Bug?
 
