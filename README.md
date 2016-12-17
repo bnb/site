@@ -9,4 +9,4 @@ If you want to see the old version of the site (including all of the old posts),
 1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device
 2. Move into the repository's directory: `cd site`
 3. Install dependencies: `npm install`
-4. Run [next](https://github.com/zeit/next.js) and tell it to watch for changes: `npm start`
+4. Run [next](https://github.com/zeit/next.js) and tell it to watch for changes: `npm run dev`
