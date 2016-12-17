@@ -4,6 +4,7 @@
     "build": "next build",
     "dev": "next"
   },
+  "repository": "leo/site",
   "license": "MIT",
   "dependencies": {
     "next": "^1.2.3"
