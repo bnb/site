@@ -20,7 +20,7 @@ export default () => (
       <meta name="twitter:description" content="A teenagers view on web development and intuitive UI design."/>
       <meta name="twitter:image" content="https://leo.im/assets/touch-icon.png"/>
 
-      <link rel="mask-icon" href="http://leo.im/assets/flash.svg" color="#000000"/>
+      <link rel="mask-icon" href="https://leo.im/assets/flash.svg" color="#000000"/>
       <link rel="apple-touch-icon" href="/static/images/touch-icon.png"/>
       <link rel="icon" href="/static/images/touch-icon.png" type="image/png"/>
 
