@@ -1,4 +1,5 @@
 {
+  "name": "leo",
   "scripts": {
     "start": "next start",
     "build": "next build",
