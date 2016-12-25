@@ -26,8 +26,6 @@ export default () => (
 
       <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cardo&text=Just%20call%20me%20Leo"/>
       <link rel="stylesheet" href="/static/styles/main.css"/>
-
-      <script src="/static/scripts/analytics.js"></script>
     </Head>
 
     <Naming/>
