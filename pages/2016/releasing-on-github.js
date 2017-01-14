@@ -7,6 +7,7 @@ import Post from '../../layouts/post'
 
 // Components
 import P from '../../components/post/paragraph'
+import {H1, H2, H3} from '../../components/post/heading'
 
 export default () => (
   <Post>
@@ -14,7 +15,7 @@ export default () => (
       <title>Releasing on GitHub</title>
     </Head>
 
-    <h1>Releasing on GitHub</h1>
+    <H1>Releasing on GitHub</H1>
 
     <P>Every since programmers have started writing applications
     for the general public, there has always been that weird structural
@@ -43,7 +44,7 @@ export default () => (
     be people who’re stubborn enough to completely ignore the benefits
     that the industry would be deriving from a consistent workflow.</P>
 
-    <h2>But Who Cares, Right? 😋</h2>
+    <H2>But Who Cares, Right? 😋</H2>
 
     <P>Instead of complaining about the problems of our industry, I’d like
     to take the chance and propose a new, simple concept for properly
@@ -56,7 +57,7 @@ export default () => (
 
     <P>Got it? Then let’s start with…</P>
 
-    <h2>The Basics</h2>
+    <H2>The Basics</H2>
 
     <P>Assuming that you’d like to publish <b>version 0.2.0</b> of a certain
     project, the first thing you need to do is open up your repository on GitHub.</P>
@@ -81,7 +82,7 @@ export default () => (
     allows you to create a new release. To be more precise, you
     should currently be looking at the four most important fields:</P>
 
-    <h3>Tag Version</h3>
+    <H3>Tag Version</H3>
 
     <P>Because you want to publish version 0.2.0 of your project, you
     need to set this field to “0.2.0”.</P>
@@ -91,7 +92,7 @@ export default () => (
     each new release also requires the increase of the version
     number (like stated <a href="http://semver.org" target="_blank">here</a>).</P>
 
-    <h3>Target Commit</h3>
+    <H3>Target Commit</H3>
 
     <P>Whenever you create a new commit using GitHub Releases, it will
     automatically generate a Git Tag for you. In order to create this
@@ -102,7 +103,7 @@ export default () => (
     choose commits that are part of the release bundle), simply
     click on the button and switch it.</P>
 
-    <h3>Release Title</h3>
+    <H3>Release Title</H3>
 
     <P>I recommend leaving this one empty. This will simply
     instruct GitHub to use the version number as the release title.</P>
@@ -112,7 +113,7 @@ export default () => (
     of words), you can also put that one in and ensure a
     unique style that people will associate with you.</P>
 
-    <h3>Changelog</h3>
+    <H3>Changelog</H3>
 
     <P>This multi-line text field is the most important part
     of the whole release. It indicates the changes made
@@ -135,7 +136,7 @@ export default () => (
     affects the end user and Links to the commits, pull requests and
     issues that are related to it.</P>
 
-    <h2>The Finish line ……… 🏃‍</h2>
+    <H2>The Finish line ……… 🏃‍</H2>
 
     <P>Once you’ve filled out all of these fields, you’re
     ready to publish your first release! Just hit
@@ -164,7 +165,7 @@ export default () => (
       technique. In turn, we’ll move much faster collectively.</li>
     </ul>
 
-    <h2>Examples</h2>
+    <H2>Examples</H2>
 
     <P>Here’s a list of selected repositories on which
     I’ve applied this technique (all of them are built
@@ -176,7 +177,7 @@ export default () => (
       <li><Link href="https://github.com/zeit/micro/releases">Micro</Link> — Async HTTP microservices made easy</li>
     </ul>
 
-    <h2>Exceptions</h2>
+    <H2>Exceptions</H2>
 
     <P>We’re not living in a world where everything is just
     black or white. Although the concept mentioned above is

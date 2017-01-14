@@ -7,6 +7,7 @@ import Post from '../../layouts/post'
 
 // Components
 import P from '../../components/post/paragraph'
+import {H1} from '../../components/post/heading'
 
 export default () => (
   <Post>
@@ -14,7 +15,7 @@ export default () => (
       <title>It's ZEIT</title>
     </Head>
 
-    <h1>It's ZEIT</h1>
+    <H1>It's ZEIT</H1>
 
     <P>On March the 30th, around midnight, <Link href="https://twitter.com/rauchg">Guillermo Rauch</Link> received
     an email from a guy who had noticed earlier that the person
