@@ -63,12 +63,16 @@ export default () => (
     <p>Now let your eyes float over the statistic bar at the
     top (the one with the colored bar at the bottom) and click on this section:</p>
 
+    <img src="/static/posts/releasing-on-github/section.png"/>
+
     <p>Next, the “Releases” page will open. This is the place where
     the users of your software will later be looking for a descriptive
     list of what changed in each new update.</p>
 
     <p>At the moment, you haven’t created any releases yet and
     GitHub is asking you to create one. So let’s go ahead, hit the button:</p>
+
+    <img src="/static/posts/releasing-on-github/new.png"/>
 
     <p>Now you’re on the most important page of all: The one that
     allows you to create a new release. To be more precise, you
