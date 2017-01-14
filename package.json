@@ -1,13 +1,11 @@
 {
   "name": "leo",
-  "scripts": {
-    "start": "next start",
-    "build": "next build",
-    "dev": "next"
+  "engines": {
+    "ace": "beta"
   },
-  "repository": "leo/site",
-  "license": "MIT",
-  "dependencies": {
-    "next": "^1.2.3"
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   }
 }
