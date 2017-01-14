@@ -148,7 +148,7 @@ export default () => (
     <p>Some other great advantages of releasing on GitHub:</p>
 
     <ul>
-      <li>You can use their <a href="https://developer.github.com/v3/repos/releases/">ApI</a> to show
+      <li>You can use their <a href="https://developer.github.com/v3/repos/releases/">API</a> to show
       the changelog somewhere else: Need it on your website? Or maybe even directly
       in the application? Easy!</li>
 
