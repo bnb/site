@@ -119,7 +119,7 @@ export default () => (
     <ul>
       <li>Major Changes</li>
       <li>Minor Changes</li>
-      <li>patches</li>
+      <li>Patches</li>
     </ul>
 
     <p>Each section should start with a heading of the third
@@ -166,7 +166,7 @@ export default () => (
     <ul>
       <li><Link href="https://github.com/zeit/now-desktop/releases">Now Desktop</Link> — The native client for ZEIT’s now</li>
       <li><Link href="https://github.com/leo/args/releases">Args</Link> — A minimal toolkit for creating Clis with node</li>
-      <li><Link href="https://github.com/zeit/micro/releases">Micro</Link> — Async HTTp microservices made easy</li>
+      <li><Link href="https://github.com/zeit/micro/releases">Micro</Link> — Async HTTP microservices made easy</li>
     </ul>
 
     <h2>Exceptions</h2>
