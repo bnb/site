@@ -91,7 +91,7 @@ export default () => (
     <P>While some people might suggest you to prefix the version
     with “v”, I highly recommend against that: It’s clear that
     each new release also requires the increase of the version
-    number (like stated <a href="http://semver.org" target="_blank">here</a>).</P>
+    number (like stated <Link href="http://semver.org">here</Link>).</P>
 
     <H3>Target Commit</H3>
 
@@ -153,7 +153,7 @@ export default () => (
     <P>Some other great advantages of releasing on GitHub:</P>
 
     <ul>
-      <li>You can use their <a href="https://developer.github.com/v3/repos/releases/">API</a> to show
+      <li>You can use their <Link href="https://developer.github.com/v3/repos/releases/">API</Link> to show
       the changelog somewhere else: Need it on your website? Or maybe even directly
       in the application? Easy!</li>
 
