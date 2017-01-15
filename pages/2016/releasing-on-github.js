@@ -6,9 +6,9 @@ import Link from 'next/prefetch'
 import Post from '../../layouts/post'
 
 // Components
-import P from '../../components/post/paragraph'
-import {H1, H2, H3} from '../../components/post/heading'
-import {Image} from '../../components/post/figure'
+import P from '../../components/paragraph'
+import {H1, H2, H3} from '../../components/heading'
+import {Image} from '../../components/figure'
 
 export default () => (
   <Post>
