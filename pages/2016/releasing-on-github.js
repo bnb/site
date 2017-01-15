@@ -204,7 +204,7 @@ export default () => (
     place. Thank you for caring about the welfare of
     our community/industry/whatever!</P>
 
-    <P><b>EDIT:</b> I recently wrote release, which covers the whole workflow of creating
+    <P><b>EDIT:</b> I recently wrote <Link href="https://github.com/zeit/release">release</Link>, which covers the whole workflow of creating
     a GitHub Release (and populating it with the changes
     made) with just a single command.</P>
   </Post>
