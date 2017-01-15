@@ -1,6 +1,5 @@
 // Packages
 import Head from 'next/head'
-import Link from 'next/prefetch'
 
 // Layouts
 import Post from '../../layouts/post'
@@ -8,6 +7,7 @@ import Post from '../../layouts/post'
 // Components
 import P from '../../components/paragraph'
 import {H1} from '../../components/heading'
+import Link from '../../components/link'
 
 export default () => (
   <Post>
