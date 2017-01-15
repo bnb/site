@@ -1,4 +1,4 @@
-// packages
+// Packages
 import Head from 'next/head'
 import Link from 'next/prefetch'
 
