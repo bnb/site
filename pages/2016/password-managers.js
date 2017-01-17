@@ -86,9 +86,9 @@ export default () => (
     now officially provides a way for third party app
     developers to access the keychain. As far as I know, the developer
     only needs to verify the ownership of the domain of
-    his website and all users will be able to choose the related password
-    directly out of a selection popup. So easy, try it! I thing
-    right know is the right time to make the change if you’re still
+    his website and all users will be able to choose the related password directly out of
+    a <Link href="https://9to5mac.com/2014/06/13/ios-8-lets-apps-access-safari-autofill-credentials-for-quick-easy-login/">selection popup</Link>. So
+    easy, try it! I thing right know is the right time to make the change if you’re still
     using a third-party password manager.</P>
 
     <P>Just admit it: Apple doesn’t need to be that fast at making
