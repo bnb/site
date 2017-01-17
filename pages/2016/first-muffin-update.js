@@ -13,8 +13,8 @@ export default () => (
     <Meta title="Status Update #1" date="March 4, 2016" />
 
     <P>Exactly one month has passed since I’ve announced
-    what I’ve been doing the last half year: I’ve started building
-    <Link href="http://muffin.cafe">Muffin</Link>, a modern way of managing content on websites.</P>
+    what I’ve been doing the last half year: I’ve started building <Link href="http://muffin.cafe">Muffin</Link>,
+    a modern way of managing content on websites.</P>
 
     <P>Since then, a lot of progress happened. First off, it
     now has it’s own <Link href="https://github.com/muffin">GitHub organisation</Link> that contains all of the

@@ -65,8 +65,8 @@ export default () => (
     <P>Yeeeha! You made it! Your users are happy again, since they’re
     able to zoom in if they can’t read something. Great job!</P>
 
-    <P>And as always, thank your for giving a shit! Also thanks to Leigh McCulloch, whose
-    <Link href="http://stackoverflow.com/a/27311443">answer</Link> caught my attention on Stack Overflow while I was searching for a
+    <P>And as always, thank your for giving a shit! Also thanks to Leigh McCulloch, whose <Link href="http://stackoverflow.com/a/27311443">answer</Link> caught
+    my attention on Stack Overflow while I was searching for a
     solution to make it work on my own site.</P>
   </Post>
 )

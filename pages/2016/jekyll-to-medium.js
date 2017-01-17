@@ -33,8 +33,7 @@ export default () => (
     posts in <Link href="https://ia.net/writer">iA Writer</Link>, a beautiful app for
     Mac OS and iOS that lets you write
     without distractions. But until now, I had to copy each post, move
-    it into the repository and add all kinds of so-called
-    <Link href="https://jekyllrb.com/docs/frontmatter/">Front Matter</Link> fields
+    it into the repository and add all kinds of so-called <Link href="https://jekyllrb.com/docs/frontmatter/">Front Matter</Link> fields
     which defined the meta information of each post. Of
     course I also had to adjust the filename to make it compatible
     with Jekyll’s preferred way of parsing posts.</P>
