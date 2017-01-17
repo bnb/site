@@ -9,6 +9,7 @@ import P from '../../components/paragraph'
 import {H1, H2, H3} from '../../components/heading'
 import {Image} from '../../components/figure'
 import Link from '../../components/link'
+import Meta from '../../components/meta'
 
 export default () => (
   <Post>
@@ -17,6 +18,7 @@ export default () => (
     </Head>
 
     <H1>Releasing on GitHub</H1>
+    <Meta date="October 16, 2016" />
 
     <P>Every since programmers have started writing applications
     for the general public, there has always been that weird structural

@@ -8,6 +8,7 @@ import Post from '../../layouts/post'
 import P from '../../components/paragraph'
 import {H1} from '../../components/heading'
 import Link from '../../components/link'
+import Meta from '../../components/meta'
 
 export default () => (
   <Post>
@@ -16,6 +17,7 @@ export default () => (
     </Head>
 
     <H1>It's ZEIT</H1>
+    <Meta date="August 16, 2016" />
 
     <P>On March the 30th, around midnight, <Link href="https://twitter.com/rauchg">Guillermo Rauch</Link> received
     an email from a guy who had noticed earlier that the person

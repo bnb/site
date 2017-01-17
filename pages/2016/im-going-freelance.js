@@ -9,6 +9,7 @@ import P from '../../components/paragraph'
 import {H1, H2, H3} from '../../components/heading'
 import {Image} from '../../components/figure'
 import Link from '../../components/link'
+import Meta from '../../components/meta'
 
 export default () => (
   <Post>
@@ -17,6 +18,7 @@ export default () => (
     </Head>
 
     <H1>I’m Going Freelance</H1>
+    <Meta date="May 6, 2016" />
 
     <P>It was last year when it happened: Just before Christmas, I’ve
     slowly noticed that I wouldn’t be able to continue working
