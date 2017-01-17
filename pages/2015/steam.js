@@ -8,7 +8,7 @@ import HR from '../../components/hr'
 
 export default () => (
   <Post>
-    <Meta title="Goodbye, Steam. It was a great time, but now you’re just being a bitch." date="07-09-2015" />
+    <Meta title="Goodbye, Steam. It was a great time, but now you’re just being a bitch." date="07-09-2015"/>
 
     <P>It was around 2010 when we first met. I was just a
     kid from a small town who wanted to try out what my
@@ -96,7 +96,7 @@ export default () => (
     launched there too. And if you ask me, that’s the only kind
     of game we actually need.</P>
 
-    <HR />
+    <HR/>
 
     <P>All in all, that’s exactly what I need to
     feel home again. So there it is:</P>

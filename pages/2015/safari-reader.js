@@ -11,7 +11,7 @@ import {Inline} from '../../components/code'
 
 export default () => (
   <Post>
-    <Meta title="How to Provide a Clean Safari Reader Experience" date="31-08-2015" />
+    <Meta title="How to Provide a Clean Safari Reader Experience" date="31-08-2015"/>
 
     <P>Since the beginning, Apple has always been a company that
     strives to provide a minimalistic feeling for both developers and
@@ -19,7 +19,7 @@ export default () => (
     expressed another time when they introduced Safari’s Reader
     functionality with version 5, back in 2010:</P>
 
-    <Image src="/static/posts/2015/safari-reader/browser-bar.png" />
+    <Image src="/static/posts/2015/safari-reader/browser-bar.png"/>
 
     <P>Today, the tool is used for reading articles without the
     usual amount of distraction on blogs and news sites. Besides

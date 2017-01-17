@@ -9,8 +9,8 @@ import HR from '../../components/hr'
 
 export default () => (
   <Post>
-    <Image src="/static/posts/2016/why/cover.png" />
-    <Meta title="Why I Do What I Do" date="08-03-2016" />
+    <Image src="/static/posts/2016/why/cover.png"/>
+    <Meta title="Why I Do What I Do" date="08-03-2016"/>
 
     <P>I lately thought a bit about what actually drives me
     to keep doing what I do. Yes, I know that I definitely want to
@@ -19,7 +19,7 @@ export default () => (
     <P>And since it might be helpful for others who
     aren’t sure if they want to go with what they’re doing, here it is:</P>
 
-    <HR />
+    <HR/>
 
     <P>As our society grew heavily over the last
     centuries, we were introduced to a lot of complicated

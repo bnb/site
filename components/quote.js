@@ -2,9 +2,9 @@ export default ({ by, children }) => (
   <blockquote>
     <p>
       { children }
-      <br />
+      <br/>
       {
-        by && `– ${ by }`
+        by && `– ${by}`
       }
     </p>
 

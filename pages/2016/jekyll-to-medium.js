@@ -10,7 +10,7 @@ import HR from '../../components/hr'
 
 export default () => (
   <Post>
-    <Meta title="Jekyll? Medium!" date="02-03-2016" />
+    <Meta title="Jekyll? Medium!" date="02-03-2016"/>
 
     <P>I’m a huge fan of Open Source in general. Because of this
     love, I’ve decided to put my blog on GitHub using
@@ -49,7 +49,7 @@ export default () => (
     <P>And the best thing about this: iA Writer now even
     provides an easy way to publish to Medium by simply clicking a menu item:</P>
 
-    <Image src="/static/posts/2016/jekyll-to-medium/share.png" />
+    <Image src="/static/posts/2016/jekyll-to-medium/share.png"/>
 
     <P>All of those tiny workflow improvements make Medium a much
     more convenient platform to write on. And if you ask me, that’s one of the
@@ -59,7 +59,7 @@ export default () => (
     <P>Because if something does, you’ll loose both the fun that it
     makes and the ability to convert your thoughts into something helpful for others.</P>
 
-    <HR />
+    <HR/>
 
     <P>While I don’t yet know what I’ll be writing about here, you can probably
     expect a lot of technical talk about my projects and what I’ve learned. Besides of

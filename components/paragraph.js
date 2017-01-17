@@ -1,6 +1,6 @@
 export default ({ children }) => (
   <p>
-    { children }
+    {children}
 
     <style jsx>{`
       p {

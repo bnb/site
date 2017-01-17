@@ -1,6 +1,6 @@
 const H = ({ children }) => (
   <h1>
-    { children }
+    {children}
 
     <style jsx>{`
       h1 {

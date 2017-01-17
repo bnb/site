@@ -10,7 +10,7 @@ import {Image} from '../../components/figure'
 
 export default () => (
   <Post>
-    <Meta title="Status Update #1" date="04-03-2016" />
+    <Meta title="Status Update #1" date="04-03-2016"/>
 
     <P>Exactly one month has passed since I’ve announced
     what I’ve been doing the last half year: I’ve started building <Link href="http://muffin.cafe">Muffin</Link>,
@@ -39,7 +39,7 @@ export default () => (
     a lot to the main system, but also because it was
     rewritten a lot of times:</P>
 
-    <Image src="/static/posts/2016/first-muffin-update/github-graph.png" />
+    <Image src="/static/posts/2016/first-muffin-update/github-graph.png"/>
 
     <P>But in the middle of the process, something started bugging me: There
     didn’t seem to be a way to simply add the API to the
@@ -70,7 +70,7 @@ export default () => (
     and service workers to the application easily. So all in
     all, I definitely don’t regret this decision!</P>
 
-    <H2>So, What's Next?</H2>
+    <H2>{`So, What's Next?`}</H2>
 
     <P>After having rebuilt the whole app using Ember, I will now
     continue adding more features to it and bring it to a stable version.</P>

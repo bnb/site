@@ -12,7 +12,7 @@ import HR from '../../components/hr'
 
 export default () => (
   <Post>
-    <Meta title="Releasing on GitHub" date="16-10-2016" />
+    <Meta title="Releasing on GitHub" date="16-10-2016"/>
 
     <P>Every since programmers have started writing applications
     for the general public, there has always been that weird structural
@@ -59,12 +59,12 @@ export default () => (
     <P>Assuming that you’d like to publish <b>version 0.2.0</b> of a certain
     project, the first thing you need to do is open up your repository on GitHub.</P>
 
-    <HR />
+    <HR/>
 
     <P>Now let your eyes float over the statistic bar at the
     top (the one with the colored bar at the bottom) and click on this section:</P>
 
-    <Image src="/static/posts/2016/releasing-on-github/section.png" />
+    <Image src="/static/posts/2016/releasing-on-github/section.png"/>
 
     <P>Next, the “Releases” page will open. This is the place where
     the users of your software will later be looking for a descriptive
@@ -73,7 +73,7 @@ export default () => (
     <P>At the moment, you haven’t created any releases yet and
     GitHub is asking you to create one. So let’s go ahead, hit the button:</P>
 
-    <Image src="/static/posts/2016/releasing-on-github/new.png" />
+    <Image src="/static/posts/2016/releasing-on-github/new.png"/>
 
     <P>Now you’re on the most important page of all: The one that
     allows you to create a new release. To be more precise, you
@@ -191,9 +191,9 @@ export default () => (
     fitting for this way of releasing software, should at
     least adapt as much as possible from the things mentioned above!</P>
 
-    <HR />
+    <HR/>
 
-    <P><b>That's it! ✔️</b></P>
+    <P><b>{`That's it! ✔️`}</b></P>
 
     <P>Now go out there and make sure that as many of your
     GitHub repositories as possible have proper releases in

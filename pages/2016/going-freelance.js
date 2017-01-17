@@ -9,7 +9,7 @@ import Meta from '../../components/meta'
 
 export default () => (
   <Post>
-    <Meta title="I’m Going Freelance" date="06-05-2016" />
+    <Meta title="I’m Going Freelance" date="06-05-2016"/>
 
     <P>It was last year when it happened: Just before Christmas, I’ve
     slowly noticed that I wouldn’t be able to continue working
@@ -54,7 +54,7 @@ export default () => (
     <P>But thankfully, I’ve managed to figure out the things from
     which these kinds of problems spawned from and also how to get rid of them.</P>
 
-    <H2>December? Why Didn't You Tell Us Earlier?</H2>
+    <H2>{`December? Why Didn't You Tell Us Earlier?`}</H2>
 
     <P>Because of the things I’ve mentioned above, I wasn’t even sure
     if I wanted to go on with this. So I’ve told myself: Let’s rather

@@ -8,7 +8,7 @@ import Meta from '../../components/meta'
 
 export default () => (
   <Post>
-    <Meta title="Static Site Generation à La JavaScript" date="07-03-2016" />
+    <Meta title="Static Site Generation à La JavaScript" date="07-03-2016"/>
 
     <P>If you have read one of my posts lately, you were
     probably able to figure out that my personal site runs on Jekyll — the most

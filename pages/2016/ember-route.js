@@ -11,7 +11,7 @@ import {Gist} from '../../components/figure'
 
 export default () => (
   <Post>
-    <Meta title="Ember.js: Adding a Body Class Based on the Current Route Name" date="14-03-2016" />
+    <Meta title="Ember.js: Adding a Body Class Based on the Current Route Name" date="14-03-2016"/>
 
     <P>When I first came in touch with Ember.js to build the client-side
     rendered version of <Link href="http://muffin.cafe">Muffin</Link>, I was looking for a way to add the name
@@ -50,14 +50,14 @@ export default () => (
     single class named “users-edit”, but rather added to the body
     as separate classes.</P>
 
-    <HR />
+    <HR/>
 
     <P>Because of this, I came up with a improved solution:</P>
 
     <P>I’ve generated a new initializer and
     called it “setup-route”. Then I’ve added the following methods to it:</P>
 
-    <Gist id="2bdb74cb1242f9766a25" />
+    <Gist id="2bdb74cb1242f9766a25"/>
 
     <P>So there you have it!</P>
 

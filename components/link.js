@@ -7,9 +7,9 @@ import isAbsoluteUrl from 'is-absolute-url'
 export default ({ href, children }) => (
   <span>
     {
-      isAbsoluteUrl(href)
-      ? <a href={href} target="_blank">{children}</a>
-      : <PreFetch href={href}>{children}</PreFetch>
+      isAbsoluteUrl(href) ?
+        <a href={href} target="_blank" rel="noreferrer noopener">{children}</a> :
+        <PreFetch href={href}>{children}</PreFetch>
     }
 
     <style jsx>{`

@@ -11,8 +11,8 @@ import {Image} from '../../components/figure'
 
 export default () => (
   <Post>
-    <Image src="/static/posts/2015/zoom/cover.png" />
-    <Meta title="Fixing Your Site’s Zooming-Problem on Mobile Devices" date="11-08-2015" />
+    <Image src="/static/posts/2015/zoom/cover.png"/>
+    <Meta title="Fixing Your Site’s Zooming-Problem on Mobile Devices" date="11-08-2015"/>
 
     <P>In 2007, Steve Jobs introduced us to the advantages of Apple’s new
     multitouch functionality, which was shipped with the first iPhone. I’m not
@@ -25,7 +25,7 @@ export default () => (
     the screen-width. Without using it, your site looks the same as on huge screens, even
     after adding media queries to your stylesheets.</P>
 
-    <HR />
+    <HR/>
 
     <P>Many of us blindly copied the element from other sites, without thinking
     about what it actually does. The only thing most of us probably noticed in the

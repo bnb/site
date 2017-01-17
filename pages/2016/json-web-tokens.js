@@ -13,7 +13,7 @@ import Space from '../../components/space'
 
 export default () => (
   <Post>
-    <Meta title="Why JSON Web Tokens Are Truly Awesome" date="04-03-2016" />
+    <Meta title="Why JSON Web Tokens Are Truly Awesome" date="04-03-2016"/>
 
     <P>There are many ways to handle authentication for web apps. Many
     frameworks (like Ember.js) come with a neat CLI and
@@ -36,7 +36,7 @@ export default () => (
 
     <P>Ready? Fine!</P>
 
-    <HR />
+    <HR/>
 
     <H2>How It Works</H2>
 
@@ -77,7 +77,7 @@ export default () => (
     private session key and comparing the obtained data
     to the user’s DB entry:</P>
 
-    <Image src="/static/posts/2016/json-web-tokens/diagram.png" origin="https://jwt.io" />
+    <Image src="/static/posts/2016/json-web-tokens/diagram.png" origin="https://jwt.io"/>
 
     <P>However, I think most middlewares don’t actually compare
     the token’s contents again. They simply decrypt it and if that’s not
@@ -111,7 +111,7 @@ export default () => (
     comes with an updated “exp” property and the whole
     process will start again.</P>
 
-    <HR />
+    <HR/>
 
     <P>“So what’s the best way to implement this into
     my Ember app”, you might ask now. Well, I have
@@ -121,8 +121,8 @@ export default () => (
     <P>It extends your ember-simple-auth instance and handles
     all of the necessary communication between the API and the client.</P>
 
-    <P>For the API, there’s <Link href="https://github.com/koajs/jwt">koa-jwt</Link>,<Space />
-    <Link href="https://github.com/auth0/express-jwt">express-jwt</Link><Space />
+    <P>For the API, there’s <Link href="https://github.com/koajs/jwt">koa-jwt</Link>,<Space/>
+      <Link href="https://github.com/auth0/express-jwt">express-jwt</Link><Space/>
     and <Link href="https://github.com/auth0/node-jsonwebtoken">jsonwebtoken</Link> if
     you rather want to implement the middleware between your web
     server and the actual creation of tokens by yourself...</P>

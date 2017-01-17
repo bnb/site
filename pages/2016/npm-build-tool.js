@@ -1,8 +1,8 @@
-// Layouts
-import Post from '../../layouts/post'
-
 // Packages
 import Tweet from 'react-tweet-embed'
+
+// Layouts
+import Post from '../../layouts/post'
 
 // Components
 import P from '../../components/paragraph'
@@ -15,7 +15,7 @@ import {UL, LI} from '../../components/list'
 
 export default () => (
   <Post>
-    <Meta title="Should npm Really Be Used as a Build Tool?" date="10-04-2016" />
+    <Meta title="Should npm Really Be Used as a Build Tool?" date="10-04-2016"/>
 
     <P>I’d like to talk about one of the web’s new “best practises” and my
     personal experiences with it. The intention behind this
@@ -73,7 +73,7 @@ export default () => (
     a certain task into a practical solution, it already
     started to get shitty again:</P>
 
-    <Image src="/static/posts/2016/npm-build-tool/remorse.gif" />
+    <Image src="/static/posts/2016/npm-build-tool/remorse.gif"/>
 
     <P>At first, I just had a single property in <Inline>package.scripts</Inline> and it was
     called <Inline>build</Inline>. And what it did
@@ -85,7 +85,7 @@ export default () => (
     server, bundling my ES2015 modules or implementing
     a file watcher), it started getting messy:</P>
 
-    <Gist id="1159217762212048cbc76c9067ee1699" />
+    <Gist id="1159217762212048cbc76c9067ee1699"/>
 
     <P>That’s how it looked before I switched back to Gulp. And remember, the
     upper example doesn’t even include tests. If you want to see how that looks,
@@ -161,7 +161,7 @@ export default () => (
     already fine working solution by fixing
     problems which we didn’t even have before.</P>
 
-    <Tweet id="700320306053935104" />
+    <Tweet id="700320306053935104"/>
 
     <P>What’s the next logical step after moving your tasks into
     separate files? Exactly: You’re going to find a way to share

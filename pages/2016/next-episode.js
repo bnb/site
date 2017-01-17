@@ -11,7 +11,7 @@ import Quote from '../../components/quote'
 
 export default () => (
   <Post>
-    <Meta title="The Next Episode" date="06-02-2016" />
+    <Meta title="The Next Episode" date="06-02-2016"/>
 
     <P>More than two months have passed since I wrote
     my last post. In those two months, a lot of stuff happened:</P>
@@ -64,7 +64,7 @@ export default () => (
     part, rather than into how it works, check out
     the <Link href="https://dribbble.com/notquiteleo">Dribbble project</Link>.</P>
 
-    <HR />
+    <HR/>
 
     <P>Thanks to my new schedule, I was also able to finally start
     journaling again. For the past months, it was something I simply

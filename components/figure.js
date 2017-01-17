@@ -1,6 +1,6 @@
 const Image = ({ width, src }) => (
   <figure>
-    <img width={width} src={src} />
+    <img width={width} src={src}/>
 
     <style jsx>{`
       img {

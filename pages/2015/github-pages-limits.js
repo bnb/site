@@ -1,8 +1,8 @@
-// Layouts
-import Post from '../../layouts/post'
-
 // Packages
 import Tweet from 'react-tweet-embed'
+
+// Layouts
+import Post from '../../layouts/post'
 
 // Components
 import P from '../../components/paragraph'
@@ -14,8 +14,8 @@ import HR from '../../components/hr'
 
 export default () => (
   <Post>
-    <Image src="/static/posts/2015/github-pages-limits/cover.png" />
-    <Meta title="Breaking GitHub Pages’ Speed Limitations with CloudFlare" date="26-08-2015" />
+    <Image src="/static/posts/2015/github-pages-limits/cover.png"/>
+    <Meta title="Breaking GitHub Pages’ Speed Limitations with CloudFlare" date="26-08-2015"/>
 
     <P>The last time I came in contact with CloudFlare, I was
     managing root servers for my own tiny <Link href="http://frewhost.net">hosting-provider</Link> and it looked
@@ -127,7 +127,7 @@ export default () => (
     this is where CloudFlare gets its hugest revenue
     from, compared to companies like Google).</P>
 
-    <Tweet id="624669416299589635" />
+    <Tweet id="624669416299589635"/>
 
     <P>I’m sure that he wasn’t talking about the way how Google uses the
     information that it gets from Analytics, but rather
@@ -175,7 +175,7 @@ export default () => (
     domain name with all the other stuff that makes my site even faster
     and easier to manage in the development process.</P>
 
-    <HR />
+    <HR/>
 
     <P>After a few hours with CloudFlare’s analytics tool, I found out
     about another great advantage over Google’s way of doing
