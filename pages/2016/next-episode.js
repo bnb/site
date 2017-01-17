@@ -11,7 +11,7 @@ import Quote from '../../components/quote'
 
 export default () => (
   <Post>
-    <Meta title="The Next Episode" date="03-03-2016" />
+    <Meta title="The Next Episode" date="06-02-2016" />
 
     <P>More than two months have passed since I wrote
     my last post. In those two months, a lot of stuff happened:</P>
