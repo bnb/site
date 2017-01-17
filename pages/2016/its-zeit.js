@@ -9,9 +9,11 @@ import P from '../../components/paragraph'
 import {H1} from '../../components/heading'
 import Link from '../../components/link'
 import Meta from '../../components/meta'
+import {Image} from '../../components/figure'
 
 export default () => (
   <Post>
+    <Image src="/static/posts/its-zeit/cover.png" />
     <Meta title="It's ZEIT" date="August 16, 2016" />
 
     <P>On March the 30th, around midnight, <Link href="https://twitter.com/rauchg">Guillermo Rauch</Link> received
