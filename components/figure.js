@@ -11,4 +11,10 @@ const Image = ({ width, src }) => (
   </figure>
 )
 
-export { Image }
+const gistURL = id => `//gist.github.com/leo/${id}.js`
+
+const Gist = ({ id }) => (
+  <script src={ gistURL(id) }></script>
+)
+
+export { Image, Gist }
