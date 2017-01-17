@@ -10,7 +10,7 @@ import {Image} from '../../components/figure'
 
 export default () => (
   <Post>
-    <Meta title="Status Update #1" date="04-03-2016"/>
+    <Meta title="Muffin: Status Update #1" date="04-03-2016"/>
 
     <P>Exactly one month has passed since I’ve announced
     what I’ve been doing the last half year: I’ve started building <Link href="http://muffin.cafe">Muffin</Link>,
