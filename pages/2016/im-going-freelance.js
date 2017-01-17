@@ -13,12 +13,7 @@ import Meta from '../../components/meta'
 
 export default () => (
   <Post>
-    <Head>
-      <title>I’m Going Freelance</title>
-    </Head>
-
-    <H1>I’m Going Freelance</H1>
-    <Meta date="May 6, 2016" />
+    <Meta title="I’m Going Freelance" date="May 6, 2016" />
 
     <P>It was last year when it happened: Just before Christmas, I’ve
     slowly noticed that I wouldn’t be able to continue working

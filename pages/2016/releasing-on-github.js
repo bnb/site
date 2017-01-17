@@ -13,12 +13,7 @@ import Meta from '../../components/meta'
 
 export default () => (
   <Post>
-    <Head>
-      <title>Releasing on GitHub</title>
-    </Head>
-
-    <H1>Releasing on GitHub</H1>
-    <Meta date="October 16, 2016" />
+    <Meta title="Releasing on GitHub" date="October 16, 2016" />
 
     <P>Every since programmers have started writing applications
     for the general public, there has always been that weird structural

@@ -12,12 +12,7 @@ import Meta from '../../components/meta'
 
 export default () => (
   <Post>
-    <Head>
-      <title>It's ZEIT</title>
-    </Head>
-
-    <H1>It's ZEIT</H1>
-    <Meta date="August 16, 2016" />
+    <Meta title="It's ZEIT" date="August 16, 2016" />
 
     <P>On March the 30th, around midnight, <Link href="https://twitter.com/rauchg">Guillermo Rauch</Link> received
     an email from a guy who had noticed earlier that the person
