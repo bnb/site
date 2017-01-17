@@ -5,7 +5,7 @@ import Post from '../../layouts/post'
 import P from '../../components/paragraph'
 import Link from '../../components/link'
 import Meta from '../../components/meta'
-import Snippet from '../../components/snippet'
+import {Snippet} from '../../components/code'
 import HR from '../../components/hr'
 import {Gist} from '../../components/figure'
 

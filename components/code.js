@@ -1,6 +1,7 @@
-export default ({ children }) => (
+const Snippet = ({ children }) => (
   <pre>
     <code>{ children }</code>
+
     <style jsx>{`
       pre {
         line-height: 20px;
@@ -13,3 +14,9 @@ export default ({ children }) => (
     `}</style>
   </pre>
 )
+
+const Inline = ({ children }) => (
+  <code>{ children }</code>
+)
+
+export { Snippet, Inline }

@@ -7,6 +7,7 @@ import Link from '../../components/link'
 import Meta from '../../components/meta'
 import {Image} from '../../components/figure'
 import {UL, LI} from '../../components/list'
+import {Inline} from '../../components/code'
 
 export default () => (
   <Post>
@@ -29,7 +30,7 @@ export default () => (
     <P>If you’re working with HTML5 (I hope so), you might
     already know that there’s this one tag that is used
     for displaying a line of paragraphs, headings, block
-    quotes and lists: <b>{`<article>`}</b>. Although Safari doesn’t require a
+    quotes and lists: <Inline>{`<article>`}</Inline>. Although Safari doesn’t require a
     specific tag, it’s currently the most semantic one for this
     purpose. Which means, if your websites shows news items, they
     should be shown in such a tag. If you don’t use it, Safari will
@@ -38,8 +39,8 @@ export default () => (
 
     <P>The only problem with this feature is that it not
     only picks the tags I’ve mentioned, but also things
-    like <b>{`<time>`}</b>, <b>{`<hr>`}</b> or other elements which are semantically
-    correct within an <b>{`<article>`}</b> tag.</P>
+    like <Inline>{`<time>`}</Inline>, <Inline>{`<hr>`}</Inline> or other elements which are semantically
+    correct within an <Inline>{`<article>`}</Inline> tag.</P>
 
     <P>But if you’re like me and want to display the date and/or dividers
     below the meta information but don’t want to show them in the
