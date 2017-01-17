@@ -11,9 +11,11 @@ import Link from '../../components/link'
 import Meta from '../../components/meta'
 import HR from '../../components/hr'
 import Snippet from '../../components/snippet'
+import {Image} from '../../components/figure'
 
 export default () => (
   <Post>
+    <Image src="/static/posts/fix-zooming-problem/cover.png" cover />
     <Meta title="Fixing Your Site’s Zooming-Problem on Mobile Devices" date="March 11, 2016" />
 
     <P>In 2007, Steve Jobs introduced us to the advantages of Apple’s new
