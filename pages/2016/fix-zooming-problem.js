@@ -1,12 +1,8 @@
-// Native
-import Head from 'next/head'
-
 // Layouts
 import Post from '../../layouts/post'
 
 // Components
 import P from '../../components/paragraph'
-import {H1} from '../../components/heading'
 import Link from '../../components/link'
 import Meta from '../../components/meta'
 import HR from '../../components/hr'
