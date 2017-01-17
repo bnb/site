@@ -193,7 +193,7 @@ export default () => (
 
     <HR />
 
-    <b>That's it! ✔️</b>
+    <P><b>That's it! ✔️</b></P>
 
     <P>Now go out there and make sure that as many of your
     GitHub repositories as possible have proper releases in
