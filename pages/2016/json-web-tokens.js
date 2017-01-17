@@ -13,7 +13,7 @@ import Space from '../../components/space'
 
 export default () => (
   <Post>
-    <Meta title="Why JSON Web Tokens Are Truly Awesome" date="March 4, 2016" />
+    <Meta title="Why JSON Web Tokens Are Truly Awesome" date="04-03-2016" />
 
     <P>There are many ways to handle authentication for web apps. Many
     frameworks (like Ember.js) come with a neat CLI and

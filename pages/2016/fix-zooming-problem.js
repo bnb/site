@@ -12,7 +12,7 @@ import {Image} from '../../components/figure'
 export default () => (
   <Post>
     <Image src="/static/posts/fix-zooming-problem/cover.png" />
-    <Meta title="Fixing Your Site’s Zooming-Problem on Mobile Devices" date="March 11, 2016" />
+    <Meta title="Fixing Your Site’s Zooming-Problem on Mobile Devices" date="11-08-2015" />
 
     <P>In 2007, Steve Jobs introduced us to the advantages of Apple’s new
     multitouch functionality, which was shipped with the first iPhone. I’m not

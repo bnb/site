@@ -10,7 +10,7 @@ import HR from '../../components/hr'
 
 export default () => (
   <Post>
-    <Meta title="Jekyll? Medium!" date="March 2, 2016" />
+    <Meta title="Jekyll? Medium!" date="02-03-2016" />
 
     <P>I’m a huge fan of Open Source in general. Because of this
     love, I’ve decided to put my blog on GitHub using
