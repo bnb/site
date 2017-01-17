@@ -9,6 +9,7 @@ import {Image} from '../../components/figure'
 import HR from '../../components/hr'
 import {H2} from '../../components/heading'
 import {OL, LI} from '../../components/list'
+import Space from '../../components/space'
 
 export default () => (
   <Post>
@@ -120,8 +121,8 @@ export default () => (
     <P>It extends your ember-simple-auth instance and handles
     all of the necessary communication between the API and the client.</P>
 
-    <P>For the API, there’s <Link href="https://github.com/koajs/jwt">koa-jwt</Link>,
-    <Link href="https://github.com/auth0/express-jwt">express-jwt</Link>
+    <P>For the API, there’s <Link href="https://github.com/koajs/jwt">koa-jwt</Link>,<Space />
+    <Link href="https://github.com/auth0/express-jwt">express-jwt</Link><Space />
     and <Link href="https://github.com/auth0/node-jsonwebtoken">jsonwebtoken</Link> if
     you rather want to implement the middleware between your web
     server and the actual creation of tokens by yourself...</P>
