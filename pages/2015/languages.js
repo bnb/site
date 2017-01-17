@@ -8,7 +8,7 @@ import {Image} from '../../components/figure'
 
 export default () => (
   <Post>
-    <Image src="/static/posts/the-role-of-languages/cover.png" />
+    <Image src="/static/posts/2015/languages/cover.png" />
     <Meta title="The Role of Languages in Today’s Web" date="23-05-2015" />
 
     <P>We’re living in a global world. Everybody is

@@ -77,7 +77,7 @@ export default () => (
     private session key and comparing the obtained data
     to the user’s DB entry:</P>
 
-    <Image src="/static/posts/json-web-tokens/diagram.png" origin="https://jwt.io" />
+    <Image src="/static/posts/2016/json-web-tokens/diagram.png" origin="https://jwt.io" />
 
     <P>However, I think most middlewares don’t actually compare
     the token’s contents again. They simply decrypt it and if that’s not

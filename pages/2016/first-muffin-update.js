@@ -39,7 +39,7 @@ export default () => (
     a lot to the main system, but also because it was
     rewritten a lot of times:</P>
 
-    <Image src="/static/posts/first-muffin-update/github-graph.png" />
+    <Image src="/static/posts/2016/first-muffin-update/github-graph.png" />
 
     <P>But in the middle of the process, something started bugging me: There
     didn’t seem to be a way to simply add the API to the
