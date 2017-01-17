@@ -1,4 +1,4 @@
-// Packages
+// Native
 import Head from 'next/head'
 
 // Layouts

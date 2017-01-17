@@ -1,5 +1,7 @@
-// Packages
+// Native
 import PreFetch from 'next/prefetch'
+
+// Packages
 import isAbsoluteUrl from 'is-absolute-url'
 
 export default ({ href, children }) => (
