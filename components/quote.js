@@ -7,6 +7,7 @@ export default ({ by, children }) => (
         by && `– ${ by }`
       }
     </p>
+
     <style jsx>{`
       blockquote {
         margin: 30px 0;
