@@ -7,6 +7,8 @@ import {H2, H3} from '../../components/heading'
 import {Image} from '../../components/figure'
 import Link from '../../components/link'
 import Meta from '../../components/meta'
+import {UL, LI} from '../../components/list'
+import HR from '../../components/hr'
 
 export default () => (
   <Post>
@@ -50,14 +52,14 @@ export default () => (
     focus on their actual software instead of wondering about
     the perfect setup for the releases.</P>
 
-    <P>Got it? Then let’s start with…</P>
+    <P>Got it? Then let’s start with...</P>
 
     <H2>The Basics</H2>
 
     <P>Assuming that you’d like to publish <b>version 0.2.0</b> of a certain
     project, the first thing you need to do is open up your repository on GitHub.</P>
 
-    <hr/>
+    <HR />
 
     <P>Now let your eyes float over the statistic bar at the
     top (the one with the colored bar at the bottom) and click on this section:</P>
@@ -119,11 +121,11 @@ export default () => (
     of Semantic Versioning. This means that you’ll end
     up with three headings:</P>
 
-    <ul>
-      <li>Major Changes</li>
-      <li>Minor Changes</li>
-      <li>Patches</li>
-    </ul>
+    <UL>
+      <LI>Major Changes</LI>
+      <LI>Minor Changes</LI>
+      <LI>Patches</LI>
+    </UL>
 
     <P>Each section should start with a heading of the third
     type (three hashes in markdown) and contain a bullet list of changes
@@ -131,7 +133,7 @@ export default () => (
     affects the end user and Links to the commits, pull requests and
     issues that are related to it.</P>
 
-    <H2>The Finish line ……… 🏃‍</H2>
+    <H2>The Finish Line ....... 🏃‍</H2>
 
     <P>Once you’ve filled out all of these fields, you’re
     ready to publish your first release! Just hit
@@ -146,19 +148,19 @@ export default () => (
 
     <P>Some other great advantages of releasing on GitHub:</P>
 
-    <ul>
-      <li>You can use their <Link href="https://developer.github.com/v3/repos/releases/">API</Link> to show
+    <UL>
+      <LI>You can use their <Link href="https://developer.github.com/v3/repos/releases/">API</Link> to show
       the changelog somewhere else: Need it on your website? Or maybe even directly
-      in the application? Easy!</li>
+      in the application? Easy!</LI>
 
-      <li>A consistent changelog structure allows people
-      to easily parse the content of your releases and display them in their own style.</li>
+      <LI>A consistent changelog structure allows people
+      to easily parse the content of your releases and display them in their own style.</LI>
 
-      <li>Assuming that all developers are going to handle their software releases
+      <LI>Assuming that all developers are going to handle their software releases
       like mentioned above, we’ll be able to minimise the amount of
       confusion that gets created from everyone swearing by a different
-      technique. In turn, we’ll move much faster collectively.</li>
-    </ul>
+      technique. In turn, we’ll move much faster collectively.</LI>
+    </UL>
 
     <H2>Examples</H2>
 
@@ -166,11 +168,11 @@ export default () => (
     I’ve applied this technique (all of them are built
     on top of <Link href="https://nodejs.org/en/">Node</Link>):</P>
 
-    <ul>
-      <li><Link href="https://github.com/zeit/now-desktop/releases">Now Desktop</Link> — The native client for ZEIT’s now</li>
-      <li><Link href="https://github.com/leo/args/releases">Args</Link> — A minimal toolkit for creating Clis with node</li>
-      <li><Link href="https://github.com/zeit/micro/releases">Micro</Link> — Async HTTP microservices made easy</li>
-    </ul>
+    <UL>
+      <LI><Link href="https://github.com/zeit/now-desktop/releases">Now Desktop</Link> — The native client for ZEIT’s now</LI>
+      <LI><Link href="https://github.com/leo/args/releases">Args</Link> — A minimal toolkit for creating Clis with node</LI>
+      <LI><Link href="https://github.com/zeit/micro/releases">Micro</Link> — Async HTTP microservices made easy</LI>
+    </UL>
 
     <H2>Exceptions</H2>
 
@@ -189,7 +191,7 @@ export default () => (
     fitting for this way of releasing software, should at
     least adapt as much as possible from the things mentioned above!</P>
 
-    <hr/>
+    <HR />
 
     <b>That's it! ✔️</b>
 
