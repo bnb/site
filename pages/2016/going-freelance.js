@@ -3,7 +3,7 @@ import Post from '../../layouts/post'
 
 // Components
 import P from '../../components/paragraph'
-import {H2, H3} from '../../components/heading'
+import {H2} from '../../components/heading'
 import Link from '../../components/link'
 import Meta from '../../components/meta'
 
