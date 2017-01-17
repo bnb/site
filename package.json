@@ -9,6 +9,9 @@
   "engines": {
     "ace": "beta"
   },
+  "greenkeepers": {
+    "emails": false
+  },
   "xo": {
     "extends": "xo-react",
     "space": true,
