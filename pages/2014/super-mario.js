@@ -8,7 +8,7 @@ import Meta from '../../components/meta'
 
 export default () => (
   <Post>
-    <Meta title="Super Mario Mit Portalen" date="11-01-2014"/>
+    <Meta id="super-mario"/>
 
     <P>Vor kurzem kam ich per Zufall über ein Video von
     PewDiePie, was mir dann den Rest des Tages quasi gerettet hat.</P>

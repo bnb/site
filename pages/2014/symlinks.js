@@ -11,7 +11,7 @@ import {Inline} from '../../components/code'
 
 export default () => (
   <Post>
-    <Meta title="Weg Mit Diesen Blöden Verknüpfungs-Pfeilen Auf Windows 7" date="27-01-2014"/>
+    <Meta id="symlinks"/>
 
     <P>Da ich es an meinem {`"`}Arbeitsplatz{`"`} ja gerne
     immer relativ ordentlich habe, musste es natürlich irgendwann

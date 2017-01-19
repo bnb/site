@@ -10,7 +10,7 @@ import Space from '../../components/space'
 
 export default () => (
   <Post>
-    <Meta title="Alle Arten Von Jailbreaks Von iOS 7 Entfernen" date="09-01-2014"/>
+    <Meta id="jailbreaks"/>
 
     <P>Am 22. Dezember des letzten Jahres gaben Entwickler
     auf ihrem Twitter-Profil den Link zum ersten

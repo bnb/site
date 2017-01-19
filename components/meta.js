@@ -1,8 +1,12 @@
 // Native
 import Head from 'next/head'
+import React from 'react'
 
 // Packages
 import moment from 'moment'
+
+// Data
+import posts from '../data/posts'
 
 // Components
 import {H1} from './heading'
@@ -11,13 +15,21 @@ const humanReadable = date => {
   return moment(date, 'DD-MM-YYYY').format('MMMM Do YYYY')
 }
 
-export default ({ title, date }) => (
-  <aside>
-    <Head>
-      <title>{ title }</title>
-    </Head>
+const findPost = id => posts.find(post => post.id === id)
 
-    <H1>{ title }</H1>
-    <span>{ humanReadable(date) }</span>
-  </aside>
-)
+export default class Meta extends React.Component {
+  render() {
+    const post = findPost(this.props.id)
+
+    return (
+      <aside>
+        <Head>
+          <title>{ post.title }</title>
+        </Head>
+
+        <H1>{ post.title }</H1>
+        <span>{ humanReadable(post.date) }</span>
+      </aside>
+    )
+  }
+}
