@@ -12,7 +12,7 @@ import HR from '../../components/hr'
 
 export default () => (
   <Post>
-    <Meta title="Releasing on GitHub" date="16-10-2016"/>
+    <Meta id="releasing-on-github"/>
 
     <P>Every since programmers have started writing applications
     for the general public, there has always been that weird structural

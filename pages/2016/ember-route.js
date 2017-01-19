@@ -11,7 +11,7 @@ import {Gist} from '../../components/figure'
 
 export default () => (
   <Post>
-    <Meta title="Ember.js: Adding a Body Class Based on the Current Route Name" date="14-03-2016"/>
+    <Meta id="ember-route"/>
 
     <P>When I first came in touch with Ember.js to build the client-side
     rendered version of <Link href="http://muffin.cafe">Muffin</Link>, I was looking for a way to add the name

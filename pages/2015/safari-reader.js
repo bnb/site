@@ -11,7 +11,7 @@ import {Inline} from '../../components/code'
 
 export default () => (
   <Post>
-    <Meta title="How to Provide a Clean Safari Reader Experience" date="31-08-2015"/>
+    <Meta id="safari-reader"/>
 
     <P>Since the beginning, Apple has always been a company that
     strives to provide a minimalistic feeling for both developers and

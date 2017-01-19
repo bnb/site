@@ -9,7 +9,7 @@ import Meta from '../../components/meta'
 
 export default () => (
   <Post>
-    <Meta title="I’m Going Freelance" date="06-05-2016"/>
+    <Meta id="going-freelance"/>
 
     <P>It was last year when it happened: Just before Christmas, I’ve
     slowly noticed that I wouldn’t be able to continue working

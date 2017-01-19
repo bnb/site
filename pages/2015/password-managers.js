@@ -9,7 +9,7 @@ import Link from '../../components/link'
 
 export default () => (
   <Post>
-    <Meta title="Password Managers and Their Future" date="22-09-2015"/>
+    <Meta id="password-managers"/>
 
     <P>With computers, we got another big thing
     to worry about in our everyday life: Passwords.</P>

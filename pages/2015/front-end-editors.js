@@ -9,7 +9,7 @@ import {UL, LI} from '../../components/list'
 
 export default () => (
   <Post>
-    <Meta title="Front-End Editors and Their Mistakes" date="19-08-2015"/>
+    <Meta id="front-end-editors"/>
 
     <P>If you’re on a social network and following some of the
     most known people in the industry, you can’t use excuse that you don’t already

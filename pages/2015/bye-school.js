@@ -8,7 +8,7 @@ import Link from '../../components/link'
 
 export default () => (
   <Post>
-    <Meta title="Bye School, Hello Life!" date="25-07-2015"/>
+    <Meta id="bye-school"/>
 
     <P>Today{`'`}s the day: I{`'`}ve graduated from school.</P>
 

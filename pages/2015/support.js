@@ -12,7 +12,7 @@ import {UL, LI} from '../../components/list'
 
 export default () => (
   <Post>
-    <Meta title="Avoiding a Total UX-Mess in Product Support" date="26-06-2015"/>
+    <Meta id="support"/>
 
     <P>I’m not a “Well, they might fix it in the future” kind
     of a person. If my process of interaction

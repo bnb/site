@@ -8,7 +8,7 @@ import HR from '../../components/hr'
 
 export default () => (
   <Post>
-    <Meta title="Goodbye, Steam. It was a great time, but now you’re just being a bitch." date="07-09-2015"/>
+    <Meta id="steam"/>
 
     <P>It was around 2010 when we first met. I was just a
     kid from a small town who wanted to try out what my

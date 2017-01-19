@@ -15,7 +15,7 @@ import HR from '../../components/hr'
 export default () => (
   <Post>
     <Image src="/static/posts/2015/github-pages-limits/cover.png"/>
-    <Meta title="Breaking GitHub Pages’ Speed Limitations with CloudFlare" date="26-08-2015"/>
+    <Meta id="github-pages-limits"/>
 
     <P>The last time I came in contact with CloudFlare, I was
     managing root servers for my own tiny <Link href="http://frewhost.net">hosting-provider</Link> and it looked

@@ -13,7 +13,7 @@ import {Snippet} from '../../components/code'
 export default () => (
   <Post>
     <Image src="/static/posts/2016/robots/cover.png"/>
-    <Meta title="Getting Started with JavaScript Robotics" date="15-06-2016"/>
+    <Meta id="robots"/>
 
     <P>When I attended my <Link href="http://2015.jsconf.eu">first conference</Link> at
     the end of last year, all of my expectations

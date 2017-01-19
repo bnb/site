@@ -10,7 +10,7 @@ import HR from '../../components/hr'
 export default () => (
   <Post>
     <Image src="/static/posts/2016/why/cover.png"/>
-    <Meta title="Why I Do What I Do" date="08-03-2016"/>
+    <Meta id="why"/>
 
     <P>I lately thought a bit about what actually drives me
     to keep doing what I do. Yes, I know that I definitely want to

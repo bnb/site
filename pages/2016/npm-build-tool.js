@@ -15,7 +15,7 @@ import {UL, LI} from '../../components/list'
 
 export default () => (
   <Post>
-    <Meta title="Should npm Really Be Used as a Build Tool?" date="10-04-2016"/>
+    <Meta id="npm-build-tool"/>
 
     <P>I’d like to talk about one of the web’s new “best practises” and my
     personal experiences with it. The intention behind this

@@ -13,7 +13,7 @@ import {UL, LI} from '../../components/list'
 
 export default () => (
   <Post>
-    <Meta title="Muffin: Status Update #2" date="01-04-2016"/>
+    <Meta id="second-muffin-update"/>
 
     <P>Here we are. Exactly 28 days since the last status
     update, I’m about to tell you another nice story about what’s new, what
