@@ -21,9 +21,8 @@ export default class Meta extends React.Component {
       post.url = `/${year}/${post.id}`
     }
 
-    posts.sort((a, b) => {
-      return parseDate(b.date).diff(parseDate(a.date))
-    })
+    // Sort posts by date
+    posts.sort((a, b) => parseDate(b.date).diff(parseDate(a.date)))
 
     return (
       <div>
