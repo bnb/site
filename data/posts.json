@@ -13,5 +13,50 @@
     "id": "symlinks",
     "title": "Weg Mit Diesen Blöden Verknüpfungs-Pfeilen Auf Windows 7",
     "date": "27-01-2014"
+  },
+  {
+    "id": "bye-school",
+    "title": "Bye School, Hello Life!",
+    "date": "25-07-2015"
+  },
+  {
+    "id": "front-end-editors",
+    "title": "Front-End Editors and Their Mistakes",
+    "date": "19-08-2015"
+  },
+  {
+    "id": "github-pages-limits",
+    "title": "Breaking GitHub Pages’ Speed Limitations with CloudFlare",
+    "date": "26-08-2015"
+  },
+  {
+    "id": "languages",
+    "title": "The Role of Languages in Today’s Web",
+    "date": "23-05-2015"
+  },
+  {
+    "id": "password-managers",
+    "title": "Password Managers and Their Future",
+    "date": "22-09-2015"
+  },
+  {
+    "id": "safari-reader",
+    "title": "How to Provide a Clean Safari Reader Experience",
+    "date": "31-08-2015"
+  },
+  {
+    "id": "steam",
+    "title": "Goodbye, Steam. It was a great time, but now you’re just being a bitch.",
+    "date": "07-09-2015"
+  },
+  {
+    "id": "support",
+    "title": "Avoiding a Total UX-Mess in Product Support",
+    "date": "26-06-2015"
+  },
+  {
+    "id": "zoom",
+    "title": "Fixing Your Site’s Zooming-Problem on Mobile Devices",
+    "date": "11-08-2015"
   }
 ]
