@@ -12,12 +12,18 @@ import {UL, LI} from '../components/list'
 // Data
 import posts from '../data/posts'
 
+const parseDate = date => moment(date, 'DD-MM-YYYY')
+
 export default class Meta extends React.Component {
   render() {
     for (const post of posts) {
-      const year = moment(post.date, 'DD-MM-YYYY').year()
+      const year = parseDate(post.date).year()
       post.url = `/${year}/${post.id}`
     }
+
+    posts.sort((a, b) => {
+      return parseDate(b.date).toDate() - parseDate(a.date).toDate()
+    })
 
     return (
       <div>
@@ -31,9 +37,7 @@ export default class Meta extends React.Component {
           {
             posts.map(post => (
               <LI key={post.id}>
-                <Link href={post.url}>
-                  {post.title}
-                </Link>
+                <Link href={post.url}>{post.title}</Link>
               </LI>
             ))
           }
