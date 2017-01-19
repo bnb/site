@@ -7,6 +7,7 @@ import moment from 'moment'
 
 // Components
 import Link from '../components/link'
+import {UL, LI} from '../components/list'
 
 // Data
 import posts from '../data/posts'
@@ -24,15 +25,19 @@ export default class Meta extends React.Component {
           <title>Leo Lamprecht</title>
         </Head>
 
-        <div>test</div>
+        <div>Heyho!</div>
 
-        {
-          posts.map(post => (
-            <Link href={post.url} key={post.id}>
-              {post.title}
-            </Link>
-          ))
-        }
+        <UL>
+          {
+            posts.map(post => (
+              <LI key={post.id}>
+                <Link href={post.url}>
+                  {post.title}
+                </Link>
+              </LI>
+            ))
+          }
+        </UL>
       </div>
     )
   }
