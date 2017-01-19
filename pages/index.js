@@ -13,7 +13,6 @@ import {UL, LI} from '../components/list'
 import posts from '../data/posts'
 
 const parseDate = date => moment(date, 'DD-MM-YYYY')
-const nativeDate = date => parseDate(date).toDate()
 
 export default class Meta extends React.Component {
   render() {
@@ -23,7 +22,7 @@ export default class Meta extends React.Component {
     }
 
     posts.sort((a, b) => {
-      return nativeDate(b.date) - nativeDate(a.date)
+      return parseDate(b.date).diff(parseDate(a.date))
     })
 
     return (
