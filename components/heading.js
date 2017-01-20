@@ -46,7 +46,7 @@ for (let level = 1; level <= 6; level++) {
   const component = props => new H({
     ...props,
     level,
-    fontSize: 20,
+    fontSize: 30 - (6 * level),
     linked: level > 1
   })
 
