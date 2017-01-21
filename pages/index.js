@@ -18,10 +18,8 @@ const preparePosts = () => posts.map(post => Object.assign({
 }, post)).sort((a, b) => parseDate(b.date).diff(parseDate(a.date)))
 
 export default () => (
-  <div>
+  <main>
     <Title/>
-
-    <div>Heyho!</div>
 
     <UL>
       {
@@ -32,5 +30,5 @@ export default () => (
         ))
       }
     </UL>
-  </div>
+  </main>
 )
