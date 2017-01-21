@@ -1,5 +1,4 @@
 // Native
-import Head from 'next/head'
 import React from 'react'
 
 // Packages
@@ -10,6 +9,7 @@ import posts from '../data/posts'
 
 // Components
 import {H1} from './heading'
+import Title from './title'
 
 const humanReadable = date => {
   return moment(date, 'DD-MM-YYYY').format('MMMM Do YYYY')
@@ -23,9 +23,7 @@ export default class Meta extends React.Component {
 
     return (
       <aside>
-        <Head>
-          <title>{ post.title }</title>
-        </Head>
+        <Title value={post.title}/>
 
         <H1>{ post.title }</H1>
         <span>{ humanReadable(post.date) }</span>

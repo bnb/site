@@ -1,13 +1,10 @@
-// Native
-import Head from 'next/head'
-import React from 'react'
-
 // Packages
 import moment from 'moment'
 
 // Components
 import Link from '../components/link'
 import {UL, LI} from '../components/list'
+import Title from '../components/title'
 
 // Data
 import posts from '../data/posts'
@@ -22,9 +19,7 @@ const preparePosts = () => posts.map(post => Object.assign({
 
 export default () => (
   <div>
-    <Head>
-      <title>Leo Lamprecht</title>
-    </Head>
+    <Title/>
 
     <div>Heyho!</div>
 
