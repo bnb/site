@@ -1,6 +1,3 @@
-// Native
-import React from 'react'
-
 // Packages
 import moment from 'moment'
 
@@ -11,10 +8,10 @@ import posts from '../data/posts'
 import {H1} from './heading'
 import Title from './title'
 
-const humanReadable = date => {
-  return moment(date, 'DD-MM-YYYY').format('MMMM Do YYYY')
-}
+// Make date easily readable
+const readable = date => moment(date, 'DD-MM-YYYY').format('MMMM Do YYYY')
 
+// Find post using its identifier
 const findPost = id => posts.find(post => post.id === id)
 
 export default ({ id }) => {
@@ -25,7 +22,7 @@ export default ({ id }) => {
       <Title value={post.title}/>
 
       <H1>{ post.title }</H1>
-      <span>{ humanReadable(post.date) }</span>
+      <span>{ readable(post.date) }</span>
     </aside>
   )
 }
