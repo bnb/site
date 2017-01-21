@@ -4,12 +4,13 @@ import Post from '../../layouts/post'
 // Components
 import P from '../../components/paragraph'
 import Meta from '../../components/meta'
+import {Ref, FootNotes, Note} from '../../components/footnotes'
 
 export default () => (
   <Post>
     <Meta id="design-and-development"/>
 
-    <P>The two big Ds (That{`'`}s what she said 😂 ... 😯) in the
+    <P>The two big Ds<Ref id="1"/> in the
     world{`'`}s most used connection-network. Completely
     different topics, but still one thing in the end. To me, it
     feels like the number of people who are doing development as
@@ -43,5 +44,9 @@ export default () => (
     development-area for example) or the borders of your experience
     cut off parts of your wonderful idea, it needs to fucking
     see the light of day <mark>without getting adapted</mark> to existing ones!</P>
+
+    <FootNotes>
+      <Note id="1">That{`'`}s what she said 😂 ... 😯</Note>
+    </FootNotes>
   </Post>
 )
