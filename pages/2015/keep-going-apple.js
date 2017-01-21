@@ -5,6 +5,7 @@ import Post from '../../layouts/post'
 import P from '../../components/paragraph'
 import Meta from '../../components/meta'
 import Link from '../../components/link'
+import {Ref, FootNotes, Note} from '../../components/footnotes'
 
 export default () => (
   <Post>
@@ -49,7 +50,7 @@ export default () => (
     ECMAScript 6 contents. Besides that, they even re-designed the web
     inspector and added a some new Force Touch Events to support
     the whole functionality of the new Trackpad. — Not to mention
-    that they{`'`}ll even open source Swift.</P>
+    that they{`'`}ll even open source Swift<Ref id="1"/>.</P>
 
     <P>And no, that wasn{`'`}t even the full list of things they{`'`}ve implemented
     in Safari 9. I came to the decision that explaining them all in full
@@ -66,5 +67,16 @@ export default () => (
     want to compete against others in this scene.</P>
 
     <P>Let{`'`}s hope the best!</P>
+
+    <FootNotes>
+      <Note id="1">Some people said that Apple might use it
+      to create a self-made alternative to JavaScript (since it{`'`}s now
+      open-source and the Syntax not differs that much
+      from JS). But if you ask me, that will probably never happen. So
+      many people out there contributed so much to
+      the growth of JS, it{`'`}s very unlikely that a single company could
+      replace it with something that was initially created to
+      be a compiled language.</Note>
+    </FootNotes>
   </Post>
 )
