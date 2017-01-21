@@ -128,5 +128,10 @@
     "id": "something-new",
     "title": "Something New",
     "date": "04-02-2015"
+  },
+  {
+    "id": "farewell-muffin",
+    "title": "Farewell, Muffin!",
+    "date": "21-01-2017"
   }
 ]
