@@ -17,17 +17,15 @@ const humanReadable = date => {
 
 const findPost = id => posts.find(post => post.id === id)
 
-export default class Meta extends React.Component {
-  render() {
-    const post = findPost(this.props.id)
+export default ({ id }) => {
+  const post = findPost(id)
 
-    return (
-      <aside>
-        <Title value={post.title}/>
+  return (
+    <aside>
+      <Title value={post.title}/>
 
-        <H1>{ post.title }</H1>
-        <span>{ humanReadable(post.date) }</span>
-      </aside>
-    )
-  }
+      <H1>{ post.title }</H1>
+      <span>{ humanReadable(post.date) }</span>
+    </aside>
+  )
 }
