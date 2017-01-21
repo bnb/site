@@ -14,34 +14,34 @@ import posts from '../data/posts'
 
 const parseDate = date => moment(date, 'DD-MM-YYYY')
 
-export default class Meta extends React.Component {
-  render() {
-    for (const post of posts) {
-      const year = parseDate(post.date).year()
-      post.url = `/${year}/${post.id}`
-    }
-
-    // Sort posts by date
-    posts.sort((a, b) => parseDate(b.date).diff(parseDate(a.date)))
-
-    return (
-      <div>
-        <Head>
-          <title>Leo Lamprecht</title>
-        </Head>
-
-        <div>Heyho!</div>
-
-        <UL>
-          {
-            posts.map(post => (
-              <LI key={post.id}>
-                <Link href={post.url}>{post.title}</Link>
-              </LI>
-            ))
-          }
-        </UL>
-      </div>
-    )
+const preparePosts = () => {
+  for (const post of posts) {
+    const year = parseDate(post.date).year()
+    post.url = `/${year}/${post.id}`
   }
+
+  // Sort posts by date
+  posts.sort((a, b) => parseDate(b.date).diff(parseDate(a.date)))
+
+  return posts
 }
+
+export default () => (
+  <div>
+    <Head>
+      <title>Leo Lamprecht</title>
+    </Head>
+
+    <div>Heyho!</div>
+
+    <UL>
+      {
+        preparePosts().map(post => (
+          <LI key={post.id}>
+            <Link href={post.url}>{post.title}</Link>
+          </LI>
+        ))
+      }
+    </UL>
+  </div>
+)
