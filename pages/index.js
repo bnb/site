@@ -14,17 +14,11 @@ import posts from '../data/posts'
 
 const parseDate = date => moment(date, 'DD-MM-YYYY')
 
-const preparePosts = () => {
-  for (const post of posts) {
-    const year = parseDate(post.date).year()
-    post.url = `/${year}/${post.id}`
-  }
-
-  // Sort posts by date
-  posts.sort((a, b) => parseDate(b.date).diff(parseDate(a.date)))
-
-  return posts
-}
+// Assign a URL to each post and
+// sort them by date (most recent one first)
+const preparePosts = () => posts.map(post => Object.assign({
+  url: `/${parseDate(post.date).year()}/${post.id}`
+}, post)).sort((a, b) => parseDate(b.date).diff(parseDate(a.date)))
 
 export default () => (
   <div>
