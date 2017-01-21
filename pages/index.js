@@ -1,6 +1,3 @@
-// Packages
-import moment from 'moment'
-
 // Components
 import Link from '../components/link'
 import Title from '../components/title'
