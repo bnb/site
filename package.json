@@ -25,13 +25,15 @@
       "import/no-unresolved": 0,
       "import/named": 0,
       "react/prop-types": 0,
-      "react/self-closing-comp": 0
+      "react/self-closing-comp": 0,
+      "react/forbid-component-props": 0
     }
   },
   "dependencies": {
     "is-absolute-url": "^2.1.0",
     "moment": "^2.17.1",
     "next": "^2.0.0-beta.17",
+    "react-syntax-highlighter": "^4.0.1",
     "react-tweet-embed": "^1.0.3",
     "to-id": "^1.0.5"
   },

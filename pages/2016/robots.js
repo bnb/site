@@ -221,7 +221,7 @@ export default () => (
     install <Link href="https://github.com/rwaldron/johnny-five">the library</Link> we’re
     going to use to communicate with the device:</P>
 
-    <Snippet>{`$ npm init -y
+    <Snippet language="bash">{`$ npm init -y
 $ npm install johnny-five -S`}</Snippet>
 
     <P>If you’re not completely fimilar with these commands: The
@@ -236,7 +236,7 @@ $ npm install johnny-five -S`}</Snippet>
     creating an instance of the “Board” class
     contained within Johnny Five:</P>
 
-    <Snippet>{`const five = require('johnny-five')
+    <Snippet language="js">{`const five = require('johnny-five')
 const board = new five.Board()`}</Snippet>
 
     <P>As soon as you’ve initialized a new
@@ -261,7 +261,7 @@ const board = new five.Board()`}</Snippet>
     the “Led” class imported from the library) and make the
     LED light up every 500 milliseconds using the “.blink” method:</P>
 
-    <Snippet>{`board.on('ready', function() {
+    <Snippet language="js">{`board.on('ready', function() {
   const led = new five.Led(13)
   led.blink(500)
 })`}</Snippet>
@@ -269,7 +269,7 @@ const board = new five.Board()`}</Snippet>
     <P>Ready? Great! Then let’s <b>run the program</b> using Node
     and see what happens with our micro controller...</P>
 
-    <Snippet>{`$ node index`}</Snippet>
+    <Snippet language="bash">{`$ node index`}</Snippet>
 
     <P>If everything has been configured correctly and
     the program is running without an error, you

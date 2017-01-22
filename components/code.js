@@ -1,18 +1,9 @@
-const Snippet = ({ children }) => (
-  <pre>
-    <code>{ children }</code>
+// Packages
+import Highlight from 'react-syntax-highlighter'
+import {github} from 'react-syntax-highlighter/dist/styles'
 
-    <style jsx>{`
-      pre {
-        line-height: 20px;
-        margin-bottom: 20px;
-        font-size: 12px;
-      }
-      code {
-        color: #999;
-      }
-    `}</style>
-  </pre>
+const Snippet = ({ type, children }) => (
+  <Highlight language={type} style={github}>{ children }</Highlight>
 )
 
 const Inline = ({ children }) => (

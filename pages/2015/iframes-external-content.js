@@ -49,7 +49,7 @@ export default () => (
 
     <P>Okay, let me explain that with an example:</P>
 
-    <Snippet>{`h1 {
+    <Snippet language="css">{`h1 {
   all: unset;
 }`}</Snippet>
 

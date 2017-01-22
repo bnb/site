@@ -47,13 +47,13 @@ export default () => (
     can <Link href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust">learn more</Link> about
     why it’s exactly needed and how you can achieve the same on a different mobile OS:</P>
 
-    <Snippet>{`-webkit-text-size-adjust: 100%;`}</Snippet>
+    <Snippet language="css">{`-webkit-text-size-adjust: 100%;`}</Snippet>
 
     <P>After you did that, you just need to also make sure that you
     neither have “maximum-scale” set to “1”, nor “user-scalable” to “no”. In the
     end, it should roughly like this:</P>
 
-    <Snippet>{`<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">`}</Snippet>
+    <Snippet language="html">{`<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">`}</Snippet>
 
     <P>This just means that we’re ensuring that the viewport has
     the width of the screen as soon as the layout gets rendered. Therefore our

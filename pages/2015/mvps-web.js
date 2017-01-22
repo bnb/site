@@ -134,7 +134,7 @@ export default () => (
     <P>So I decided to build a few functions around this idea and
     ended up with cookies whose value looked like this:</P>
 
-    <Snippet>{`{
+    <Snippet language="json">{`{
   "count": 5,
   "sync": false
 }`}</Snippet>

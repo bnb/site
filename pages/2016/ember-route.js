@@ -29,7 +29,7 @@ export default () => (
     the list of classes by simply adding them to an array
     available under the “className” property:</P>
 
-    <Snippet>{`export default Ember.route.extend({
+    <Snippet language="js">{`export default Ember.route.extend({
   classNames: ['strawberry-jam']
 })`}</Snippet>
 

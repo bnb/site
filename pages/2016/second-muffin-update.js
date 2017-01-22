@@ -101,7 +101,7 @@ export default () => (
     require the module, use its API to build a few awesome
     tasks and finally implement a neat command for the whole job:</P>
 
-    <Snippet>muffin build</Snippet>
+    <Snippet language="bash">muffin build</Snippet>
 
     <P>When running this command, Muffin will now look for
     a “brocfile.js” in your site’s root directory and then use the
