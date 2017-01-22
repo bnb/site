@@ -12,6 +12,8 @@
   "greenkeepers": {
     "emails": false
   },
+  "license": "MIT",
+  "repository": "leo/site",
   "xo": {
     "extends": "xo-react",
     "space": true,
