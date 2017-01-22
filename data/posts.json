@@ -203,5 +203,10 @@
     "id": "mvps-web",
     "title": "Minimum Viable Products on the Web",
     "date": "11-10-2015"
+  },
+  {
+    "id": "node-modules",
+    "title": "My Two Cents on Modules in Node",
+    "date": "25-07-2015"
   }
 ]
