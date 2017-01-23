@@ -235,7 +235,7 @@ export default () => (
 
     <P>But as you can see, I got a great one anyway - it was beatiful!</P>
 
-    <H2>tl;dr</H2>
+    <H2>TL;DR;</H2>
 
     <P>If you have the chance to attend one of
     those web conferences, do it! You will meet a lot
