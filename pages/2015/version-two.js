@@ -11,6 +11,7 @@ import {Image} from '../../components/figure'
 import {Inline} from '../../components/code'
 import {UL, LI} from '../../components/list'
 import Space from '../../components/space'
+import {Table, Row, Column} from '../../components/table'
 
 export default () => (
   <Post>
@@ -179,6 +180,38 @@ export default () => (
     design flaws of the old RSS standard. For
     example, the names of the keys in the old format
     haven{`'`}t been chosen as carefully as in Atom (just to name a few):</P>
+
+    <Table>
+      <Row>
+        <Column>RSS</Column>
+        <Column>Atom</Column>
+      </Row>
+
+      <Row>
+        <Column>managingEditor</Column>
+        <Column>author</Column>
+      </Row>
+
+      <Row>
+        <Column>guid</Column>
+        <Column>id</Column>
+      </Row>
+
+      <Row>
+        <Column>lastBuildDate</Column>
+        <Column>updated</Column>
+      </Row>
+
+      <Row>
+        <Column>
+          <Inline>{`<rss>`}</Inline>
+        </Column>
+
+        <Column>
+          <Inline>{`<feed>`}</Inline>
+        </Column>
+      </Row>
+    </Table>
 
     <P>Things like that are important to me, because they make
     me feel like the people who thought out this format spent much
