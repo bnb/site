@@ -1,13 +1,36 @@
+// Native
+import React from 'react'
+
 const Table = ({ children }) => (
   <table>{ children }</table>
 )
 
-const Row = ({ children }) => (
-  <tr>{ children }</tr>
+class Row extends React.Component {
+  getChildContext() {
+    return {
+      header: this.props.header || false
+    }
+  }
+
+  render() {
+    return (
+      <tr>{ this.props.children }</tr>
+    )
+  }
+}
+
+Row.childContextTypes = {
+  header: React.PropTypes.bool
+}
+
+const Column = ({ children }, context) => React.createElement(
+  context.header ? 'th' : 'td',
+  {},
+  children
 )
 
-const Column = ({ children }) => (
-  <td>{ children }</td>
-)
+Column.contextTypes = {
+  header: React.PropTypes.bool
+}
 
 export { Table, Row, Column }

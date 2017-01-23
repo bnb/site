@@ -182,7 +182,7 @@ export default () => (
     haven{`'`}t been chosen as carefully as in Atom (just to name a few):</P>
 
     <Table>
-      <Row>
+      <Row header>
         <Column>RSS</Column>
         <Column>Atom</Column>
       </Row>
