@@ -213,5 +213,10 @@
     "id": "turning-off-comments",
     "title": "Turning off Comments",
     "date": "30-06-2015"
+  },
+  {
+    "id": "avoid-floating-css",
+    "title": "Possible Ways to Avoid Floating in CSS",
+    "date": "13-06-2015"
   }
 ]
