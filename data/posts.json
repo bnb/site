@@ -223,5 +223,10 @@
     "id": "version-two",
     "title": "v2",
     "date": "18-07-2015"
+  },
+  {
+    "id": "fixing-apple-music",
+    "title": "Fixing Apple Music",
+    "date": "30-08-2015"
   }
 ]
