@@ -105,7 +105,7 @@ display: block;`}</Snippet>
     after another. If the content elements of the container
     aren{`'`}t modified in any other way, it will look like this:</P>
 
-    <CodePen user="mindrun" hash="1becc47f9b6b90d3dad30649e061ddbc" height="240"/>
+    <CodePen user="mindrun" hash="1becc47f9b6b90d3dad30649e061ddbc" height="240" theme="15948"/>
 
     <P>But beware, there are many other cool properties
     like <Inline>justify-content</Inline> (which I also used to
@@ -151,7 +151,7 @@ display: block;`}</Snippet>
     indention will generate irritating space-characters between
     the elements in the output — look here:</P>
 
-    <CodePen user="mindrun" hash="cd4a213638114aea89cbd3137b36bb19" height="240"/>
+    <CodePen user="mindrun" hash="cd4a213638114aea89cbd3137b36bb19" height="240" theme="15948"/>
 
     <P>But of course we neither need nor want them to show up. They{`'`}re just
     completely useless when creating columns. To fix this
