@@ -218,5 +218,10 @@
     "id": "avoid-floating-css",
     "title": "Possible Ways to Avoid Floating in CSS",
     "date": "13-06-2015"
+  },
+  {
+    "id": "version-two",
+    "title": "v2",
+    "date": "18-07-2015"
   }
 ]
