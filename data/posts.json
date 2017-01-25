@@ -313,5 +313,10 @@
     "id": "wwdc-2013",
     "title": "Kurzer Überblick Zur WWDC 2013",
     "date": "10-06-2013"
+  },
+  {
+    "id": "media-queries",
+    "title": "CSS 3 Media Queries",
+    "date": "30-03-2013"
   }
 ]
