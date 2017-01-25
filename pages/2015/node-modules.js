@@ -1,5 +1,5 @@
 // Layouts
-import Post from '../../layouts/post'
+import Post from '../../layouts/essay'
 
 // Components
 import P from '../../components/paragraph'
@@ -29,7 +29,7 @@ export default () => (
     logic in the structure of the project. And that{`'`}s exactly
     why I{`'`}m here now and want to talk about this.</P>
 
-    <Image src="/static/posts/2015/node-modules/history-guy.png"/>
+    <Image src="/static/essays/2015/node-modules/history-guy.png"/>
 
     <P>When talking about open source projects, I{`'`}m usually very
     concerned about doing stuff the way how it was intended

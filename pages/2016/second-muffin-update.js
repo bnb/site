@@ -1,5 +1,5 @@
 // Layouts
-import Post from '../../layouts/post'
+import Post from '../../layouts/essay'
 
 // Components
 import P from '../../components/paragraph'
@@ -22,7 +22,7 @@ export default () => (
 
     <P>Let’s start over with the biggest change:</P>
 
-    <Image src="/static/posts/2016/second-muffin-update/terminal.png"/>
+    <Image src="/static/essays/2016/second-muffin-update/terminal.png"/>
 
     <H2>Goodbye Yeoman, Hello Custom CLI!</H2>
 
@@ -73,7 +73,7 @@ export default () => (
     anymore. They only need to download and globally
     install the core package and boom: Done!</P>
 
-    <Image src="/static/posts/2016/second-muffin-update/broccoli.png"/>
+    <Image src="/static/essays/2016/second-muffin-update/broccoli.png"/>
 
     <H2>Broccoli.js</H2>
 

@@ -2,7 +2,7 @@
 import Tweet from 'react-tweet-embed'
 
 // Layouts
-import Post from '../../layouts/post'
+import Post from '../../layouts/essay'
 
 // Components
 import P from '../../components/paragraph'
@@ -14,7 +14,7 @@ import HR from '../../components/hr'
 
 export default () => (
   <Post>
-    <Image src="/static/posts/2015/github-pages-limits/cover.png"/>
+    <Image src="/static/essays/2015/github-pages-limits/cover.png"/>
     <Meta id="github-pages-limits"/>
 
     <P>The last time I came in contact with CloudFlare, I was

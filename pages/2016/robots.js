@@ -1,5 +1,5 @@
 // Layouts
-import Post from '../../layouts/post'
+import Post from '../../layouts/essay'
 
 // Components
 import P from '../../components/paragraph'
@@ -12,7 +12,7 @@ import {Snippet} from '../../components/code'
 
 export default () => (
   <Post>
-    <Image src="/static/posts/2016/robots/cover.png"/>
+    <Image src="/static/essays/2016/robots/cover.png"/>
     <Meta id="robots"/>
 
     <P>When I attended my <Link href="http://2015.jsconf.eu">first conference</Link> at
@@ -104,7 +104,7 @@ export default () => (
     to <Link href="https://help.medium.com/hc/en-us/articles/214993247-Bookmarks">bookmark</Link> this
     article and revisit it later.</P>
 
-    <Image src="/static/posts/2016/robots/package.png"/>
+    <Image src="/static/essays/2016/robots/package.png"/>
 
     <H2>Setup</H2>
 
@@ -168,7 +168,7 @@ export default () => (
     it and select the default version of the
     protocol in the menu bar:</P>
 
-    <Image src="/static/posts/2016/robots/protocol.png"/>
+    <Image src="/static/essays/2016/robots/protocol.png"/>
 
     <P>This will insert the code of the default protocol
     into the editor you’re seeing on your screen. However, the
@@ -180,7 +180,7 @@ export default () => (
     on “Tools” in the menu bar, select “Board” and
     choose “Arduino/Genuino Uno”:</P>
 
-    <Image src="/static/posts/2016/robots/tools-board.png"/>
+    <Image src="/static/essays/2016/robots/tools-board.png"/>
 
     <P>Now the app knows which kind of micro-controller
     you’re using. However, it still isn’t able to
@@ -191,7 +191,7 @@ export default () => (
     the “Port” sub-menu of “Tools” that shows the “Arduino/Genuino Uno” type
     as suffix:</P>
 
-    <Image src="/static/posts/2016/robots/tools-port.png"/>
+    <Image src="/static/essays/2016/robots/tools-port.png"/>
 
     <P>Once you’re done setting up the basic configuration
     as mentioned above, you’re able to upload the
@@ -277,7 +277,7 @@ const board = new five.Board()`}</Snippet>
     that the device was detected and the connection
     was opened. In turn, your Arduino should act like this:</P>
 
-    <Image src="/static/posts/2016/robots/board.gif" origin="http://johnny-five.io"/>
+    <Image src="/static/essays/2016/robots/board.gif" origin="http://johnny-five.io"/>
 
     <P>Cool, huh? You’ve just managed to program your
     first hardware device using the greatest

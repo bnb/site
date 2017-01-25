@@ -2,7 +2,7 @@
 import Tweet from 'react-tweet-embed'
 
 // Layouts
-import Post from '../../layouts/post'
+import Post from '../../layouts/essay'
 
 // Components
 import P from '../../components/paragraph'
@@ -73,7 +73,7 @@ export default () => (
     a certain task into a practical solution, it already
     started to get shitty again:</P>
 
-    <Image src="/static/posts/2016/npm-build-tool/remorse.gif"/>
+    <Image src="/static/essays/2016/npm-build-tool/remorse.gif"/>
 
     <P>At first, I just had a single property in <Inline>package.scripts</Inline> and it was
     called <Inline>build</Inline>. And what it did

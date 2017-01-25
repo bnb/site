@@ -1,5 +1,5 @@
 // Layouts
-import Post from '../../layouts/post'
+import Post from '../../layouts/essay'
 
 // Components
 import P from '../../components/paragraph'
@@ -9,7 +9,7 @@ import {Image} from '../../components/figure'
 
 export default () => (
   <Post>
-    <Image src="/static/posts/2016/its-zeit/cover.png"/>
+    <Image src="/static/essays/2016/its-zeit/cover.png"/>
     <Meta id="its-zeit"/>
 
     <P>On March the 30th, around midnight, <Link href="https://twitter.com/rauchg">Guillermo Rauch</Link> received

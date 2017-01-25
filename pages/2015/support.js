@@ -1,5 +1,5 @@
 // Layouts
-import Post from '../../layouts/post'
+import Post from '../../layouts/essay'
 
 // Components
 import P from '../../components/paragraph'
@@ -119,7 +119,7 @@ export default () => (
         from <Link href="http://codepen.io">CodePen</Link> because
         my test for the premium package has expired:</P>
 
-        <Image src="/static/posts/2015/support/codepen.png"/>
+        <Image src="/static/essays/2015/support/codepen.png"/>
 
         <P>Why did they add the “CodePen” lettering to
         the subject line? It’s already the content
@@ -186,7 +186,7 @@ export default () => (
     like the following one, who basically set it to the
     real name of the guy who wrote me back:</P>
 
-    <Image src="/static/posts/2015/support/github.png"/>
+    <Image src="/static/essays/2015/support/github.png"/>
 
     <P>Now every time the user opens the mail app, it
     auto-completes the content of

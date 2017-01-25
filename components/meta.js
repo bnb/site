@@ -2,7 +2,7 @@
 import moment from 'moment'
 
 // Data
-import posts from '../data/posts'
+import posts from '../data/essays'
 
 // Components
 import {H1} from './heading'

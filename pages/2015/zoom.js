@@ -1,5 +1,5 @@
 // Layouts
-import Post from '../../layouts/post'
+import Post from '../../layouts/essay'
 
 // Components
 import P from '../../components/paragraph'
@@ -11,7 +11,7 @@ import {Image} from '../../components/figure'
 
 export default () => (
   <Post>
-    <Image src="/static/posts/2015/zoom/cover.png"/>
+    <Image src="/static/essays/2015/zoom/cover.png"/>
     <Meta id="zoom"/>
 
     <P>In 2007, Steve Jobs introduced us to the advantages of Apple’s new

@@ -1,5 +1,5 @@
 // Layouts
-import Post from '../../layouts/post'
+import Post from '../../layouts/essay'
 
 // Components
 import P from '../../components/paragraph'
@@ -64,7 +64,7 @@ export default () => (
     <P>Now let your eyes float over the statistic bar at the
     top (the one with the colored bar at the bottom) and click on this section:</P>
 
-    <Image src="/static/posts/2016/releasing-on-github/section.png"/>
+    <Image src="/static/essays/2016/releasing-on-github/section.png"/>
 
     <P>Next, the “Releases” page will open. This is the place where
     the users of your software will later be looking for a descriptive
@@ -73,7 +73,7 @@ export default () => (
     <P>At the moment, you haven’t created any releases yet and
     GitHub is asking you to create one. So let’s go ahead, hit the button:</P>
 
-    <Image src="/static/posts/2016/releasing-on-github/new.png"/>
+    <Image src="/static/essays/2016/releasing-on-github/new.png"/>
 
     <P>Now you’re on the most important page of all: The one that
     allows you to create a new release. To be more precise, you

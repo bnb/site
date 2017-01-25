@@ -1,5 +1,5 @@
 // Layouts
-import Post from '../../layouts/post'
+import Post from '../../layouts/essay'
 
 // Components
 import P from '../../components/paragraph'
@@ -9,7 +9,7 @@ import HR from '../../components/hr'
 
 export default () => (
   <Post>
-    <Image src="/static/posts/2016/why/cover.png"/>
+    <Image src="/static/essays/2016/why/cover.png"/>
     <Meta id="why"/>
 
     <P>I lately thought a bit about what actually drives me

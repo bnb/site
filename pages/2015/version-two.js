@@ -1,5 +1,5 @@
 // Layouts
-import Post from '../../layouts/post'
+import Post from '../../layouts/essay'
 
 // Components
 import P from '../../components/paragraph'
@@ -141,7 +141,7 @@ export default () => (
     curve<Ref id="3"/> at the bottom, which flows like the
     rounded bottom of the letter <b>e</b>.</P>
 
-    <Image src="/static/posts/2015/version-two/fira.png"/>
+    <Image src="/static/essays/2015/version-two/fira.png"/>
 
     <P>It was originally designed by the
     typomaniac <Link href="https://en.wikipedia.org/wiki/Erik_Spiekermann">Erik Spiekermann</Link> in

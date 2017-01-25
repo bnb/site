@@ -1,5 +1,5 @@
 // Layouts
-import Post from '../../layouts/post'
+import Post from '../../layouts/essay'
 
 // Components
 import P from '../../components/paragraph'
@@ -44,7 +44,7 @@ crontab -l	[Alle Cronjobs nach Erstellungsdatum auflisten]`}</Snippet>
     öffnen, in den ich dann den Syntax für den gewünschten
     Cron-Task eingebe. Dieser wird mit Hilfe des folgenden Schemas aufgebaut:</P>
 
-    <Image src="/static/posts/2013/cronjob-aufbau.png"/>
+    <Image src="/static/essays/2013/cronjob-aufbau.png"/>
 
     <P>Wie oben schon beschrieben möchte ich, dass jeden Tag um genau 8:30 Uhr
     eine bestimmte Datei ausgeführt wird, welche das regelmäßige Backup

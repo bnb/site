@@ -1,5 +1,5 @@
 // Layouts
-import Post from '../../layouts/post'
+import Post from '../../layouts/essay'
 
 // Components
 import P from '../../components/paragraph'
@@ -49,7 +49,7 @@ export default () => (
     <P>And the best thing about this: iA Writer now even
     provides an easy way to publish to Medium by simply clicking a menu item:</P>
 
-    <Image src="/static/posts/2016/jekyll-to-medium/share.png"/>
+    <Image src="/static/essays/2016/jekyll-to-medium/share.png"/>
 
     <P>All of those tiny workflow improvements make Medium a much
     more convenient platform to write on. And if you ask me, that’s one of the

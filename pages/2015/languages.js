@@ -1,5 +1,5 @@
 // Layouts
-import Post from '../../layouts/post'
+import Post from '../../layouts/essay'
 
 // Components
 import P from '../../components/paragraph'
@@ -8,7 +8,7 @@ import {Image} from '../../components/figure'
 
 export default () => (
   <Post>
-    <Image src="/static/posts/2015/languages/cover.png"/>
+    <Image src="/static/essays/2015/languages/cover.png"/>
     <Meta id="languages"/>
 
     <P>We’re living in a global world. Everybody is

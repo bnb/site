@@ -10,7 +10,7 @@ import Title from '../components/title'
 import P from '../components/paragraph'
 
 // Data
-import posts from '../data/posts'
+import posts from '../data/essays'
 
 const parseDate = date => moment(date, 'DD-MM-YYYY')
 

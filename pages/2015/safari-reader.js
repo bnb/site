@@ -1,5 +1,5 @@
 // Layouts
-import Post from '../../layouts/post'
+import Post from '../../layouts/essay'
 
 // Components
 import P from '../../components/paragraph'
@@ -19,7 +19,7 @@ export default () => (
     expressed another time when they introduced Safari’s Reader
     functionality with version 5, back in 2010:</P>
 
-    <Image src="/static/posts/2015/safari-reader/browser-bar.png"/>
+    <Image src="/static/essays/2015/safari-reader/browser-bar.png"/>
 
     <P>Today, the tool is used for reading articles without the
     usual amount of distraction on blogs and news sites. Besides
