@@ -80,11 +80,6 @@
     "date": "06-05-2016"
   },
   {
-    "id": "its-zeit",
-    "title": "It's ZEIT",
-    "date": "16-08-2016"
-  },
-  {
     "id": "jekyll-to-medium",
     "title": "Jekyll? Medium!",
     "date": "02-03-2016"
@@ -105,11 +100,6 @@
     "date": "10-04-2016"
   },
   {
-    "id": "releasing-on-github",
-    "title": "Releasing on GitHub",
-    "date": "16-10-2016"
-  },
-  {
     "id": "robots",
     "title": "Getting Started with JavaScript Robotics",
     "date": "15-06-2016"
@@ -128,11 +118,6 @@
     "id": "something-new",
     "title": "Something New",
     "date": "04-02-2015"
-  },
-  {
-    "id": "farewell-muffin",
-    "title": "Farewell, Muffin!",
-    "date": "21-01-2017"
   },
   {
     "id": "developer-friendliness",
@@ -343,5 +328,20 @@
     "id": "javascript-cookies",
     "title": "Cookies Ganz Einfach per Javascript Verwalten",
     "date": "01-03-2013"
+  },
+  {
+    "id": "its-zeit",
+    "title": "It's ZEIT",
+    "date": "16-08-2016"
+  },
+  {
+    "id": "releasing-on-github",
+    "title": "Releasing on GitHub",
+    "date": "16-10-2016"
+  },
+  {
+    "id": "farewell-muffin",
+    "title": "Farewell, Muffin!",
+    "date": "21-01-2017"
   }
 ]
