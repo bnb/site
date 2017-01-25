@@ -1,5 +1,14 @@
+// Native
+import Head from 'next/head'
+
 export default ({ children }) => (
   <main>
+    <Head>
+      <link rel="mask-icon" href="http://leo.im/static/lightning.svg" color="#000000"/>
+      <link rel="apple-touch-icon" href="/static/touch-icon.png"/>
+      <link rel="icon" href="/static/touch-icon.png" type="image/png"/>
+    </Head>
+
     {children}
 
     <style jsx global>{`
