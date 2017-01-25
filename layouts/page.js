@@ -8,6 +8,7 @@ export default ({ children }) => (
         Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
         Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
         margin: 0;
+        -webkit-font-smoothing: antialiased;
       }
 
       main {
