@@ -318,5 +318,10 @@
     "id": "media-queries",
     "title": "CSS 3 Media Queries",
     "date": "30-03-2013"
+  },
+  {
+    "id": "centos-cronjobs",
+    "title": "Neue Cron-Aufgabe Auf CentOS Erstellen",
+    "date": "29-03-2013"
   }
 ]
