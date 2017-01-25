@@ -1,9 +1,11 @@
 // Packages
 import moment from 'moment'
 
+// Layouts
+import Page from '../layouts/page'
+
 // Components
 import Link from '../components/link'
-import {UL, LI} from '../components/list'
 import Title from '../components/title'
 import P from '../components/paragraph'
 
@@ -19,19 +21,35 @@ const preparePosts = () => posts.map(post => Object.assign({
 }, post)).sort((a, b) => parseDate(b.date).diff(parseDate(a.date)))
 
 export default () => (
-  <main>
+  <Page>
     <Title/>
 
     <P>Here{`'`}s a list of my essays:</P>
 
-    <UL>
+    <ul>
       {
         preparePosts().map(post => (
-          <LI key={post.id}>
-            <Link href={post.url}>{post.title}</Link>
-          </LI>
+          <li key={post.id}>
+            <Link href={post.url}><a>{post.title}</a></Link>
+          </li>
         ))
       }
-    </UL>
-  </main>
+    </ul>
+
+    <style jsx>{`
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      li {
+        margin: 10px 0;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    `}</style>
+  </Page>
 )
