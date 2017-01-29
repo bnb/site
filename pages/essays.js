@@ -23,7 +23,8 @@ export default () => (
   <Page>
     <Title/>
 
-    <h1>Leo's Essays</h1>
+    <h1>{`Leo's Essays`}</h1>
+    <Link href="/"><a className="back">home</a></Link>
 
     <ul>
       {
@@ -56,6 +57,15 @@ export default () => (
         color: #000;
         font-size: 16px;
         display: inline-block;
+      }
+
+      .back {
+        font-size: 13px;
+        color: blue;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        padding: 10px;
       }
 
       span {
