@@ -37,8 +37,10 @@ export default () => (
       {
         preparePosts().map(post => (
           <li key={post.id}>
-            <Link href={post.url}><a>{post.title}</a></Link>
-            <span>{parseDate(post.date).format('MMMM Do YYYY')}</span>
+            <Link href={post.url}><a>
+              <b>{post.title}</b>
+              <span>{parseDate(post.date).format('MMMM Do YYYY')}</span>
+            </a></Link>
           </li>
         ))
       }
@@ -53,6 +55,7 @@ export default () => (
 
       li {
         margin: 23px 0;
+        text-decoration: none;
       }
 
       li:last-child {
@@ -61,9 +64,14 @@ export default () => (
 
       a {
         text-decoration: none;
+        display: block;
+      }
+
+      b {
         color: #000;
         font-size: 16px;
         display: inline-block;
+        font-weight: normal;
       }
 
       .back {
