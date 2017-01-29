@@ -23,7 +23,7 @@ export default () => (
   <Page>
     <Title/>
 
-    <h1>Essays</h1>
+    <h1>Leo's Essays</h1>
 
     <ul>
       {
@@ -39,29 +39,35 @@ export default () => (
     <style jsx>{`
       ul {
         margin: 0;
-        padding: 25px 0;
+        padding: 0;
         list-style: none;
       }
 
       li {
-        margin: 17px 0;
-        font-size: 15px;
+        margin: 23px 0;
+      }
+
+      li:last-child {
+        margin-bottom: 0;
       }
 
       a {
         text-decoration: none;
         color: #000;
+        font-size: 16px;
         display: inline-block;
       }
 
       span {
         display: block;
-        color: grey;
+        color: #c1c1c1;
         font-size: 13px;
+        margin-top: 5px;
       }
 
       h1 {
-        margin: 0 0 0px 0;
+        margin: 0 0 40px 0;
+        font-size: 35px;
       }
     `}</style>
   </Page>
