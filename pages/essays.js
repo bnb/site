@@ -31,7 +31,7 @@ export default () => (
     </Head>
 
     <h1>{`Leo's Essays`}</h1>
-    <Link href="/"><a className="back">home</a></Link>
+    <Link href="/"><a className="back">back</a></Link>
 
     <ul>
       {
@@ -49,7 +49,7 @@ export default () => (
     <style jsx>{`
       ul {
         margin: 0;
-        padding: 0;
+        padding: 0 0 30px 0;
         list-style: none;
       }
 
@@ -76,11 +76,12 @@ export default () => (
 
       .back {
         font-size: 13px;
-        color: blue;
+        color: #22BAD9;
         position: absolute;
-        right: 10px;
-        top: 10px;
+        right: 15px;
+        top: 15px;
         padding: 10px;
+        font-weight: bold;
       }
 
       span {
