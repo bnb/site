@@ -24,7 +24,7 @@ export default () => (
   <Page>
     <Title/>
 
-    <P>Here{`'`}s a list of my essays:</P>
+    <h1>Essays</h1>
 
     <ul>
       {
@@ -39,16 +39,22 @@ export default () => (
     <style jsx>{`
       ul {
         margin: 0;
-        padding: 0;
+        padding: 25px 0;
         list-style: none;
       }
 
       li {
-        margin: 10px 0;
+        margin: 17px 0;
+        font-size: 15px;
       }
 
       a {
         text-decoration: none;
+        color: #000;
+      }
+
+      h1 {
+        margin-bottom: 10px;
       }
     `}</style>
   </Page>
