@@ -21,7 +21,13 @@ export default ({ children }) => (
       }
 
       main {
-        padding-left: 40px;
+        padding: 20px;
+      }
+
+      @media (min-width: 962px) {
+        main {
+          padding-left: 40px;
+        }
       }
     `}</style>
   </main>

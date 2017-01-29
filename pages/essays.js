@@ -56,14 +56,17 @@ export default () => (
       a {
         text-decoration: none;
         color: #000;
+        display: inline-block;
       }
 
-      a, span {
+      span {
         display: block;
+        color: grey;
+        font-size: 13px;
       }
 
       h1 {
-        margin-bottom: 10px;
+        margin: 0 0 0px 0;
       }
     `}</style>
   </Page>
