@@ -1,5 +1,10 @@
+// Layouts
+import Page from './page'
+
 export default ({ children }) => (
-  <article>
-    { children }
-  </article>
+  <Page>
+    <article>
+      { children }
+    </article>
+  </Page>
 )
