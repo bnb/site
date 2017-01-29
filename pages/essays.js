@@ -7,7 +7,6 @@ import Page from '../layouts/page'
 // Components
 import Link from '../components/link'
 import Title from '../components/title'
-import P from '../components/paragraph'
 
 // Data
 import posts from '../data/essays'
