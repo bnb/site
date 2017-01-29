@@ -6,9 +6,6 @@
     "start": "next start",
     "test": "xo"
   },
-  "engines": {
-    "ace": "beta"
-  },
   "greenkeepers": {
     "emails": false
   },
