@@ -6,9 +6,6 @@
     "start": "next start",
     "test": "xo"
   },
-  "greenkeepers": {
-    "emails": false
-  },
   "license": "MIT",
   "repository": "leo/site",
   "xo": {
