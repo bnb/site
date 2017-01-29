@@ -1,3 +1,6 @@
+// Native
+import Head from 'next/head'
+
 // Packages
 import moment from 'moment'
 
@@ -22,6 +25,10 @@ const preparePosts = () => posts.map(post => Object.assign({
 export default () => (
   <Page>
     <Title/>
+
+    <Head>
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cardo&text=Leo%27s%20Essays"/>
+    </Head>
 
     <h1>{`Leo's Essays`}</h1>
     <Link href="/"><a className="back">home</a></Link>
@@ -78,6 +85,8 @@ export default () => (
       h1 {
         margin: 0 0 40px 0;
         font-size: 35px;
+        font-family: 'Cardo', serif;
+        font-weight: normal;
       }
     `}</style>
   </Page>
