@@ -78,8 +78,8 @@ export default () => (
         font-size: 13px;
         color: #22BAD9;
         position: absolute;
-        right: 15px;
-        top: 15px;
+        right: 25px;
+        top: 25px;
         padding: 10px;
         font-weight: bold;
       }
