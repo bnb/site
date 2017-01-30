@@ -114,7 +114,7 @@ export default () => (
         }
 
         nav a:hover {
-          background: #f2f2f2;
+          background: #efefef;
         }
       }
 
