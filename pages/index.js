@@ -105,10 +105,12 @@ export default () => (
         }
 
         nav a {
-          font-size: 16px;
-          padding: 6px 19px;
+          font-size: 15px;
+          padding: 4px 10px;
           color: #454545;
           display: inline-block;
+          border-radius: 6px;
+          margin: 0 5px;
         }
 
         nav a:hover {
