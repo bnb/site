@@ -104,6 +104,20 @@ export default () => (
         font-family: 'Cardo', serif;
         font-weight: normal;
       }
+
+      @media (min-width: 768px) {
+        .back {
+          width: 50px;
+          height: 50px;
+          transition: all .2s;
+          font-size: 20px;
+          line-height: 56px;
+        }
+
+        .back:hover {
+          background: #e3e3e3;
+        }
+      }
     `}</style>
   </Page>
 )

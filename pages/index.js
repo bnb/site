@@ -111,6 +111,7 @@ export default () => (
           display: inline-block;
           border-radius: 6px;
           margin: 0 5px;
+          transition: all .2s;
         }
 
         nav a:hover {
