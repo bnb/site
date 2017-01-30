@@ -22,9 +22,9 @@ export default () => (
     </section>
 
     <nav>
-      <a href="https://twitter.com/notquiteleo">Tweets</a>
+      <a href="https://twitter.com/notquiteleo">Short Thoughts</a>
+      <Link href="/essays"><a>Long Thoughts</a></Link>
       <a href="https://github.com/leo">Code</a>
-      <Link href="/essays"><a>Essays</a></Link>
       <a href="https://dribbble.com/notquiteleo">Visuals</a>
     </nav>
 
@@ -53,7 +53,6 @@ export default () => (
       }
 
       nav {
-        font-family: 'Courier New', serif;
         position: absolute;
         left: 25px;
         bottom: 27px;
