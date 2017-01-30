@@ -1,9 +1,12 @@
+// Components
+import Back from '../components/back'
+
 // Layouts
 import Page from './page'
 
 export default ({ children }) => (
   <Page>
-    <Link href="/"><a className="back">&#8617;&#xFE0E;</a></Link>
+    <Back to="/essays"/>
 
     <article>
       { children }

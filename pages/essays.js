@@ -10,6 +10,7 @@ import Page from '../layouts/page'
 // Components
 import Link from '../components/link'
 import Title from '../components/title'
+import Back from '../components/back'
 
 // Data
 import posts from '../data/essays'
@@ -31,7 +32,7 @@ export default () => (
     </Head>
 
     <h1>{`Leo's Essays`}</h1>
-    <Link href="/"><a className="back">&#8617;&#xFE0E;</a></Link>
+    <Back to="/"/>
 
     <ul>
       {
@@ -74,23 +75,6 @@ export default () => (
         font-weight: normal;
       }
 
-      .back {
-        font-size: 19px;
-        text-align: center;
-        background: #efefef;
-        font-weight: bold;
-        box-sizing: border-box;
-        color: #000;
-        position: absolute;
-        line-height: 42px;
-        right: 30px;
-        top: 40px;
-        height: 37px;
-        width: 37px;
-        border-radius: 100%;
-        font-family: 'Courier New', serif;
-      }
-
       span {
         display: block;
         color: #c1c1c1;
@@ -130,18 +114,6 @@ export default () => (
 
         h1 {
           font-size: 40px;
-        }
-
-        .back {
-          width: 50px;
-          height: 50px;
-          transition: all .2s;
-          font-size: 20px;
-          line-height: 56px;
-        }
-
-        .back:hover {
-          background: #e3e3e3;
         }
       }
     `}</style>
