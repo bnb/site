@@ -31,7 +31,7 @@ export default () => (
     </Head>
 
     <h1>{`Leo's Essays`}</h1>
-    <Link href="/"><a className="back">back</a></Link>
+    <Link href="/"><a className="back">&#8617;</a></Link>
 
     <ul>
       {
@@ -75,13 +75,20 @@ export default () => (
       }
 
       .back {
-        font-size: 13px;
-        color: #22BAD9;
-        position: absolute;
-        right: 25px;
-        top: 25px;
-        padding: 10px;
+        font-size: 17px;
+        text-align: center;
+        background: #efefef;
         font-weight: bold;
+        box-sizing: border-box;
+        padding: 10px 0;
+        color: #000;
+        position: absolute;
+        right: 40px;
+        top: 40px;
+        height: 37px;
+        width: 37px;
+        border-radius: 100%;
+        font-family: 'Courier New', serif;
       }
 
       span {
