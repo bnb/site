@@ -106,6 +106,14 @@ export default () => (
       }
 
       @media (min-width: 768px) {
+        a {
+          display: inline-block
+        }
+
+        h1 {
+          font-size: 40px;
+        }
+
         .back {
           width: 50px;
           height: 50px;
