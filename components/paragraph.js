@@ -4,7 +4,8 @@ export default ({ children }) => (
 
     <style jsx>{`
       p {
-        color: red;
+        font-size: 15px;
+        line-height: 25px;
       }
     `}</style>
   </p>
