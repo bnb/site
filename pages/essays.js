@@ -75,14 +75,14 @@ export default () => (
       }
 
       .back {
-        font-size: 17px;
+        font-size: 19px;
         text-align: center;
         background: #efefef;
         font-weight: bold;
         box-sizing: border-box;
         color: #000;
         position: absolute;
-        line-height: 40px;
+        line-height: 42px;
         right: 30px;
         top: 40px;
         height: 37px;
