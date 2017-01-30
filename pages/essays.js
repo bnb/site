@@ -107,7 +107,25 @@ export default () => (
 
       @media (min-width: 768px) {
         a {
-          display: inline-block
+          display: inline-block;
+        }
+
+        span {
+          display: inline-block;
+          margin-left: 20px;
+          opacity: 0;
+        }
+
+        b {
+          color: #5a5a5a;
+        }
+
+        a:hover b {
+          color: #000;
+        }
+
+        a:hover span {
+          opacity: 1;
         }
 
         h1 {
