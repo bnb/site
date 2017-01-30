@@ -31,7 +31,7 @@ export default () => (
     </Head>
 
     <h1>{`Leo's Essays`}</h1>
-    <Link href="/"><a className="back">&#8617;</a></Link>
+    <Link href="/"><a className="back">&#8617;&#xFE0E;</a></Link>
 
     <ul>
       {
@@ -80,10 +80,10 @@ export default () => (
         background: #efefef;
         font-weight: bold;
         box-sizing: border-box;
-        padding: 10px 0;
         color: #000;
         position: absolute;
-        right: 40px;
+        line-height: 40px;
+        right: 30px;
         top: 40px;
         height: 37px;
         width: 37px;
