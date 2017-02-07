@@ -1,6 +1,5 @@
 // Native
 import Link from 'next/prefetch'
-import Head from 'next/head'
 
 // Layouts
 import Page from '../layouts/page'
