@@ -12,10 +12,6 @@ export default () => (
   <Page>
     <Title/>
 
-    <Head>
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cardo&text=Just%20call%20me%20Leo"/>
-    </Head>
-
     <section>
       <h2>Just call me</h2>
       <h1>Leo</h1>
@@ -41,10 +37,6 @@ export default () => (
     </nav>
 
     <style jsx>{`
-      section {
-        font-family: 'Cardo', serif;
-      }
-
       section h1 {
         font-size: 57px;
         left: 35px;
@@ -100,11 +92,33 @@ export default () => (
           padding-right: 0;
           font-size: 73px;
           color: #454545;
+          font-weight: 300;
+        }
+
+        section h1::before,
+        section h1::after {
+          font-size: 32px;
+          line-height: 0;
+          height: 20px;
+          position: absolute;
+        }
+
+        section h1::before {
+          content: '„';
+          top: 10px;
+          right: -15px;
+        }
+
+        section h1::after {
+          content: '„';
+          left: -15px;
+          bottom: 0;
         }
 
         section h2 {
-          margin-right: 18px;
+          margin: 8px 40px 0 0;
           display: inline-block;
+          font-weight: 400;
         }
 
         nav {

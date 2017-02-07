@@ -85,7 +85,6 @@ export default () => (
       h1 {
         margin: 5px 0 40px 0;
         font-size: 35px;
-        font-family: 'Cardo', serif;
         font-weight: normal;
       }
 
