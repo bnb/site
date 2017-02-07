@@ -82,6 +82,8 @@ export default () => (
           height: inherit;
           align-items: center;
           justify-content: center;
+          user-select: none;
+          cursor: default;
         }
 
         section h1 {
@@ -92,7 +94,7 @@ export default () => (
           padding-right: 0;
           font-size: 73px;
           color: #454545;
-          font-weight: 300;
+          font-weight: 200;
         }
 
         section h1::before,
@@ -101,6 +103,7 @@ export default () => (
           line-height: 0;
           height: 20px;
           position: absolute;
+          font-weight: 300;
         }
 
         section h1::before {
@@ -118,7 +121,7 @@ export default () => (
         section h2 {
           margin: 8px 40px 0 0;
           display: inline-block;
-          font-weight: 400;
+          font-weight: 200;
         }
 
         nav {
