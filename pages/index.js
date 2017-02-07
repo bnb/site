@@ -18,22 +18,10 @@ export default () => (
     </section>
 
     <nav>
-      <a
-        href="https://twitter.com/notquiteleo"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Short Thoughts</a>
+      <a href="https://twitter.com/notquiteleo">Short Thoughts</a>
       <Link href="/essays"><a>Long Thoughts</a></Link>
-      <a
-        href="https://github.com/leo"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Code</a>
-      <a
-        href="https://dribbble.com/notquiteleo"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Visuals</a>
+      <a href="https://github.com/leo">Code</a>
+      <a href="https://dribbble.com/notquiteleo">Visuals</a>
     </nav>
 
     <style jsx>{`
