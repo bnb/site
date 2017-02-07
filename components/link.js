@@ -9,12 +9,13 @@ export default ({ href, children }) => (
     {
       isAbsoluteUrl(href) ?
         <a href={href} target="_blank" rel="noreferrer noopener">{children}</a> :
-        <PreFetch href={href}>{children}</PreFetch>
+        <PreFetch href={href}><a>{children}</a></PreFetch>
     }
 
     <style jsx>{`
       a {
-        color: green;
+        color: #4492ff;
+        text-decoration: none;
       }
     `}</style>
   </span>
