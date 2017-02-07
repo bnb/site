@@ -1,13 +1,21 @@
 // Native
 import Link from 'next/prefetch'
 
-export default ({to}) => (
-  <div>
+export default ({to, closer}) => (
+  <div className={closer && 'closer'}>
     <Link href={to}>
       <a>&#8617;&#xFE0E;</a>
     </Link>
 
     <style jsx>{`
+      div {
+        position: absolute;
+        right: 30px;
+        top: 40px;
+        height: 37px;
+        width: 37px;
+      }
+
       a {
         font-size: 19px;
         text-align: center;
@@ -15,21 +23,27 @@ export default ({to}) => (
         font-weight: bold;
         box-sizing: border-box;
         color: #000;
-        position: absolute;
+        height: inherit;
+        display: block;
+        width: inherit;
         line-height: 42px;
-        right: 30px;
-        top: 40px;
-        height: 37px;
-        width: 37px;
         border-radius: 100%;
         font-family: 'Courier New', serif;
         text-decoration: none;
       }
 
+      .closer {
+        right: 20px;
+        top: 20px;
+      }
+
       @media (min-width: 768px) {
-        a {
+        div {
           width: 50px;
           height: 50px;
+        }
+
+        a {
           transition: all .2s;
           font-size: 20px;
           line-height: 56px;
