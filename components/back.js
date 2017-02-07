@@ -1,5 +1,5 @@
-// Components
-import Link from './link'
+// Native
+import Link from 'next/prefetch'
 
 export default ({to}) => (
   <div>
