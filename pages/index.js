@@ -41,7 +41,7 @@ export default () => (
         font-size: 57px;
         left: 35px;
         top: 35px;
-        font-weight: normal;
+        font-weight: 300;
         margin: 0;
         position: absolute;
         padding-right: 35px;

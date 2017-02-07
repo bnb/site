@@ -85,7 +85,7 @@ export default () => (
       h1 {
         margin: 5px 0 40px 0;
         font-size: 35px;
-        font-weight: normal;
+        font-weight: 300;
       }
 
       @media (min-width: 768px) {
