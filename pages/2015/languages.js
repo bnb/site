@@ -4,12 +4,10 @@ import Post from '../../layouts/essay'
 // Components
 import P from '../../components/paragraph'
 import Meta from '../../components/meta'
-import {Image} from '../../components/figure'
 
 export default () => (
   <Post>
-    <Image src="/static/essays/2015/languages/cover.png"/>
-    <Meta id="languages"/>
+    <Meta id="languages" hasCover/>
 
     <P>We’re living in a global world. Everybody is
     connected to everyone through the internet and its broad

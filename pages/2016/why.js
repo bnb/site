@@ -4,13 +4,11 @@ import Post from '../../layouts/essay'
 // Components
 import P from '../../components/paragraph'
 import Meta from '../../components/meta'
-import {Image} from '../../components/figure'
 import HR from '../../components/hr'
 
 export default () => (
   <Post>
-    <Image src="/static/essays/2016/why/cover.png"/>
-    <Meta id="why"/>
+    <Meta id="why" hasCover/>
 
     <P>I lately thought a bit about what actually drives me
     to keep doing what I do. Yes, I know that I definitely want to

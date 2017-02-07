@@ -6,22 +6,35 @@ import posts from '../data/essays'
 
 // Components
 import Title from './title'
+import Back from './back'
+import {Image} from './figure'
 
 // Make date easily readable
-const readable = date => moment(date, 'DD-MM-YYYY').format('MMMM Do YYYY')
+const parseDate = date => moment(date, 'DD-MM-YYYY')
 
 // Find post using its identifier
 const findPost = id => posts.find(post => post.id === id)
 
-export default ({ id }) => {
+export default ({ id, hasCover }) => {
   const post = findPost(id)
+  const headingClass = hasCover ? 'has-cover' : ''
+  const date = parseDate(post.date)
+
+  let coverURL
+
+  if (hasCover) {
+    coverURL = `/static/essays/${date.format('YYYY')}/${id}/cover.png`
+  }
 
   return (
     <aside>
+      <Back to="/essays" close={hasCover}/>
+
+      {hasCover && <Image src={coverURL} isCover/>}
       <Title value={post.title}/>
 
-      <h1>{ post.title }</h1>
-      <span>{ readable(post.date) }</span>
+      <h1 className={headingClass}>{ post.title }</h1>
+      <span>{ date.format('MMMM Do YYYY') }</span>
 
       <style jsx>{`
         h1 {
@@ -29,6 +42,10 @@ export default ({ id }) => {
           margin: 0 0 8px 0;
           font-size: 23px;
           padding-right: 55px;
+        }
+
+        h1.has-cover {
+          padding-right: 0;
         }
 
         span {

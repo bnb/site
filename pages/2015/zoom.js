@@ -7,12 +7,10 @@ import Link from '../../components/link'
 import Meta from '../../components/meta'
 import HR from '../../components/hr'
 import {Snippet} from '../../components/code'
-import {Image} from '../../components/figure'
 
 export default () => (
   <Post>
-    <Image src="/static/essays/2015/zoom/cover.png"/>
-    <Meta id="zoom"/>
+    <Meta id="zoom" hasCover/>
 
     <P>In 2007, Steve Jobs introduced us to the advantages of Apple’s new
     multitouch functionality, which was shipped with the first iPhone. I’m not

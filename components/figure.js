@@ -1,36 +1,28 @@
-// Native
-import {parse} from 'path'
+const Image = ({ width, src, isCover }) => (
+  <figure className={isCover ? 'cover' : ''}>
+    <img width={width} src={src}/>
 
-const Image = ({ width, src }) => {
-  const name = parse(src).name
-  const classy = name === 'cover' ? 'cover' : ''
+    <style jsx>{`
+      img {
+        max-width: 100%;
+      }
 
-  return (
-    <figure className={classy}>
-      <img width={width} src={src}/>
+      figure {
+        margin: 20px 0;
+      }
 
-      <style jsx>{`
-        img {
-          max-width: 100%;
-        }
+      .cover {
+        margin: -45px -30px 30px -30px;
+      }
 
-        figure {
-          margin: 20px 0;
-        }
-
-        .cover {
-          margin: -30px -30px 30px -30px;
-        }
-
-        .cover img {
-          max-width: none;
-          width: 100%;
-          object-fit: cover;
-        }
-      `}</style>
-    </figure>
-  )
-}
+      .cover img {
+        max-width: none;
+        width: 100%;
+        object-fit: cover;
+      }
+    `}</style>
+  </figure>
+)
 
 const gistURL = id => `//gist.github.com/leo/${id}.js`
 

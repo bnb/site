@@ -5,12 +5,10 @@ import Post from '../../layouts/essay'
 import P from '../../components/paragraph'
 import Link from '../../components/link'
 import Meta from '../../components/meta'
-import {Image} from '../../components/figure'
 
 export default () => (
   <Post>
-    <Image src="/static/essays/2016/its-zeit/cover.png"/>
-    <Meta id="its-zeit"/>
+    <Meta id="its-zeit" hasCover/>
 
     <P>On March the 30th, around midnight, <Link href="https://twitter.com/rauchg">Guillermo Rauch</Link> received
     an email from a guy who had noticed earlier that the person

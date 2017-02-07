@@ -8,14 +8,12 @@ import Post from '../../layouts/essay'
 import P from '../../components/paragraph'
 import Link from '../../components/link'
 import Meta from '../../components/meta'
-import {Image} from '../../components/figure'
 import {H2} from '../../components/heading'
 import HR from '../../components/hr'
 
 export default () => (
   <Post>
-    <Image src="/static/essays/2015/github-pages-limits/cover.png"/>
-    <Meta id="github-pages-limits"/>
+    <Meta id="github-pages-limits" hasCover/>
 
     <P>The last time I came in contact with CloudFlare, I was
     managing root servers for my own tiny <Link href="http://frewhost.net">hosting-provider</Link> and it looked
