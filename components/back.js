@@ -26,15 +26,19 @@ export default ({to, closer}) => (
         height: inherit;
         display: block;
         width: inherit;
-        line-height: 42px;
+        line-height: 44px;
         border-radius: 100%;
         font-family: 'Courier New', serif;
         text-decoration: none;
       }
 
       .closer {
-        right: 20px;
-        top: 20px;
+        right: 15px;
+        top: 15px;
+      }
+
+      .closer a {
+        background: #fff;
       }
 
       @media (min-width: 768px) {
