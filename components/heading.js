@@ -59,10 +59,19 @@ const H = ({ level, fontSize, linked, children }) => (
 for (let level = 1; level <= 6; level++) {
   const tag = `H${level}`
 
+  const sizes = [
+    23,
+    18,
+    15,
+    13,
+    10,
+    9
+  ]
+
   const component = props => new H({
     ...props,
     level,
-    fontSize: 30 - (6 * level),
+    fontSize: sizes[level - 1],
     linked: level > 1
   })
 
