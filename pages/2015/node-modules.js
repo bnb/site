@@ -135,7 +135,8 @@ export default () => (
     <HR/>
 
     <P><Edit/> I just read about the cool
-    stuff the NPM folks introduced with [3.0.0][2] - the update
+    stuff the NPM folks introduced
+    with <Link href="https://github.com/npm/npm/releases/tag/v3.0.0">3.0.0</Link> - the update
     also contains a new method of making
     module-dependencies {`"`}flat{`"`}. According to their description, that means:</P>
 
