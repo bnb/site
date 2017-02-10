@@ -2,7 +2,18 @@
 import React from 'react'
 
 const Table = ({ children }) => (
-  <table>{ children }</table>
+  <table cellSpacing="0" cellPadding="5">
+    { children }
+
+    <style jsx>{`
+      table {
+        table-layout: fixed;
+        width: 100%;
+        margin: 30px -5px;
+        border: none;
+      }
+    `}</style>
+  </table>
 )
 
 class Row extends React.Component {
@@ -14,7 +25,16 @@ class Row extends React.Component {
 
   render() {
     return (
-      <tr>{ this.props.children }</tr>
+      <tr>
+        { this.props.children }
+
+        <style jsx>{`
+          tr {
+            text-align: left;
+            font-size: 15px;
+          }
+        `}</style>
+      </tr>
     )
   }
 }
