@@ -1,11 +1,9 @@
-// Native
+// Components
 import Link from 'next/prefetch'
+import Title from '../components/title'
 
 // Layouts
 import Page from '../layouts/page'
-
-// Components
-import Title from '../components/title'
 
 export default () => (
   <Page>

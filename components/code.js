@@ -1,5 +1,7 @@
-// Packages
+// Components
 import Highlight from 'react-syntax-highlighter'
+
+// Other
 import {github} from 'react-syntax-highlighter/dist/styles'
 
 const styles = {

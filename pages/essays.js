@@ -1,15 +1,15 @@
-// Packages
-import Link from 'next/prefetch'
+// Helpers
 import moment from 'moment'
+
+// Components
+import Link from 'next/prefetch'
+import Title from '../components/title'
+import Back from '../components/back'
 
 // Layouts
 import Page from '../layouts/page'
 
-// Components
-import Title from '../components/title'
-import Back from '../components/back'
-
-// Data
+// Other
 import posts from '../data/essays'
 
 const parseDate = date => moment(date, 'DD-MM-YYYY')

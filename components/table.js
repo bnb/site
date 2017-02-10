@@ -1,4 +1,4 @@
-// Native
+// Helpers
 import React from 'react'
 
 const Table = ({ children }) => (

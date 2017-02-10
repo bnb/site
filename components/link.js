@@ -1,8 +1,8 @@
-// Native
-import PreFetch from 'next/prefetch'
-
-// Packages
+// Helpers
 import isAbsoluteUrl from 'is-absolute-url'
+
+// Components
+import PreFetch from 'next/prefetch'
 
 export default ({ href, children }) => (
   <span>

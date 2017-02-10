@@ -1,4 +1,4 @@
-// Native
+// Components
 import Head from 'next/head'
 
 const suffix = 'Leo Lamprecht'

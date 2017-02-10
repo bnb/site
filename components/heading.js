@@ -1,7 +1,5 @@
-// Native
+// Helpers
 import React from 'react'
-
-// Packages
 import toID from 'to-id'
 
 const H = ({ level, fontSize, linked, children }) => (

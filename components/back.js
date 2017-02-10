@@ -1,4 +1,4 @@
-// Packages
+// Components
 import Link from 'next/prefetch'
 
 export default ({to, closer}) => (

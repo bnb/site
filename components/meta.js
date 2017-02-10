@@ -1,7 +1,7 @@
-// Packages
+// Helpers
 import moment from 'moment'
 
-// Data
+// Other
 import posts from '../data/essays'
 
 // Components
