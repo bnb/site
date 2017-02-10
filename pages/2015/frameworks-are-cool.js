@@ -5,7 +5,6 @@ import Post from '../../layouts/essay'
 import P from '../../components/paragraph'
 import Meta from '../../components/meta'
 import Link from '../../components/link'
-import Space from '../../components/space'
 import {H2} from '../../components/heading'
 import Quote from '../../components/quote'
 
@@ -77,8 +76,8 @@ export default () => (
     <P>The posts of Tom Dale (co-creator of Ember.js) were very
     helpful on my journey to get there. If you want to dig deeper
     into this, too, I recommend you to
-    read <Link href="http://tomdale.net/2015/02/youre-missing-the-point-of-server-side-rendered-javascript-apps/">this</Link> and
-    <Space/><Link href="http://tomdale.net/2015/11/javascript-frameworks-and-mobile-performance/">this</Link>.</P>
+    read <Link href="http://tomdale.net/2015/02/youre-missing-the-point-of-server-side-rendered-javascript-apps/">this</Link> and&nbsp;
+    <Link href="http://tomdale.net/2015/11/javascript-frameworks-and-mobile-performance/">this</Link>.</P>
 
     <P>Here{`'`}s my favorite part:</P>
 

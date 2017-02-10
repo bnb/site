@@ -10,7 +10,6 @@ import {Ref, FootNotes, Note} from '../../components/footnotes'
 import {Image} from '../../components/figure'
 import {Inline} from '../../components/code'
 import {UL, LI} from '../../components/list'
-import Space from '../../components/space'
 import {Table, Row, Column} from '../../components/table'
 
 export default () => (
@@ -232,8 +231,8 @@ export default () => (
       the URL to the image - no width, height or other specifications.</LI>
 
       <LI>Space for more information within the <Inline>author</Inline> tag. You{`'`}re free to
-      use <Inline>{`<name>`}</Inline>, <Inline>{`<email>`}</Inline> and
-      <Space/><Inline>{`<uri>`}</Inline> tags.</LI>
+      use <Inline>{`<name>`}</Inline>, <Inline>{`<email>`}</Inline> and&nbsp;
+      <Inline>{`<uri>`}</Inline> tags.</LI>
     </UL>
 
     <P>So in the End, I{`'`}ve decided to go with Atom. If you

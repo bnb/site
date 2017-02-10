@@ -8,7 +8,6 @@ import Link from '../../components/link'
 import {H2} from '../../components/heading'
 import {UL, LI} from '../../components/list'
 import {Ref, FootNotes, Note} from '../../components/footnotes'
-import Space from '../../components/space'
 
 export default () => (
   <Post>
@@ -168,8 +167,8 @@ export default () => (
     from the iTunes Store aren{`'`}t being moved to your iCloud
     music library. Only if some of your songs are on Apple
     Music, they will be added to your iCloud music library. Apple
-    pointed this out under {`"`}Using Apple Music{`"`} in
-    <Space/><Link href="https://support.apple.com/en-us/HT204962">this article</Link>.</P>
+    pointed this out under {`"`}Using Apple Music{`"`} in&nbsp;
+    <Link href="https://support.apple.com/en-us/HT204962">this article</Link>.</P>
 
     <P>As I already said, I definitely think that this should
     be fixed by Apple. But in the current state of the

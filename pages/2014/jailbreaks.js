@@ -6,7 +6,6 @@ import P from '../../components/paragraph'
 import Link from '../../components/link'
 import Meta from '../../components/meta'
 import {OL, LI} from '../../components/list'
-import Space from '../../components/space'
 
 export default () => (
   <Post>
@@ -39,9 +38,9 @@ export default () => (
     iPhone, iPod oder iPad entfernst.</P>
 
     <OL>
-      <LI>Bestimme das Modell deines Geräts (<Link href="http://support.apple.com/kb/ht3939?viewlocale=de_DE">iPhone</Link>,
-      <Space/><Link href="http://support.apple.com/kb/HT1353?viewlocale=de_DE">iPod</Link>,
-      <Space/><Link href="http://support.apple.com/kb/HT5452?viewlocale=de_DE">iPad</Link>).</LI>
+      <LI>Bestimme das Modell deines Geräts (<Link href="http://support.apple.com/kb/ht3939?viewlocale=de_DE">iPhone</Link>,&nbsp;
+      <Link href="http://support.apple.com/kb/HT1353?viewlocale=de_DE">iPod</Link>,&nbsp;
+      <Link href="http://support.apple.com/kb/HT5452?viewlocale=de_DE">iPad</Link>).</LI>
       <LI>Lade die entsprechende <Link href="http://www.evasionjailbreak.org/ios-firmware-download/">Kopie von iOS 7</Link> herunter.</LI>
       <LI>Öffne iTunes an deinem PC/Mac und schließe dein Gerät per USB an.</LI>
       <LI>Erstelle ein Backup deines Geräts (Button {`"`}Jetzt sichern{`"`}).</LI>
