@@ -3,12 +3,16 @@ export default ({id}) => {
 
   return (
     <b>
-      {`✏️EDIT${count}:`}
+      {`EDIT${count}:`}
 
       <style jsx>{`
         b {
-          font-weight: normal;
-          background: #fff;
+          background: #e9b6e1;
+          padding: 1px 3px;
+          border-radius: 3px;
+          font-size: 14px;
+          font-weight: bold;
+          color: #fff;
         }
       `}</style>
     </b>
