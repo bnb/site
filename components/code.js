@@ -4,7 +4,10 @@ import {github} from 'react-syntax-highlighter/dist/styles'
 
 const styles = {
   margin: '30px 0',
-  padding: '15px 10px'
+  padding: '14px',
+  borderRadius: '4px',
+  width: '100%',
+  boxSizing: 'border-box'
 }
 
 const Snippet = ({ type, children }) => (
@@ -14,7 +17,19 @@ const Snippet = ({ type, children }) => (
 )
 
 const Inline = ({ children }) => (
-  <code>{ children }</code>
+  <code>
+    { children }
+
+    <style jsx>{`
+      code {
+        background: #f3f3f3;
+        padding: 2px 4px;
+        border-radius: 3px;
+        font-size: 14px;
+        color: #3a3a3a;
+      }
+    `}</style>
+  </code>
 )
 
 export { Snippet, Inline }
