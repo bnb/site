@@ -1,3 +1,3 @@
 export default () => (
-  <span> </span>
+  <span>&nbsp;</span>
 )

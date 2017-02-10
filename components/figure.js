@@ -27,7 +27,7 @@ const Image = ({ width, src, isCover }) => (
 const gistURL = id => `//gist.github.com/leo/${id}.js`
 
 const Gist = ({ id }) => (
-  <script src={ gistURL(id) }></script>
+  <script src={ gistURL(id) }/>
 )
 
 export { Image, Gist }
