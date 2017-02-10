@@ -29,6 +29,7 @@ const Inline = ({ children }) => (
         border-radius: 3px;
         font-size: 14px;
         color: #3a3a3a;
+        hyphens: none;
       }
     `}</style>
   </code>
