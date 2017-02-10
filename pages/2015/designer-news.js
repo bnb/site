@@ -55,7 +55,7 @@ export default () => (
     an example for this: It{`'`}s a
     service which was initially built to allow designers ...</P>
 
-    <Quote author="Designer News">... to discuss and share interesting things in our industry.</Quote>
+    <Quote by="Designer News">... to discuss and share interesting things in our industry.</Quote>
 
     <P>There was a time when it wasn{`'`}t open for
     everyone (aka. {`"`}invite-only{`"`}), but after a while they got bigger. They opened

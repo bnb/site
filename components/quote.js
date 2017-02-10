@@ -1,22 +1,24 @@
+// Components
+import P from './paragraph'
+
 export default ({ by, children }) => (
   <blockquote>
-    <p>
+    <P>
       { children }
-      <br/>
+      <br/><br/>
       {
         by && `– ${by}`
       }
-    </p>
+    </P>
 
     <style jsx>{`
       blockquote {
         margin: 30px 0;
         color: #9B9B9B;
         font-style: oblique;
-        font-size: 12px;
-      }
-      p {
-        line-height: 24px;
+        border-left: 3px solid #9B9B9B;
+        padding-left: 20px;
+        font-size: 15px;
       }
     `}</style>
   </blockquote>

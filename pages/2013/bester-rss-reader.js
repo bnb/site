@@ -27,7 +27,7 @@ export default () => (
     beschrieben - einfach zu bedienen ist. Ich liebe das
     Interface und die Nutzerfreundlichkeit.</P>
 
-    <Quote author="feeder.co">Your feed reading experience is about to get a
+    <Quote by="feeder.co">Your feed reading experience is about to get a
     boost. Whether you are a professional or personal user this new
     addition to feeder will enable you to faster consume your
     favorite feeds. Scroll down to learn more.</Quote>

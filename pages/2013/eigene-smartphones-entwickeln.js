@@ -31,8 +31,8 @@ export default () => (
     ist, soll dies nicht passieren, da die Hardware wie in einem
     App-Store ganz einfach ausgetauscht werden kann.</P>
 
-    <Quote author="Dave Hakkens">If a blok breaks you can easily replace it, if it{`'`}s getting old just
-    upgrade. — Dave Hakkens, Projektleiter Phonebloks</Quote>
+    <Quote by="Dave Hakkens">If a blok breaks you can easily
+    replace it, if it{`'`}s getting old just upgrade.</Quote>
 
     <P>Weitergehend wird auch das wohl größte Problem eliminiert: Da sich
     die Technik-Industrie und deren Produkte so rasant weiter

@@ -81,7 +81,7 @@ export default () => (
 
     <P>Here{`'`}s my favorite part:</P>
 
-    <Quote author="Tom Dale">So here’s what I think a more interesting
+    <Quote by="Tom Dale">So here’s what I think a more interesting
     study would be: what is the execution time of real world apps
     of approximately similar complexity? It may be that apps
     built with frameworks are still slower. But my hypothesis
