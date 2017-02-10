@@ -22,6 +22,10 @@ const H = ({ level, fontSize, linked, children }) => (
     }
 
     <style jsx>{`
+      div {
+        margin-top: 30px;
+      }
+
       span {
         position: absolute;
         margin-left: -15px;
@@ -29,12 +33,24 @@ const H = ({ level, fontSize, linked, children }) => (
       }
 
       a {
-        visibility: hidden;
+        text-decoration: none;
+        color: #4492ff;
+        padding-top: 30px;
       }
 
-      div:hover a,
-      span:hover a {
-        visibility: visible;
+      a:focus {
+        outline: none;
+      }
+
+      @media (min-width: 922px) {
+        a {
+          visibility: hidden;
+        }
+
+        div:hover a,
+        span:hover a {
+          visibility: visible;
+        }
       }
     `}</style>
   </div>
