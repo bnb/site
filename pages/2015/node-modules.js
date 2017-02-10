@@ -11,6 +11,7 @@ import {H2} from '../../components/heading'
 import HR from '../../components/hr'
 import {OL, LI} from '../../components/list'
 import Quote from '../../components/quote'
+import Edit from '../../components/edit'
 
 export default () => (
   <Post>
@@ -133,7 +134,7 @@ export default () => (
 
     <HR/>
 
-    <P><b>EDIT:</b> I just read about the cool
+    <P><Edit/> I just read about the cool
     stuff the NPM folks introduced with [3.0.0][2] - the update
     also contains a new method of making
     module-dependencies {`"`}flat{`"`}. According to their description, that means:</P>
@@ -151,7 +152,7 @@ export default () => (
 
     <HR/>
 
-    <P><b>EDIT 2:</b> I wrote another piece regarding
+    <P><Edit id="2"/> I wrote another piece regarding
     this topic. This time suggesting a method to avoid
     version incompatibility problems: Take a read
     on it <Link href="https://github.com/nodejs/NG/issues/20">here</Link>. Why
