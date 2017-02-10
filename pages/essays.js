@@ -1,14 +1,12 @@
-// Native
-import Head from 'next/head'
-
 // Packages
+import Head from 'next/head'
+import Link from 'next/prefetch'
 import moment from 'moment'
 
 // Layouts
 import Page from '../layouts/page'
 
 // Components
-import Link from '../components/link'
 import Title from '../components/title'
 import Back from '../components/back'
 
