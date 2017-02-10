@@ -1,5 +1,4 @@
 // Packages
-import Head from 'next/head'
 import Link from 'next/prefetch'
 import moment from 'moment'
 
@@ -24,10 +23,6 @@ const preparePosts = () => posts.map(post => Object.assign({
 export default () => (
   <Page>
     <Title/>
-
-    <Head>
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cardo&text=Leo%27s%20Essays"/>
-    </Head>
 
     <h1>{`Leo's Essays`}</h1>
     <Back to="/"/>
