@@ -1,9 +1,9 @@
-// Native
+// Packages
 import Link from 'next/prefetch'
 
 export default ({to, closer}) => (
   <div className={closer && 'closer'}>
-    <Link href={to}>
+    <Link href={to || '/'}>
       <a>&#8617;&#xFE0E;</a>
     </Link>
 

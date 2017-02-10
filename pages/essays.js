@@ -25,7 +25,7 @@ export default () => (
     <Title/>
 
     <h1>{`Leo's Essays`}</h1>
-    <Back to="/"/>
+    <Back/>
 
     <ul>
       {
