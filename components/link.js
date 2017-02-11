@@ -16,6 +16,7 @@ export default ({ href, children }) => (
       a {
         color: #4492ff;
         text-decoration: none;
+        border-bottom: 1px dashed currentColor;
       }
     `}</style>
   </span>
