@@ -24,12 +24,5 @@ const Image = ({ width, src, isCover }) => (
   </figure>
 )
 
-const Gist = ({ id }) => {
-  const url = `//gist.github.com/leo/${id}.js`
-
-  return (
-    <script src={ url }/>
-  )
-}
-
-export { Image, Gist }
+export default Image
+export { Image }
