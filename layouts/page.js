@@ -9,6 +9,7 @@ export default ({ children }) => (
       <link rel="icon" href="/static/touch-icon.png" type="image/png"/>
 
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+      <meta name="description" content="A teenagers view on web development and intuitive UI design."/>
     </Head>
 
     {children}
