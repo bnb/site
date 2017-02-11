@@ -5,9 +5,8 @@ export default ({ by, children }) => (
   <blockquote>
     <P>
       { children }
-      <br/><br/>
       {
-        by && `– ${by}`
+        by && <span>— {by}</span>
       }
     </P>
 
@@ -17,8 +16,14 @@ export default ({ by, children }) => (
         color: #9B9B9B;
         font-style: oblique;
         border-left: 3px solid #9B9B9B;
-        padding-left: 20px;
+        padding-left: 17px;
         font-size: 15px;
+      }
+
+      span {
+        display: block;
+        margin-top: 15px;
+        font-style: normal;
       }
     `}</style>
   </blockquote>
