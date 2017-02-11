@@ -48,7 +48,7 @@ export default () => (
       }
 
       li {
-        margin: 23px 0;
+        margin: 25px 0;
         text-decoration: none;
       }
 

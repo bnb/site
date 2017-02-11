@@ -12,6 +12,7 @@ export const FootNotes = ({ children }) => (
 export const Ref = ({ id }) => (
   <a href={`#f${id}`} id={`s${id}`}>
     { id }
+
     <style jsx>{`
       a {
         top: -5px;
@@ -30,14 +31,17 @@ export const Ref = ({ id }) => (
 
 export const Note = ({ id, children }) => (
   <P>
-    { id }.
-    {' '}
-    <a href={`#s${id}`} id={`f${id}`}>^</a>
-    {' '}
+    <a href={`#s${id}`} id={`f${id}`}>{ id }</a>
     { children }
+
     <style jsx>{`
       a {
         text-decoration: none;
+        background: #e6e6e6;
+        color: inherit;
+        padding: 1px 5px;
+        border-radius: 5px;
+        margin-right: 10px;
       }
     `}</style>
   </P>
