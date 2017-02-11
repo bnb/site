@@ -97,6 +97,10 @@ export default () => (
           font-size: 16px;
         }
 
+        ul {
+          padding-bottom: 0;
+        }
+
         a:hover b {
           color: #000;
         }
