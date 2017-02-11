@@ -20,13 +20,18 @@ export const FootNotes = ({ children }) => (
 
 export const Ref = ({ id }) => (
   <a href={`#f${id}`} id={`s${id}`}>
-    [{ id }]
+    { id }
     <style jsx>{`
       a {
         top: -5px;
         font-size: 10px;
         position: relative;
         text-decoration: none;
+        background: #e6e6e6;
+        color: inherit;
+        font-weight: 700;
+        padding: 1px 5px;
+        border-radius: 7px;
       }
     `}</style>
   </a>
