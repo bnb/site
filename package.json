@@ -6,8 +6,6 @@
     "start": "next start",
     "test": "xo"
   },
-  "license": "MIT",
-  "repository": "leo/site",
   "xo": {
     "extends": "xo-react",
     "space": true,
