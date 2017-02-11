@@ -1,20 +1,11 @@
 // Components
 import P from './paragraph'
+import HR from './hr'
 
 export const FootNotes = ({ children }) => (
   <div>
+    <HR/>
     { children }
-    <style jsx>{`
-      div::before {
-        width: 200px;
-        content: ' ';
-        margin: auto;
-        border-top: 1px solid #ccc;
-        padding-top: 40px;
-        display: block;
-        margin-top: 40px;
-      }
-    `}</style>
   </div>
 )
 
