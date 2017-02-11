@@ -90,7 +90,6 @@ export default () => (
         span {
           display: inline-block;
           margin-left: 20px;
-          opacity: 0;
         }
 
         b {
@@ -101,12 +100,18 @@ export default () => (
           color: #000;
         }
 
-        a:hover span {
-          opacity: 1;
-        }
-
         h1 {
           font-size: 40px;
+        }
+      }
+
+      @media (min-width: 992px) {
+        span {
+          opacity: 0;
+        }
+
+        a:hover span {
+          opacity: 1;
         }
       }
     `}</style>

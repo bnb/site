@@ -26,9 +26,9 @@ export default ({ children }) => (
         padding: 30px;
       }
 
-      @media (min-width: 962px) {
+      @media (min-width: 768px) {
         main {
-          padding-left: 40px;
+          padding: 45px;
         }
       }
     `}</style>
