@@ -9,10 +9,10 @@ export default ({ children }) => (
 
     <style jsx>{`
       article {
-        max-width: 600px;
         margin: 0 auto;
         word-wrap: break-word;
         hyphens: auto;
+        max-width: 600px;
       }
     `}</style>
   </Page>

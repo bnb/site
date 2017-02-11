@@ -41,16 +41,22 @@ export default ({to, closer}) => (
         background: #fff;
       }
 
+      @media (min-width: 600px) {
+        .closer a {
+          background: #efefef;
+        }
+      }
+
       @media (min-width: 768px) {
         div {
-          width: 50px;
-          height: 50px;
+          width: 55px;
+          height: 55px;
         }
 
         a {
           transition: all .2s;
-          font-size: 20px;
-          line-height: 56px;
+          font-size: 22px;
+          line-height: 66px;
         }
 
         a:hover {

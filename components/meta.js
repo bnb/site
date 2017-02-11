@@ -58,6 +58,17 @@ export default ({ id, hasCover }) => {
           margin-bottom: 35px;
           margin-top: 14px;
         }
+
+        @media (min-width: 992px) {
+          h1 {
+            font-size: 28px;
+            margin-bottom: 7px;
+          }
+
+          span {
+            font-size: 14px;
+          }
+        }
       `}</style>
     </aside>
   )

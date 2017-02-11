@@ -94,6 +94,7 @@ export default () => (
 
         b {
           color: #5a5a5a;
+          font-size: 16px;
         }
 
         a:hover b {
@@ -102,12 +103,17 @@ export default () => (
 
         h1 {
           font-size: 40px;
+          margin-top: 0;
         }
       }
 
       @media (min-width: 992px) {
         span {
           opacity: 0;
+        }
+
+        li {
+          margin: 22px 0;
         }
 
         a:hover span {

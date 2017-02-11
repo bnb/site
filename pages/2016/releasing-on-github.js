@@ -9,6 +9,7 @@ import Link from '../../components/link'
 import Meta from '../../components/meta'
 import {UL, LI} from '../../components/list'
 import HR from '../../components/hr'
+import Edit from '../../components/edit'
 
 export default () => (
   <Post>
@@ -200,7 +201,7 @@ export default () => (
     place. Thank you for caring about the welfare of
     our community/industry/whatever!</P>
 
-    <P><b>EDIT:</b> I recently wrote <Link href="https://github.com/zeit/release">release</Link>, which covers the whole workflow of creating
+    <P><Edit/> I recently wrote <Link href="https://github.com/zeit/release">release</Link>, which covers the whole workflow of creating
     a GitHub Release (and populating it with the changes
     made) with just a single command.</P>
   </Post>
