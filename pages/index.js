@@ -50,7 +50,7 @@ export default () => (
       nav a {
         text-decoration: none;
         color: #000;
-        font-size: 15px;
+        font-size: 16px;
         padding: 10px;
         display: block;
       }

@@ -63,16 +63,17 @@ export default () => (
 
       b {
         color: #000;
-        font-size: 16px;
+        font-size: 17px;
         display: inline-block;
         font-weight: normal;
+        line-height: 21px;
       }
 
       span {
         display: block;
         color: #c1c1c1;
         font-size: 13px;
-        margin-top: 5px;
+        margin-top: 4px;
       }
 
       h1 {
