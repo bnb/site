@@ -8,9 +8,9 @@ import Post from '../../layouts/essay'
 import P from '../../components/paragraph'
 import Link from '../../components/link'
 import Meta from '../../components/meta'
-import {Image, Gist} from '../../components/figure'
+import {Image} from '../../components/figure'
 import {H2} from '../../components/heading'
-import {Inline} from '../../components/code'
+import {Inline, Snippet} from '../../components/code'
 import {UL, LI} from '../../components/list'
 
 export default () => (
@@ -85,7 +85,19 @@ export default () => (
     server, bundling my ES2015 modules or implementing
     a file watcher), it started getting messy:</P>
 
-    <Gist id="1159217762212048cbc76c9067ee1699"/>
+    <Snippet language="json">{`"scripts": {
+  "install": "npm run build",
+  "start": "parallelshell 'livereload dist' 'nodemon index -w views/ -e hbs,js -i assets/'",
+  "build:js": "rollup assets/js/app.js > dist/app.js",
+  "build:scss": "node-sass assets/scss -o dist --output-style compressed",
+  "build:images": "cp -r assets/images/* dist/images",
+  "prebuild": "rm -rf dist && mkdir dist && mkdir dist/images",
+  "build": "npm run build:js && npm run build:scss && npm run build:images",
+  "watch:js": "watch 'npm run build:js' assets/js",
+  "watch:scss": "watch 'npm run build:scss' assets/scss",
+  "watch:images": "watch 'npm run build:images' assets/images",
+  "watch": "parallelshell 'npm run watch:js' 'npm run watch:scss' 'npm run watch:images'"
+}`}</Snippet>
 
     <P>That’s how it looked before I switched back to Gulp. And remember, the
     upper example doesn’t even include tests. If you want to see how that looks,

@@ -7,7 +7,6 @@ import Link from '../../components/link'
 import Meta from '../../components/meta'
 import {Snippet} from '../../components/code'
 import HR from '../../components/hr'
-import {Gist} from '../../components/figure'
 
 export default () => (
   <Post>
@@ -57,7 +56,29 @@ export default () => (
     <P>I’ve generated a new initializer and
     called it “setup-route”. Then I’ve added the following methods to it:</P>
 
-    <Gist id="2bdb74cb1242f9766a25"/>
+    <Snippet language="js">{`Ember.Route.reopen({
+  activate () {
+    var classes = this.genClasses()
+
+    if (classes !== 'application') {
+      Ember.$('body').addClass(classes)
+    }
+  },
+  deactivate () {
+    Ember.$('body').removeClass(this.genClasses())
+  },
+  genClasses () {
+    var classes = this.routeName.split('.')
+
+    if (this.classNames) {
+      for (var name of this.classNames) {
+        classes.push(name)
+      }
+    }
+
+    return classes.join(' ')
+  }
+})`}</Snippet>
 
     <P>So there you have it!</P>
 
