@@ -5,7 +5,7 @@
 
 Where the magic happens! 🎩
 
-If you want to see the old version of the site (including all of the old posts), you can find it [here](https://github.com/leo/site/tree/1b1459efb09526c48e9cb7be06dc703321605333).
+If you want to see the old version of the site, you can find it [here](https://github.com/leo/site/tree/1b1459efb09526c48e9cb7be06dc703321605333).
 
 ## Caught a Bug?
 
