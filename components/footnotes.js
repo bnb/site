@@ -19,11 +19,17 @@ export const Ref = ({ id }) => (
         font-size: 10px;
         position: relative;
         text-decoration: none;
-        background: #e6e6e6;
-        color: inherit;
+        background: #e9b6e1;
+        color: #fff;
         font-weight: 700;
         padding: 1px 5px;
         border-radius: 7px;
+      }
+
+      a:focus {
+        background: #000;
+        color: #fff;
+        outline: none;
       }
     `}</style>
   </a>
@@ -37,11 +43,17 @@ export const Note = ({ id, children }) => (
     <style jsx>{`
       a {
         text-decoration: none;
-        background: #e6e6e6;
-        color: inherit;
+        background: #e9b6e1;
+        color: #fff;
         padding: 1px 5px;
         border-radius: 5px;
         margin-right: 10px;
+      }
+
+      a:focus {
+        background: #000;
+        color: #fff;
+        outline: none;
       }
     `}</style>
   </P>
