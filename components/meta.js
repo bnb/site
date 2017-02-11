@@ -40,7 +40,7 @@ export default ({ id, hasCover }) => {
         h1 {
           font-weight: 500;
           margin: 0 0 8px 0;
-          font-size: 23px;
+          font-size: 24px;
           padding-right: 55px;
           line-height: 1.3em;
         }
