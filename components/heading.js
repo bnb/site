@@ -9,7 +9,8 @@ const H = ({ level, fontSize, linked, children }) => (
         {
           style: {
             fontWeight: 500,
-            fontSize
+            fontSize,
+            lineHeight: '1.5em'
           }
         },
         linked && <span>

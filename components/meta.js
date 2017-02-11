@@ -42,6 +42,7 @@ export default ({ id, hasCover }) => {
           margin: 0 0 8px 0;
           font-size: 23px;
           padding-right: 55px;
+          line-height: 1.3em;
         }
 
         h1.has-cover {
