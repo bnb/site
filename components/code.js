@@ -11,7 +11,8 @@ const styles = {
   width: '100%',
   boxSizing: 'border-box',
   wordWrap: 'normal',
-  fontSize: '1.1em'
+  fontSize: '1.1em',
+  WebkitOverflowScrolling: 'touch'
 }
 
 const Snippet = ({ type, children }) => (
