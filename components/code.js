@@ -9,7 +9,9 @@ const styles = {
   padding: '14px',
   borderRadius: '4px',
   width: '100%',
-  boxSizing: 'border-box'
+  boxSizing: 'border-box',
+  wordWrap: 'normal',
+  fontSize: '1.1em'
 }
 
 const Snippet = ({ type, children }) => (
