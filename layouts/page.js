@@ -1,5 +1,13 @@
+// Helpers
+import Progress from 'nprogress'
+
 // Components
 import Head from 'next/head'
+import Router from 'next/router'
+
+Router.onRouteChangeStart = () => Progress.start()
+Router.onRouteChangeComplete = () => Progress.done()
+Router.onRouteChangeError = () => Progress.done()
 
 export default ({ children }) => (
   <main>
@@ -25,6 +33,31 @@ export default ({ children }) => (
 
       main {
         padding: 30px;
+      }
+
+      #nprogress {
+        pointer-events: none;
+      }
+
+      #nprogress .bar {
+        background: #4492ff;
+        position: fixed;
+        z-index: 1031;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+      }
+
+      #nprogress .peg {
+        display: block;
+        position: absolute;
+        right: 0px;
+        width: 100px;
+        height: 100%;
+        box-shadow: 0 0 10px #4492ff, 0 0 5px #4492ff;
+        opacity: 1.0;
+        transform: rotate(3deg) translate(0px, -4px);
       }
 
       @media (min-width: 768px) {
