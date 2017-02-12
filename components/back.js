@@ -42,6 +42,11 @@ export default ({to, closer}) => (
       }
 
       @media (min-width: 600px) {
+        .closer {
+          right: 30px;
+          top: 40px;
+        }
+
         .closer a {
           background: #efefef;
         }
