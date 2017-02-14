@@ -5,9 +5,21 @@ import Progress from 'nprogress'
 import Head from 'next/head'
 import Router from 'next/router'
 
-Router.onRouteChangeStart = () => Progress.start()
-Router.onRouteChangeComplete = () => Progress.done()
-Router.onRouteChangeError = () => Progress.done()
+let progress
+
+const stopProgress = () => {
+  clearTimeout(progress)
+  Progress.done()
+}
+
+// Only show progress bar if page
+// transition takes longer than 200 milliseconds
+Router.onRouteChangeStart = () => {
+  progress = setTimeout(Progress.start, 200)
+}
+
+Router.onRouteChangeComplete = stopProgress
+Router.onRouteChangeError = stopProgress
 
 export default ({ children }) => (
   <main>
