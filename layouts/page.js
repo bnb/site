@@ -21,8 +21,23 @@ Router.onRouteChangeStart = () => {
 Router.onRouteChangeComplete = stopProgress
 Router.onRouteChangeError = stopProgress
 
+const viewSource = event => {
+  const allowed = [
+    'P',
+    'H1',
+    'SPAN'
+  ]
+
+  if (allowed.includes(event.target.tagName)) {
+    return
+  }
+
+  document.location = 'https://github.com/leo/site'
+  event.preventDefault()
+}
+
 export default ({ children }) => (
-  <main>
+  <main onDoubleClick={viewSource}>
     <Head>
       <link rel="mask-icon" href="http://leo.im/static/lightning.svg" color="#000000"/>
       <link rel="apple-touch-icon" href="/static/touch-icon.png"/>
@@ -45,6 +60,7 @@ export default ({ children }) => (
 
       main {
         padding: 30px;
+        min-height: 100vh;
       }
 
       #nprogress {

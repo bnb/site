@@ -10,6 +10,9 @@
     "extends": "xo-react",
     "space": true,
     "semicolon": false,
+    "env": [
+      "browser"
+    ],
     "rules": {
       "react/react-in-jsx-scope": 0,
       "react/jsx-pascal-case": 0,
