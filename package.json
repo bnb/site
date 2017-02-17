@@ -4,7 +4,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "test": "xo"
+    "test": "xo",
+    "precommit": "npm run test"
   },
   "xo": {
     "extends": "xo-react",
@@ -43,6 +44,7 @@
   "devDependencies": {
     "eslint-config-xo-react": "0.10.0",
     "eslint-plugin-react": "6.9.0",
+    "husky": "0.13.1",
     "xo": "0.17.1"
   }
 }
