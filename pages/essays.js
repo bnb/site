@@ -24,7 +24,7 @@ export default () => (
   <Page>
     <Title/>
 
-    <h1>{`Leo's Essays`}</h1>
+    <h1>Leo&#39;s Essays</h1>
     <Back/>
 
     <ul>
