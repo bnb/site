@@ -1,5 +1,6 @@
 {
   "name": "leo",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -7,6 +8,7 @@
     "test": "xo",
     "precommit": "npm run test"
   },
+  "license": "MIT",
   "xo": {
     "extends": "xo-react",
     "space": true,
