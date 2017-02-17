@@ -2,7 +2,7 @@
 import moment from 'moment'
 
 // Components
-import Link from 'next/prefetch'
+import Link from 'next/link'
 import Title from '../components/title'
 import Back from '../components/back'
 
@@ -31,7 +31,7 @@ export default () => (
       {
         preparePosts().map(post => (
           <li key={post.id}>
-            <Link href={post.url}><a>
+            <Link href={post.url} prefetch><a>
               <b>{post.title}</b>
               <span>{parseDate(post.date).format('MMMM Do YYYY')}</span>
             </a></Link>

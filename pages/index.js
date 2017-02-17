@@ -1,5 +1,5 @@
 // Components
-import Link from 'next/prefetch'
+import Link from 'next/link'
 import Title from '../components/title'
 
 // Layouts
@@ -16,7 +16,7 @@ export default () => (
 
     <nav>
       <a href="https://twitter.com/notquiteleo">Short Thoughts</a>
-      <Link href="/essays"><a>Long Thoughts</a></Link>
+      <Link href="/essays" prefetch><a>Long Thoughts</a></Link>
       <a href="https://github.com/leo">Code</a>
       <a href="https://dribbble.com/notquiteleo">Visuals</a>
     </nav>

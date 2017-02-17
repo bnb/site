@@ -1,9 +1,9 @@
 // Components
-import Link from 'next/prefetch'
+import Link from 'next/link'
 
 export default ({to, closer}) => (
   <div className={closer && 'closer'}>
-    <Link href={to || '/'}>
+    <Link href={to || '/'} prefetch>
       <a>&#8617;&#xFE0E;</a>
     </Link>
 

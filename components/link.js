@@ -2,14 +2,14 @@
 import isAbsoluteUrl from 'is-absolute-url'
 
 // Components
-import PreFetch from 'next/prefetch'
+import Link from 'next/link'
 
 export default ({ href, children }) => (
   <span>
     {
       isAbsoluteUrl(href) ?
         <a href={href} target="_blank" rel="noreferrer noopener">{children}</a> :
-        <PreFetch href={href}><a>{children}</a></PreFetch>
+        <Link href={href} prefetch><a>{children}</a></Link>
     }
 
     <style jsx>{`
