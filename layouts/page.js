@@ -5,6 +5,9 @@ import Progress from 'nprogress'
 import Head from 'next/head'
 import Router from 'next/router'
 
+// Other
+import pkg from '../package'
+
 let progress
 
 const stopProgress = () => {
@@ -20,6 +23,20 @@ Router.onRouteChangeStart = () => {
 
 Router.onRouteChangeComplete = stopProgress
 Router.onRouteChangeError = stopProgress
+
+// Log a sweet message in the browser
+// Showing the version and GitHub repository
+if (global.document) {
+  const info = [
+    `Version: ${pkg.version}`,
+    `Find the code here: https://github.com/leo/site`,
+    `Have a great day! :)`
+  ]
+
+  for (const message of info) {
+    console.log(message)
+  }
+}
 
 const viewSource = event => {
   const allowed = [
