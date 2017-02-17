@@ -43,7 +43,7 @@ export default () => (
     <style jsx>{`
       ul {
         margin: 0;
-        padding: 0 0 30px 0;
+        padding: 0 0 10px 0;
         list-style: none;
       }
 

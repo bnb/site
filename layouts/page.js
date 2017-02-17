@@ -61,6 +61,7 @@ export default ({ children }) => (
       main {
         padding: 30px;
         min-height: 100vh;
+        box-sizing: border-box;
       }
 
       #nprogress {
