@@ -75,10 +75,17 @@ export default ({ children }) => (
         -webkit-font-smoothing: antialiased;
       }
 
+      html, body,
+      body > div:first-child,
+      body > div:first-child > div {
+        height: 100%;
+      }
+
       main {
         padding: 30px;
-        min-height: 100vh;
         box-sizing: border-box;
+        position: relative;
+        min-height: 100%;
       }
 
       #nprogress {
